@@ -11,13 +11,27 @@ class GameActions(Enum):
 
 class Game():
 
+    def __init__(self):
+        pass
+
     RANKS = ['A', 'K', 'Q', 'J', '10', '9', '8', '7', '6', '5', '4', '3', '2']
     SUITS = ['h', 's', 'c', 'd']
     ANTE = 1
+
+    DECK = []
+    for rank in RANKS:
+        for suit in SUITS:
+            DECK.append(rank + suit)
+    # DECK = [rank + suit for rank in RANKS for suit in SUITS]
+
     
-    def initDeck(ranks, suits):
-        DECK = [rank + suit for rank in ranks for suit in suits]
-        return DECK
+    # def initDeck(self, ranks = None, suits = None):
+    #     if ranks == None:
+    #         ranks = self.RANKS
+    #     if suits == None:
+    #         suits = self.SUITS
+    #     DECK = [rank + suit for rank in ranks for suit in suits]
+    #     return DECK
         
     @staticmethod
     def dealCards(deck):
@@ -70,13 +84,13 @@ class Game():
         return winner
 
     
-deck = Game.initDeck(Game.RANKS, Game.SUITS)
-print(Game.dealCards(deck))
+# deck = Game.initDeck(Game.RANKS, Game.SUITS)
+# print(Game.dealCards(deck))
 
-print(deck)
-count = 0
-cards = Game.dealCards(deck)
-# # this calculates how long it takes for both players to be dealt bullets
+# print(deck)
+# count = 0
+# cards = Game.dealCards(deck)
+# # # this calculates how long it takes for both players to be dealt bullets
 # # on average around 300,000 times 
 # while not (cards[0][0][0] == 'A' and cards[0][1][0] == 'A' and cards[1][0][0] == 'A' and cards[1][1][0] == 'A'):
 #     count += 1
@@ -84,3 +98,4 @@ cards = Game.dealCards(deck)
 #     cards = Game.dealCards(deck)
 # print(cards)
 # print(count)
+

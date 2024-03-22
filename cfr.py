@@ -8,14 +8,25 @@ class CFR():
         # this map maps a history string -> nodes
         self.game_state_map_ = dict()
 
-    # def training(self):
+    def training(self, iterations, printInterval = 100000):
+        # util of the overall training, indicates the overall payoff
+        util = 0.0
+        for i in range(iterations):
+            if i % printInterval == 0 and i != 0:
+                print("At interval", i, "util is", util / i)
+
+            cards = Game.dealCards(Game.DECK)
+            history = ""
+            util += self.cfr(cards, history, 1, 1)
+        
+        return util / iterations
 
 
     # determine available actions given history
     def GetPotentialActions(actions):
         potentialActions = []
-        if (actions[-1] == GA.FOLD or GA.CALL):
-            isTerminalNode_ = True
+        if (len(actions) == 0):
+            return [GA.BET, GA.CHECK]
         lastAction = actions[-1]
         # determining
         match lastAction:
@@ -24,8 +35,6 @@ class CFR():
             case GA.CHECK:
                 if (len(actions) < 2):
                     potentialActions = [GA.CHECK, GA.BET]
-                else:
-                    isTerminalNode_ = True
 
         return potentialActions
     
@@ -70,13 +79,13 @@ class CFR():
         if self.isTerminal(history):
             return self.getPayoff(cards, activePlayer, oppPlayer, history)
 
-        infoset = cards[activePlayer] + history
-        node
+        infoset = cards[activePlayer][0] + cards[activePlayer][1] + history
+
         # create / infoset node using Node or game_state_map_
         if infoset not in self.game_state_map_:
             potentialActions = CFR.GetPotentialActions(history)
             node = Node(potentialActions)
-            node = self.game_state_map_[infoset]
+            self.game_state_map_[infoset] = node
         else:
             node = self.game_state_map_[infoset]
             potentialActions = node.actions_
@@ -92,7 +101,7 @@ class CFR():
         # records the utility of each action, utility is calculated through recursion
         util = {action: 0.0 for action in potentialActions}
         for potentialAction in potentialActions:
-            historyNext = history + potentialAction
+            historyNext = history + str(potentialAction)
             # calculating utility of action through recursive simulation until end of game
             if (activePlayer == 0):
                 util[potentialAction] = - CFR.cfr(self, cards, historyNext, p1 * realisationWeight, p2)
@@ -133,13 +142,11 @@ class Node():
 
     # Get current information set mixed strategy thorugh regret matching
     def GetStrategy(self, realisationWeight):
-        if (self.isTerminalNode_):
-            return
-        
+
         # Normalise all strategies to 0 if regret is negative 
         # retain the ones with positive regret
-        self.strategy_ = {action: (regret if regret > 0.0 else 0.0) for action, regret in self.regretSum_.item()}
-        normalisingSum = sum(self.strategy_)
+        self.strategy_ = {action: (regret if regret > 0.0 else 0.0) for action, regret in self.regretSum_.items()}
+        normalisingSum = sum(self.strategy_.values())
 
         # normalising all strategies such that all strategies sum to 1
         for action in self.actions_:
@@ -151,6 +158,15 @@ class Node():
         
         return self.strategy_
 
+    # Get overall strategy at the node - supposed to be the strategy closest to Nash Equilibrium
+    def getAverageStrategy(self):
+        averageStrategy = [0.0] * len(self.actions_)
+        normalisingSum = sum(self.strategySum_.values())
+        for action in self.actions_:
+            averageStrategy[action] = (self.strategySum_[action] / normalisingSum) if normalisingSum > 0 else (1 / len(self.actions_))
+        
+        return averageStrategy
+        
     
         
         
