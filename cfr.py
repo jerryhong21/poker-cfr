@@ -29,14 +29,16 @@ class CFR():
                     isTerminalNode_ = True
 
         return potentialActions
-
     
+
     # recursive function, returns the expected node utility
     def cfr(self, cards, history, p1, p2):
         rounds = len(history)
         activePlayer = rounds % 2
         oppPlayer = 1 - activePlayer
         # base case: return payoff for terminal states 
+
+
 
         infoset = cards[activePlayer] + history
         node
