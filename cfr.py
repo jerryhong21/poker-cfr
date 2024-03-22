@@ -1,8 +1,7 @@
-from game import Game, GameActions
+from game import Game, GameActions as GA
 
 
 class CFR():
-    # determine winner
 
     # initialise game state 
     def __init__(self):
@@ -15,30 +14,61 @@ class CFR():
     # determine available actions given history
     def GetPotentialActions(actions):
         potentialActions = []
-        if (actions[-1] == GameActions.FOLD or GameActions.CALL):
+        if (actions[-1] == GA.FOLD or GA.CALL):
             isTerminalNode_ = True
         lastAction = actions[-1]
         # determining
         match lastAction:
-            case GameActions.BET:
-                potentialActions = [GameActions.CALL, GameActions.FOLD]
-            case GameActions.CHECK:
+            case GA.BET:
+                potentialActions = [GA.CALL, GA.FOLD]
+            case GA.CHECK:
                 if (len(actions) < 2):
-                    potentialActions = [GameActions.CHECK, GameActions.BET]
+                    potentialActions = [GA.CHECK, GA.BET]
                 else:
                     isTerminalNode_ = True
 
         return potentialActions
     
 
+    def isTerminal(self, history):
+        if len(history) < 2:
+            return False
+        lastAction = history[-1]
+        if lastAction == GA.CHECK or lastAction == GA.FOLD or lastAction == GA.CALL:
+            return True
+
+    # counts how many bets have been placed
+    def countBetsInHistory(history):
+        return history.count(GA.BET)
+    
+    # counts the reward for winning player
+    def getPotSize(self, history, anteSize = 1):
+        return 2 * (anteSize + self.countBetsInHistory(history))
+    
+    # returns the appropriate payoff, 0 if tie
+    def getPayoff(self, cards, activePlayer, oppPlayer, history):
+        lastAction = history[-1]
+        winner = Game.getWinner([cards[activePlayer], cards[oppPlayer]])
+        tie = True if winner == 0 else False
+        activePlayerWins = True if winner == 1 else False
+
+        if tie:
+            return 0
+        
+        potSize = self.getPotSize(history, Game.ANTE)
+        if lastAction == GA.CHECK or lastAction == GA.FOLD or lastAction == GA.CALL:
+            return potSize if activePlayerWins else -potSize
+        
+
     # recursive function, returns the expected node utility
     def cfr(self, cards, history, p1, p2):
         rounds = len(history)
         activePlayer = rounds % 2
         oppPlayer = 1 - activePlayer
-        # base case: return payoff for terminal states 
 
-
+        # base case: return payoff for terminal states
+        if self.isTerminal(history):
+            return self.getPayoff(cards, activePlayer, oppPlayer, history)
 
         infoset = cards[activePlayer] + history
         node
@@ -90,13 +120,10 @@ class CFR():
         return nodeUtil
 
 
-
-
-
 class Node():
-    # numActions = len(Game.GameActions)
+    # numActions = len(Game.GA)
     def __init__(self, actions):
-        numActions = len(GameActions)
+        numActions = len(GA)
         self.util_ = 0.0
         self.actions_ = actions
         self.strategy_ = {action: 0.0 for action in actions}
@@ -119,7 +146,7 @@ class Node():
             if (normalisingSum > 0):
                 self.strategy_[action] /= normalisingSum
             else:
-                self.strategy_[action] = (1 / len(GameActions))
+                self.strategy_[action] = (1 / len(GA))
             self.strategySum_[action] += (realisationWeight * self.strategy_[action])
         
         return self.strategy_

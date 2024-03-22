@@ -13,6 +13,7 @@ class Game():
 
     RANKS = ['A', 'K', 'Q', 'J', '10', '9', '8', '7', '6', '5', '4', '3', '2']
     SUITS = ['h', 's', 'c', 'd']
+    ANTE = 1
     
     def initDeck(ranks, suits):
         DECK = [rank + suit for rank in ranks for suit in suits]
