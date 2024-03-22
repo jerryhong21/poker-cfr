@@ -11,7 +11,18 @@ class CFR():
 
     # def training(self):
 
-    # def cfr(self):
+    # recursive function, returns the expected node utility
+    def cfr(self, cards, history, p1, p2):
+        rounds = len(history)
+        activePlayer = rounds % 2
+        oppPlayer = 1 - activePlayer
+        # return payoff for terminal states 
+
+        infoset = cards[activePlayer] + history
+        # create / infoset node using Node or game_state_map_
+        # iterative through each action and call cfr with additional history and probability
+        # iterative thorugh each action, compute and accumulate counterfactual regret
+        
 
 
 class Node():
