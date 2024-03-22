@@ -2,12 +2,13 @@ import numpy as np
 from enum import Enum
 import random
 
+class GameActions(Enum):
+    BET = '0'
+    CHECK = '1'
+    CALL = '2'
+    FOLD = '3'
+
 class Game():
-    class GameActions(Enum):
-        BET = '0'
-        CHECK = '1'
-        CALL = '2'
-        FOLD = '3'
 
     RANKS = ['A', 'K', 'Q', 'J', '10', '9', '8', '7', '6', '5', '4', '3', '2']
     SUITS = ['h', 's', 'c', 'd']
