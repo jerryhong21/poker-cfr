@@ -1,5 +1,5 @@
 from game import Game, GameActions as GA
-
+import time
 
 class CFR():
 
@@ -8,17 +8,21 @@ class CFR():
         # this map maps a history string -> nodes
         self.game_state_map_ = dict()
 
-    def training(self, iterations, printInterval = 100000):
-        # util of the overall training, indicates the overall payoff
-        util = 0.0
+    def training(self, iterations, printInterval=1000000):
+        util = 0.0  
+        
+        intervalStartTime = time.time()  
         for i in range(iterations):
             if i % printInterval == 0 and i != 0:
-                print("At interval", i, "util is", util / i)
+                intervalEndTime = time.time()  # End time of the current interval
+                print(f"At iteration {i}, expected value is {util / i}")
+                print(f"Time for last {printInterval} iterations: {intervalEndTime - intervalStartTime} seconds")
+                intervalStartTime = time.time()  # Reset start time for the next interval
 
             cards = Game.dealCards(Game.DECK)
-            history = ""
+            history = ''
             util += self.cfr(cards, history, 1, 1)
-        
+
         return util / iterations
 
 
@@ -29,12 +33,15 @@ class CFR():
             return [GA.BET, GA.CHECK]
         lastAction = actions[-1]
         # determining
-        match lastAction:
-            case GA.BET:
-                potentialActions = [GA.CALL, GA.FOLD]
-            case GA.CHECK:
-                if (len(actions) < 2):
-                    potentialActions = [GA.CHECK, GA.BET]
+        if lastAction == GA.BET:
+            # print('accessed1\n')
+            potentialActions = [GA.CALL, GA.FOLD]
+        elif lastAction == GA.CHECK and len(actions) < 2:
+            # print('accessed2\n')
+            potentialActions = [GA.CHECK, GA.BET]
+
+        # print("lastAction = ", lastAction)
+        # print('potentialActions = '+str(potentialActions))
 
         return potentialActions
     
@@ -47,7 +54,7 @@ class CFR():
             return True
 
     # counts how many bets have been placed
-    def countBetsInHistory(history):
+    def countBetsInHistory(self, history):
         return history.count(GA.BET)
     
     # counts the reward for winning player
@@ -71,7 +78,9 @@ class CFR():
 
     # recursive function, returns the expected node utility
     def cfr(self, cards, history, p1, p2):
+        # print('history =' ,"'" + history + "'")
         rounds = len(history)
+        # print("rounds =", str(rounds))
         activePlayer = rounds % 2
         oppPlayer = 1 - activePlayer
 
@@ -102,6 +111,7 @@ class CFR():
         util = {action: 0.0 for action in potentialActions}
         for potentialAction in potentialActions:
             historyNext = history + str(potentialAction)
+            # print("historyNext =",  "'" + historyNext+ "'")
             # calculating utility of action through recursive simulation until end of game
             if (activePlayer == 0):
                 util[potentialAction] = - CFR.cfr(self, cards, historyNext, p1 * realisationWeight, p2)
@@ -112,7 +122,7 @@ class CFR():
             # utility of the node is based on the utility of the next action * probability of next action 
             # utility next action is related the terminal payoff
             nodeUtil += (util[potentialAction] * strategy[potentialAction])
-
+        
         # iterative thorugh each action, compute and accumulate counterfactual regret
         for potentialAction in potentialActions:
             # calculating the regret for not taking the action
@@ -132,7 +142,7 @@ class CFR():
 class Node():
     # numActions = len(Game.GA)
     def __init__(self, actions):
-        numActions = len(GA)
+        numActions = GA.ACTIONS
         self.util_ = 0.0
         self.actions_ = actions
         self.strategy_ = {action: 0.0 for action in actions}
@@ -153,7 +163,7 @@ class Node():
             if (normalisingSum > 0):
                 self.strategy_[action] /= normalisingSum
             else:
-                self.strategy_[action] = (1 / len(GA))
+                self.strategy_[action] = (1 / GA.ACTIONS)
             self.strategySum_[action] += (realisationWeight * self.strategy_[action])
         
         return self.strategy_

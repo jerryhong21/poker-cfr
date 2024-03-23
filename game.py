@@ -3,18 +3,20 @@ from enum import Enum
 import random
 from util import cmp
 
-class GameActions(Enum):
+class GameActions():
     BET = '0'
     CHECK = '1'
     CALL = '2'
     FOLD = '3'
+    ACTIONS = 4
+
 
 class Game():
 
     def __init__(self):
         pass
 
-    RANKS = ['A', 'K', 'Q', 'J', '10', '9', '8', '7', '6', '5', '4', '3', '2']
+    RANKS = ['A', 'K', 'Q', 'J', 'T', '9', '8', '7', '6', '5', '4', '3', '2']
     SUITS = ['h', 's', 'c', 'd']
     ANTE = 1
 
@@ -44,7 +46,9 @@ class Game():
     # Returns -1 if card2 > card1
     # Returns 0 if tie
     def determineCardRank(card1, card2):
-        return cmp(Game.RANKS.find(card1[0]), Game.RANKS.find(card2[0]))
+        # print(card1)
+        # print(card2)
+        return cmp(Game.RANKS.index(card1[0]), Game.RANKS.index(card2[0]))
             
     def playerHasPair(card1, card2):
         return card1 == card2
