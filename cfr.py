@@ -40,9 +40,6 @@ class CFR():
             # print('accessed2\n')
             potentialActions = [GA.CHECK, GA.BET]
 
-        # print("lastAction = ", lastAction)
-        # print('potentialActions = '+str(potentialActions))
-
         return potentialActions
     
 
@@ -78,6 +75,7 @@ class CFR():
 
     # recursive function, returns the expected node utility
     def cfr(self, cards, history, p1, p2):
+        # print(cards)
         # print('history =' ,"'" + history + "'")
         rounds = len(history)
         # print("rounds =", str(rounds))
@@ -98,6 +96,7 @@ class CFR():
         else:
             node = self.game_state_map_[infoset]
             potentialActions = node.actions_
+        node.timesEncountered_ += 1
     
         # iterative through each action and call cfr with additional history and probability
         realisationWeight = p1 if activePlayer == 0 else p2
@@ -123,6 +122,7 @@ class CFR():
             # utility next action is related the terminal payoff
             nodeUtil += (util[potentialAction] * strategy[potentialAction])
         
+        # print('Utility of node with infoset ', infoset, "is", nodeUtil)
         # iterative thorugh each action, compute and accumulate counterfactual regret
         for potentialAction in potentialActions:
             # calculating the regret for not taking the action
@@ -142,12 +142,12 @@ class CFR():
 class Node():
     # numActions = len(Game.GA)
     def __init__(self, actions):
-        numActions = GA.ACTIONS
         self.util_ = 0.0
         self.actions_ = actions
         self.strategy_ = {action: 0.0 for action in actions}
         self.strategySum_ = {action: 0.0 for action in actions}
         self.regretSum_ = {action: 0.0 for action in actions}
+        self.timesEncountered_ = 0
         self.isTerminalNode_ = False
 
     # Get current information set mixed strategy thorugh regret matching
@@ -163,43 +163,17 @@ class Node():
             if (normalisingSum > 0):
                 self.strategy_[action] /= normalisingSum
             else:
-                self.strategy_[action] = (1 / GA.ACTIONS)
+                self.strategy_[action] = (1 / len(self.actions_))
             self.strategySum_[action] += (realisationWeight * self.strategy_[action])
         
         return self.strategy_
 
     # Get overall strategy at the node - supposed to be the strategy closest to Nash Equilibrium
     def getAverageStrategy(self):
-        averageStrategy = [0.0] * len(self.actions_)
+        averageStrategy = {action: 0.0 for action in self.actions_}
         normalisingSum = sum(self.strategySum_.values())
         for action in self.actions_:
             averageStrategy[action] = (self.strategySum_[action] / normalisingSum) if normalisingSum > 0 else (1 / len(self.actions_))
         
         return averageStrategy
-        
     
-        
-        
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
