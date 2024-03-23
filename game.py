@@ -20,20 +20,15 @@ class Game():
     SUITS = ['h', 's', 'c', 'd']
     ANTE = 1
 
+    # Initialising deck
     DECK = []
     for rank in RANKS:
-        for suit in SUITS:
-            DECK.append(rank + suit)
-    # DECK = [rank + suit for rank in RANKS for suit in SUITS]
+        for i in range(4):
+            DECK.append(rank)
 
-    
-    # def initDeck(self, ranks = None, suits = None):
-    #     if ranks == None:
-    #         ranks = self.RANKS
-    #     if suits == None:
-    #         suits = self.SUITS
-    #     DECK = [rank + suit for rank in ranks for suit in suits]
-    #     return DECK
+    # for rank in RANKS:
+    #     for suit in SUITS:
+    #         DECK.append(rank + suit)
         
     @staticmethod
     def dealCards(deck):
@@ -46,8 +41,6 @@ class Game():
     # Returns -1 if card2 > card1
     # Returns 0 if tie
     def determineCardRank(card1, card2):
-        # print(card1)
-        # print(card2)
         return cmp(Game.RANKS.index(card1[0]), Game.RANKS.index(card2[0]))
             
     def playerHasPair(card1, card2):
