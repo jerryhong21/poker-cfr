@@ -41,7 +41,7 @@ class Game():
     # Returns -1 if card2 > card1
     # Returns 0 if tie
     def determineCardRank(card1, card2):
-        return cmp(Game.RANKS.index(card1[0]), Game.RANKS.index(card2[0]))
+        return cmp(Game.RANKS.index(card2[0]), Game.RANKS.index(card1[0]))
             
     def playerHasPair(card1, card2):
         return card1 == card2
@@ -72,7 +72,9 @@ class Game():
         # if none of them have a pair -> high card wins
         elif (not player1HasPair and not player2HasPair):
             player1HighCard = player1Cards[0] if Game.determineCardRank(player1Cards[0], player1Cards[1]) == 1 else player1Cards[1]
+            # print(player1HighCard)
             player2HighCard = player2Cards[0] if Game.determineCardRank(player2Cards[0], player2Cards[1]) == 1 else player2Cards[1]
+            # print(player2HighCard)
             rank = Game.determineCardRank(player1HighCard, player2HighCard)
             if rank == 1:
                 winner = 1
@@ -80,7 +82,8 @@ class Game():
                 winner = 2
         return winner
 
-    
+# print(Game.getWinner([['T','7'],['9','5']]))
+# print(Game.determineCardRank('T', '7'))
 # deck = Game.initDeck(Game.RANKS, Game.SUITS)
 # print(Game.dealCards(deck))
 

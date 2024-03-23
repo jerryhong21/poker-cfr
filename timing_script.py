@@ -10,7 +10,7 @@ result = subprocess.run(['python3', testing_file], capture_output=True, text=Tru
 end_time = time.time()
 
 # Append output and errors to the existing file
-with open('logs/output_23_03.txt', 'a') as f:
+with open('logs/500m_regret_strategy_utility_timed.txt', 'a') as f:
     f.write('\n--- New Execution Output ---\n')
     f.write(result.stdout)
     if result.stderr:
