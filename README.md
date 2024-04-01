@@ -32,11 +32,11 @@ To experiment with the AI and the CFR implementation:
 
 1. Ensure Python is installed on your system.
 2. Clone this repository and navigate to the project directory.
-3. Run the main script to start the AI's training process.
+3. Run the main script to start the AI's training process. This process is preset to 1 million training iterations.
 
-\```
-python3 main.py
-\```
+```bash
+python3 cfr_tests.py
+```
 
 ## Contributing
 
