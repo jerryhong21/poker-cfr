@@ -34,7 +34,7 @@ To experiment with the AI and the CFR implementation:
 2. Clone this repository and navigate to the project directory.
 3. Run the main script to start the AI's training process.
 
-\```bash
+\```
 python3 main.py
 \```
 
