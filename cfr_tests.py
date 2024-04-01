@@ -9,7 +9,7 @@ model = CFR()
 # 500 million
 # print(model.training(500000000))
 
-util = model.training(100000)
+util = model.training(1000000)
 gameState = model.game_state_map_
 count = 0
 for infoset in gameState:
