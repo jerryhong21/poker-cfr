@@ -1,37 +1,55 @@
-# High-level pseudocode of the poker game simulation with strategy learning
 
-1. Import necessary libraries
-   - Import random for generating random numbers
+# Simplified Poker AI with CFR
 
-2. Define the Game class
-   - Define constants for player actions (BET, CALL, CHECK, FOLD)
-   - Define RANKS and SUITS of cards
-   - Generate a DECK of cards combining RANKS and SUITS
-   - Define a static method to deal random cards to two players
-   - Define a static method to deal biased cards favoring one player
-   - Define a static method to compare two card ranks and return the higher rank
+This project develops an AI model that learns to master a simplified version of poker through iterative self-play. The model uses the Counterfactual Regret Minimisation (CFR) algorithm to approach Nash Equilibrium, honing its decision-making process to achieve optimal play. The CFR algorithm evaluates decisions by analysing their "counterfactual regret," guiding the model to favor strategies that would have performed better in hindsight.
 
-3. Define the CFR (Counterfactual Regret Minimization) class for strategy optimization
-   - Initialize the game state dictionary
-   - Define a method to simplify a player's hand to a more abstract representation
-   - Define a method to determine the winner between two hands based on poker hand rankings
-   - Define a training method to simulate games and update strategies based on outcomes
-     - Use an incremental progress bar to track training progress
-     - On each iteration, simulate a game by dealing cards and executing a series of actions (bets, checks, folds)
-     - Use Counterfactual Regret Minimization to update strategies based on the outcome of each game
-   - Define a method to retrieve the optimized strategy after training
-     - Classify the optimized strategy into different player action ranges (betting, calling, raising)
-     - Clean up the strategy to remove negligible probabilities
-   - Define the Counterfactual Regret Minimization algorithm (CFR)
-     - Calculate the utility of each possible action in a given game state
-     - Update regrets based on the difference between the utility of the taken action and the best possible action
-     - Adjust strategies based on accumulated regrets
+## Simplified Poker Rules
 
-4. Define the Node class representing a game state in the CFR algorithm
-   - Initialize with possible actions, regret sums, strategies, and strategy sums
-   - Define a method to calculate the current strategy based on regret sums
-     - Normalize the strategy so probabilities sum to 1
-     - Update the strategy sums based on the current strategy and realization weight
-   - Define a method to calculate the average strategy from the accumulated strategy sums
+The AI is trained on a simplified version of poker with the following rules:
 
-# Note: The code applies the concepts of Counterfactual Regret Minimization (CFR) to train a model to find an optimal poker strategy through self-play.
+- Both players contribute an initial wager known as an "ante."
+- Player 1 has the option to "check" or "raise."
+  - If player 1 checks, player 2 can also check or raise.
+    - If player 2 raises, player 1 can either call or fold.
+      - If player 1 calls, a showdown is reached to determine the winner based on hand rankings.
+      - If player 1 folds, player 2 wins the pot.
+  - If player 1 raises, player 2 has the options to call, raise, or fold.
+    - If player 2 raises, player 1 can then call or fold.
+    - If player 2 calls, a showdown is reached.
+    - If player 2 folds, player 1 wins the pot.
+
+These rules create a structured sequence of play that demands strategic decision-making, making the game an ideal scenario for applying the CFR algorithm. By simplifying the rules of traditional poker, the AI can focus on the core aspects of betting strategies and hand strength evaluation.
+
+## Implementation of CFR in Simplified Poker
+
+In our simplified poker environment, CFR operates by simulating hands between two AI players, with each decision point representing a unique "information set." The AI's strategy at these information sets is updated as it gains more experience, with the model calculating and storing the regret values associated with each possible action. These values are used to adjust future strategies, aiming to reduce regret and improve decision-making in similar situations.
+
+The AI considers all possible actions it could have taken at each information set and computes the regret for not having chosen the action with the highest utility. Over many iterations, the AI's strategy converges towards an equilibrium where, if played perfectly by both sides, neither player has anything to gain by deviating from their current strategy.
+
+## Getting Started
+
+To experiment with the AI and the CFR implementation:
+
+1. Ensure Python is installed on your system.
+2. Clone this repository and navigate to the project directory.
+3. Run the main script to start the AI's training process.
+
+\```bash
+python3 main.py
+\```
+
+## Contributing
+
+We invite contributions to enhance the simulation of the poker game, improve the AI's performance, and refine the CFR algorithm's implementation.
+
+## License
+
+This project is available under the MIT License - details can be found in the `LICENSE` file.
+
+## Acknowledgements
+
+We express gratitude to the researchers and practitioners in the fields of game theory and artificial intelligence, whose innovative works inspire projects like ours.
+
+---
+
+This README offers a detailed overview for those interested in the intersection of AI, game theory, and poker simulations. For an in-depth look at the CFR implementation and its application to this simplified poker model, please review the source code and the comments therein.

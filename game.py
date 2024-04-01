@@ -20,12 +20,12 @@ class Game():
     SUITS = ['h', 's', 'c', 'd']
     ANTE = 1
 
-    # Initialising deck
     DECK = []
+
+    # Initialising deck
     for rank in RANKS:
         for i in range(4):
             DECK.append(rank)
-
     # for rank in RANKS:
     #     for suit in SUITS:
     #         DECK.append(rank + suit)

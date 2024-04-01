@@ -9,7 +9,7 @@ model = CFR()
 # 500 million
 # print(model.training(500000000))
 
-util = model.training(500000000)
+util = model.training(100000)
 gameState = model.game_state_map_
 count = 0
 for infoset in gameState:
@@ -19,7 +19,7 @@ for infoset in gameState:
         print(f"Regrets: {node.regretSum_}")
         print(f"Strategy: {node.getAverageStrategy()}")
         print('\n')
-        count += 1
+    count += 1
         # print(gameState[infoset])
         # print(state)
 

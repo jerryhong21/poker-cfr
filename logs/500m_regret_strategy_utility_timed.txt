@@ -1,0 +1,1849 @@
+
+--- New Execution Output ---
+At iteration 1000000, expected value is 0.02437527914690473
+Time for last 1000000 iterations: 23.50742197036743 seconds
+At iteration 2000000, expected value is 0.02903672821162054
+Time for last 1000000 iterations: 22.596614122390747 seconds
+At iteration 3000000, expected value is 0.031062090995550736
+Time for last 1000000 iterations: 22.54454469680786 seconds
+At iteration 4000000, expected value is 0.03212172612658774
+Time for last 1000000 iterations: 22.671098947525024 seconds
+At iteration 5000000, expected value is 0.03299552965606115
+Time for last 1000000 iterations: 22.587948083877563 seconds
+At iteration 6000000, expected value is 0.03358452917721855
+Time for last 1000000 iterations: 22.58098793029785 seconds
+At iteration 7000000, expected value is 0.034341795435209155
+Time for last 1000000 iterations: 22.60160994529724 seconds
+At iteration 8000000, expected value is 0.03407256341428499
+Time for last 1000000 iterations: 22.55630326271057 seconds
+At iteration 9000000, expected value is 0.03454264357364258
+Time for last 1000000 iterations: 22.561502933502197 seconds
+At iteration 10000000, expected value is 0.03487606652322749
+Time for last 1000000 iterations: 22.527509212493896 seconds
+At iteration 11000000, expected value is 0.03477609903025507
+Time for last 1000000 iterations: 22.553534030914307 seconds
+At iteration 12000000, expected value is 0.03496430844173647
+Time for last 1000000 iterations: 22.654063940048218 seconds
+At iteration 13000000, expected value is 0.0348940804173477
+Time for last 1000000 iterations: 22.609050989151 seconds
+At iteration 14000000, expected value is 0.034857485606166354
+Time for last 1000000 iterations: 22.55058002471924 seconds
+At iteration 15000000, expected value is 0.0348397203671063
+Time for last 1000000 iterations: 22.540586948394775 seconds
+At iteration 16000000, expected value is 0.03508025660607013
+Time for last 1000000 iterations: 22.52231001853943 seconds
+At iteration 17000000, expected value is 0.03515280052582097
+Time for last 1000000 iterations: 22.574084281921387 seconds
+At iteration 18000000, expected value is 0.03530208990086369
+Time for last 1000000 iterations: 22.606302976608276 seconds
+At iteration 19000000, expected value is 0.035459743659314924
+Time for last 1000000 iterations: 22.56453800201416 seconds
+At iteration 20000000, expected value is 0.03549649855927457
+Time for last 1000000 iterations: 22.89188289642334 seconds
+At iteration 21000000, expected value is 0.03532401157253468
+Time for last 1000000 iterations: 22.511861085891724 seconds
+At iteration 22000000, expected value is 0.035401246676082986
+Time for last 1000000 iterations: 22.521625757217407 seconds
+At iteration 23000000, expected value is 0.0353803355622495
+Time for last 1000000 iterations: 22.56683611869812 seconds
+At iteration 24000000, expected value is 0.03538839021341666
+Time for last 1000000 iterations: 22.5055890083313 seconds
+At iteration 25000000, expected value is 0.03534850363119018
+Time for last 1000000 iterations: 22.55427885055542 seconds
+At iteration 26000000, expected value is 0.03564666662275579
+Time for last 1000000 iterations: 22.510610342025757 seconds
+At iteration 27000000, expected value is 0.035696272409314576
+Time for last 1000000 iterations: 22.493057012557983 seconds
+At iteration 28000000, expected value is 0.03571686704521504
+Time for last 1000000 iterations: 22.602882146835327 seconds
+At iteration 29000000, expected value is 0.03580886334347991
+Time for last 1000000 iterations: 22.560440063476562 seconds
+At iteration 30000000, expected value is 0.035737692127377305
+Time for last 1000000 iterations: 22.567462921142578 seconds
+At iteration 31000000, expected value is 0.03577206575289378
+Time for last 1000000 iterations: 22.553826093673706 seconds
+At iteration 32000000, expected value is 0.03586374126620457
+Time for last 1000000 iterations: 22.493597984313965 seconds
+At iteration 33000000, expected value is 0.03585833466802733
+Time for last 1000000 iterations: 22.544175148010254 seconds
+At iteration 34000000, expected value is 0.03602575906578964
+Time for last 1000000 iterations: 22.58606266975403 seconds
+At iteration 35000000, expected value is 0.035981113374637275
+Time for last 1000000 iterations: 22.60239887237549 seconds
+At iteration 36000000, expected value is 0.035952587899252035
+Time for last 1000000 iterations: 22.599318027496338 seconds
+At iteration 37000000, expected value is 0.035934209403700006
+Time for last 1000000 iterations: 22.610846042633057 seconds
+At iteration 38000000, expected value is 0.0359441365681796
+Time for last 1000000 iterations: 22.484698057174683 seconds
+At iteration 39000000, expected value is 0.03591631534945031
+Time for last 1000000 iterations: 22.48794198036194 seconds
+At iteration 40000000, expected value is 0.035977059281621544
+Time for last 1000000 iterations: 22.549476146697998 seconds
+At iteration 41000000, expected value is 0.036001972570310715
+Time for last 1000000 iterations: 22.67279577255249 seconds
+At iteration 42000000, expected value is 0.03590724928705543
+Time for last 1000000 iterations: 22.469463109970093 seconds
+At iteration 43000000, expected value is 0.03587959407748539
+Time for last 1000000 iterations: 22.502899885177612 seconds
+At iteration 44000000, expected value is 0.0359109535795471
+Time for last 1000000 iterations: 22.518508195877075 seconds
+At iteration 45000000, expected value is 0.035992455956159346
+Time for last 1000000 iterations: 22.602867126464844 seconds
+At iteration 46000000, expected value is 0.03604444308166877
+Time for last 1000000 iterations: 22.58551788330078 seconds
+At iteration 47000000, expected value is 0.03607378667979151
+Time for last 1000000 iterations: 22.476177215576172 seconds
+At iteration 48000000, expected value is 0.0360849354356841
+Time for last 1000000 iterations: 22.463684797286987 seconds
+At iteration 49000000, expected value is 0.03625732937070341
+Time for last 1000000 iterations: 22.53706121444702 seconds
+At iteration 50000000, expected value is 0.03620691576163748
+Time for last 1000000 iterations: 22.47963285446167 seconds
+At iteration 51000000, expected value is 0.03611765811132772
+Time for last 1000000 iterations: 22.4913010597229 seconds
+At iteration 52000000, expected value is 0.036090509288536084
+Time for last 1000000 iterations: 22.491736888885498 seconds
+At iteration 53000000, expected value is 0.03609993124257364
+Time for last 1000000 iterations: 22.60367727279663 seconds
+At iteration 54000000, expected value is 0.03611471916968198
+Time for last 1000000 iterations: 22.50846004486084 seconds
+At iteration 55000000, expected value is 0.03606085949392085
+Time for last 1000000 iterations: 22.527442932128906 seconds
+At iteration 56000000, expected value is 0.03611278630585439
+Time for last 1000000 iterations: 22.56231188774109 seconds
+At iteration 57000000, expected value is 0.03613267126773717
+Time for last 1000000 iterations: 22.594879150390625 seconds
+At iteration 58000000, expected value is 0.036150817456741265
+Time for last 1000000 iterations: 22.551069974899292 seconds
+At iteration 59000000, expected value is 0.03612306936387008
+Time for last 1000000 iterations: 22.50222110748291 seconds
+At iteration 60000000, expected value is 0.03611477526188431
+Time for last 1000000 iterations: 22.518419981002808 seconds
+At iteration 61000000, expected value is 0.0361262866805835
+Time for last 1000000 iterations: 22.632341861724854 seconds
+At iteration 62000000, expected value is 0.03611442004834546
+Time for last 1000000 iterations: 22.467430114746094 seconds
+At iteration 63000000, expected value is 0.036132712092472326
+Time for last 1000000 iterations: 22.56214690208435 seconds
+At iteration 64000000, expected value is 0.036201573901298065
+Time for last 1000000 iterations: 22.47920799255371 seconds
+At iteration 65000000, expected value is 0.0362261971679477
+Time for last 1000000 iterations: 22.518742084503174 seconds
+At iteration 66000000, expected value is 0.03620516073201516
+Time for last 1000000 iterations: 22.550006866455078 seconds
+At iteration 67000000, expected value is 0.036195659331861654
+Time for last 1000000 iterations: 22.490952014923096 seconds
+At iteration 68000000, expected value is 0.036186913428178306
+Time for last 1000000 iterations: 22.67072892189026 seconds
+At iteration 69000000, expected value is 0.03618630824976877
+Time for last 1000000 iterations: 22.721403121948242 seconds
+At iteration 70000000, expected value is 0.03616181956220014
+Time for last 1000000 iterations: 22.49123787879944 seconds
+At iteration 71000000, expected value is 0.03622781590134218
+Time for last 1000000 iterations: 22.580222845077515 seconds
+At iteration 72000000, expected value is 0.03623089526121618
+Time for last 1000000 iterations: 22.562474012374878 seconds
+At iteration 73000000, expected value is 0.036218913641157
+Time for last 1000000 iterations: 22.515938997268677 seconds
+At iteration 74000000, expected value is 0.03620648752970282
+Time for last 1000000 iterations: 22.495645761489868 seconds
+At iteration 75000000, expected value is 0.03627913201481518
+Time for last 1000000 iterations: 22.52187967300415 seconds
+At iteration 76000000, expected value is 0.03624464147168198
+Time for last 1000000 iterations: 22.527403116226196 seconds
+At iteration 77000000, expected value is 0.0362902769957704
+Time for last 1000000 iterations: 22.678390979766846 seconds
+At iteration 78000000, expected value is 0.03632924675152991
+Time for last 1000000 iterations: 22.565784215927124 seconds
+At iteration 79000000, expected value is 0.036342671000455774
+Time for last 1000000 iterations: 22.48801612854004 seconds
+At iteration 80000000, expected value is 0.036340429634376
+Time for last 1000000 iterations: 22.506480932235718 seconds
+At iteration 81000000, expected value is 0.036332234842461716
+Time for last 1000000 iterations: 22.509703874588013 seconds
+At iteration 82000000, expected value is 0.036335967489978874
+Time for last 1000000 iterations: 22.52512216567993 seconds
+At iteration 83000000, expected value is 0.03633804104332925
+Time for last 1000000 iterations: 22.50146198272705 seconds
+At iteration 84000000, expected value is 0.036293145183099215
+Time for last 1000000 iterations: 22.69682264328003 seconds
+At iteration 85000000, expected value is 0.03634574019068502
+Time for last 1000000 iterations: 22.5848069190979 seconds
+At iteration 86000000, expected value is 0.036331660237252164
+Time for last 1000000 iterations: 22.494580030441284 seconds
+At iteration 87000000, expected value is 0.03629274335817003
+Time for last 1000000 iterations: 22.50487208366394 seconds
+At iteration 88000000, expected value is 0.0363044416608074
+Time for last 1000000 iterations: 22.553441762924194 seconds
+At iteration 89000000, expected value is 0.03632951015153104
+Time for last 1000000 iterations: 22.4963960647583 seconds
+At iteration 90000000, expected value is 0.0363841774871966
+Time for last 1000000 iterations: 22.525619983673096 seconds
+At iteration 91000000, expected value is 0.03639321631866742
+Time for last 1000000 iterations: 22.495800018310547 seconds
+At iteration 92000000, expected value is 0.03639348726724188
+Time for last 1000000 iterations: 22.554118871688843 seconds
+At iteration 93000000, expected value is 0.03641106416184057
+Time for last 1000000 iterations: 22.53591012954712 seconds
+At iteration 94000000, expected value is 0.036429068914729336
+Time for last 1000000 iterations: 22.51514983177185 seconds
+At iteration 95000000, expected value is 0.036483347961181675
+Time for last 1000000 iterations: 22.61194396018982 seconds
+At iteration 96000000, expected value is 0.036519433797778555
+Time for last 1000000 iterations: 22.521050930023193 seconds
+At iteration 97000000, expected value is 0.03651829254733856
+Time for last 1000000 iterations: 22.515113353729248 seconds
+At iteration 98000000, expected value is 0.036496222813695404
+Time for last 1000000 iterations: 22.555323839187622 seconds
+At iteration 99000000, expected value is 0.03650233541003443
+Time for last 1000000 iterations: 22.498778104782104 seconds
+At iteration 100000000, expected value is 0.03649015754940824
+Time for last 1000000 iterations: 22.498052835464478 seconds
+At iteration 101000000, expected value is 0.03651251017198719
+Time for last 1000000 iterations: 22.52658486366272 seconds
+At iteration 102000000, expected value is 0.03653162287702179
+Time for last 1000000 iterations: 22.524199962615967 seconds
+At iteration 103000000, expected value is 0.03652726279627099
+Time for last 1000000 iterations: 22.56643319129944 seconds
+At iteration 104000000, expected value is 0.0364860262339286
+Time for last 1000000 iterations: 22.521075963974 seconds
+At iteration 105000000, expected value is 0.03651654026656075
+Time for last 1000000 iterations: 22.529886960983276 seconds
+At iteration 106000000, expected value is 0.03652414448632854
+Time for last 1000000 iterations: 22.49481225013733 seconds
+At iteration 107000000, expected value is 0.036530425650580615
+Time for last 1000000 iterations: 22.489660024642944 seconds
+At iteration 108000000, expected value is 0.03651575725312101
+Time for last 1000000 iterations: 22.604485988616943 seconds
+At iteration 109000000, expected value is 0.036477578139396186
+Time for last 1000000 iterations: 22.511643171310425 seconds
+At iteration 110000000, expected value is 0.03645508832449321
+Time for last 1000000 iterations: 22.559028148651123 seconds
+At iteration 111000000, expected value is 0.03645199556784971
+Time for last 1000000 iterations: 22.53518009185791 seconds
+At iteration 112000000, expected value is 0.03645314955233222
+Time for last 1000000 iterations: 22.49853801727295 seconds
+At iteration 113000000, expected value is 0.03647144646912618
+Time for last 1000000 iterations: 22.550040006637573 seconds
+At iteration 114000000, expected value is 0.03648725556306401
+Time for last 1000000 iterations: 22.60233187675476 seconds
+At iteration 115000000, expected value is 0.036548515118137594
+Time for last 1000000 iterations: 22.52023196220398 seconds
+At iteration 116000000, expected value is 0.03653349384712767
+Time for last 1000000 iterations: 22.546310901641846 seconds
+At iteration 117000000, expected value is 0.03653143251101767
+Time for last 1000000 iterations: 22.535730123519897 seconds
+At iteration 118000000, expected value is 0.03654084728125468
+Time for last 1000000 iterations: 22.614026069641113 seconds
+At iteration 119000000, expected value is 0.03655225625301866
+Time for last 1000000 iterations: 22.57808780670166 seconds
+At iteration 120000000, expected value is 0.03651698102776237
+Time for last 1000000 iterations: 22.504581928253174 seconds
+At iteration 121000000, expected value is 0.03654733973773811
+Time for last 1000000 iterations: 22.614686965942383 seconds
+At iteration 122000000, expected value is 0.03656310781670915
+Time for last 1000000 iterations: 22.540035009384155 seconds
+At iteration 123000000, expected value is 0.03660126467426446
+Time for last 1000000 iterations: 22.4893000125885 seconds
+At iteration 124000000, expected value is 0.03665589812003006
+Time for last 1000000 iterations: 22.411802053451538 seconds
+At iteration 125000000, expected value is 0.03668563741137376
+Time for last 1000000 iterations: 22.531532049179077 seconds
+At iteration 126000000, expected value is 0.036677712311358024
+Time for last 1000000 iterations: 22.58917212486267 seconds
+At iteration 127000000, expected value is 0.03667011894538789
+Time for last 1000000 iterations: 22.506841897964478 seconds
+At iteration 128000000, expected value is 0.03660672827815264
+Time for last 1000000 iterations: 22.498401165008545 seconds
+At iteration 129000000, expected value is 0.036604786286629686
+Time for last 1000000 iterations: 22.528043031692505 seconds
+At iteration 130000000, expected value is 0.03659912133485603
+Time for last 1000000 iterations: 22.518226861953735 seconds
+At iteration 131000000, expected value is 0.036647607185295236
+Time for last 1000000 iterations: 22.539872884750366 seconds
+At iteration 132000000, expected value is 0.036605237026608166
+Time for last 1000000 iterations: 22.577250003814697 seconds
+At iteration 133000000, expected value is 0.036629969468438744
+Time for last 1000000 iterations: 22.49881911277771 seconds
+At iteration 134000000, expected value is 0.03663132256138992
+Time for last 1000000 iterations: 22.645315885543823 seconds
+At iteration 135000000, expected value is 0.036634934292676204
+Time for last 1000000 iterations: 22.526780128479004 seconds
+At iteration 136000000, expected value is 0.036641451135035134
+Time for last 1000000 iterations: 22.527464866638184 seconds
+At iteration 137000000, expected value is 0.036630761535533136
+Time for last 1000000 iterations: 22.559365034103394 seconds
+At iteration 138000000, expected value is 0.03662590535404639
+Time for last 1000000 iterations: 22.49898600578308 seconds
+At iteration 139000000, expected value is 0.03666990404166832
+Time for last 1000000 iterations: 22.487146139144897 seconds
+At iteration 140000000, expected value is 0.036669315999382265
+Time for last 1000000 iterations: 22.525940895080566 seconds
+At iteration 141000000, expected value is 0.036650933060172836
+Time for last 1000000 iterations: 22.540343046188354 seconds
+At iteration 142000000, expected value is 0.036624298661836335
+Time for last 1000000 iterations: 22.677011966705322 seconds
+At iteration 143000000, expected value is 0.03662693034062864
+Time for last 1000000 iterations: 22.52412700653076 seconds
+At iteration 144000000, expected value is 0.03663642082440714
+Time for last 1000000 iterations: 22.49489426612854 seconds
+At iteration 145000000, expected value is 0.03664293790305657
+Time for last 1000000 iterations: 22.510682106018066 seconds
+At iteration 146000000, expected value is 0.03663909704716038
+Time for last 1000000 iterations: 22.52793860435486 seconds
+At iteration 147000000, expected value is 0.03666471250864037
+Time for last 1000000 iterations: 22.490824937820435 seconds
+At iteration 148000000, expected value is 0.03668301502686337
+Time for last 1000000 iterations: 22.504393100738525 seconds
+At iteration 149000000, expected value is 0.036712002860130544
+Time for last 1000000 iterations: 22.514164924621582 seconds
+At iteration 150000000, expected value is 0.03673067262224496
+Time for last 1000000 iterations: 22.596160173416138 seconds
+At iteration 151000000, expected value is 0.036705313083211566
+Time for last 1000000 iterations: 22.680137872695923 seconds
+At iteration 152000000, expected value is 0.036719992722657656
+Time for last 1000000 iterations: 22.49411106109619 seconds
+At iteration 153000000, expected value is 0.03669742966313529
+Time for last 1000000 iterations: 22.523150205612183 seconds
+At iteration 154000000, expected value is 0.03669628246376599
+Time for last 1000000 iterations: 22.502633810043335 seconds
+At iteration 155000000, expected value is 0.03671402634908154
+Time for last 1000000 iterations: 22.5144259929657 seconds
+At iteration 156000000, expected value is 0.03671733941550453
+Time for last 1000000 iterations: 22.526702880859375 seconds
+At iteration 157000000, expected value is 0.036731940339696935
+Time for last 1000000 iterations: 22.537585020065308 seconds
+At iteration 158000000, expected value is 0.03671028871693764
+Time for last 1000000 iterations: 22.545379161834717 seconds
+At iteration 159000000, expected value is 0.03669186792468557
+Time for last 1000000 iterations: 22.53394389152527 seconds
+At iteration 160000000, expected value is 0.03670251904631522
+Time for last 1000000 iterations: 22.524728059768677 seconds
+At iteration 161000000, expected value is 0.036712692389935755
+Time for last 1000000 iterations: 22.62354874610901 seconds
+At iteration 162000000, expected value is 0.0367088795729717
+Time for last 1000000 iterations: 22.522011041641235 seconds
+At iteration 163000000, expected value is 0.0367050081329511
+Time for last 1000000 iterations: 22.518052101135254 seconds
+At iteration 164000000, expected value is 0.03671850766723653
+Time for last 1000000 iterations: 22.497678995132446 seconds
+At iteration 165000000, expected value is 0.036710066788943424
+Time for last 1000000 iterations: 22.495081901550293 seconds
+At iteration 166000000, expected value is 0.036694092518793534
+Time for last 1000000 iterations: 22.5572350025177 seconds
+At iteration 167000000, expected value is 0.036699946884366584
+Time for last 1000000 iterations: 22.52631115913391 seconds
+At iteration 168000000, expected value is 0.0366781818143473
+Time for last 1000000 iterations: 22.505279302597046 seconds
+At iteration 169000000, expected value is 0.03667644876767683
+Time for last 1000000 iterations: 22.715712785720825 seconds
+At iteration 170000000, expected value is 0.03668743482156769
+Time for last 1000000 iterations: 22.49561595916748 seconds
+At iteration 171000000, expected value is 0.036691447004911934
+Time for last 1000000 iterations: 22.492931842803955 seconds
+At iteration 172000000, expected value is 0.036703322537339565
+Time for last 1000000 iterations: 22.511046171188354 seconds
+At iteration 173000000, expected value is 0.03668353350880131
+Time for last 1000000 iterations: 22.51155710220337 seconds
+At iteration 174000000, expected value is 0.0366655125035291
+Time for last 1000000 iterations: 22.739146947860718 seconds
+At iteration 175000000, expected value is 0.03667296802712952
+Time for last 1000000 iterations: 22.614346027374268 seconds
+At iteration 176000000, expected value is 0.03668837103163395
+Time for last 1000000 iterations: 22.4897620677948 seconds
+At iteration 177000000, expected value is 0.03667514449760554
+Time for last 1000000 iterations: 22.564772844314575 seconds
+At iteration 178000000, expected value is 0.036642608549825845
+Time for last 1000000 iterations: 22.508543252944946 seconds
+At iteration 179000000, expected value is 0.03664672796665881
+Time for last 1000000 iterations: 22.52741241455078 seconds
+At iteration 180000000, expected value is 0.036669437033636905
+Time for last 1000000 iterations: 22.560028076171875 seconds
+At iteration 181000000, expected value is 0.036681958590279014
+Time for last 1000000 iterations: 22.514392137527466 seconds
+At iteration 182000000, expected value is 0.03669435816844259
+Time for last 1000000 iterations: 22.618627786636353 seconds
+At iteration 183000000, expected value is 0.03669977244852495
+Time for last 1000000 iterations: 22.54419732093811 seconds
+At iteration 184000000, expected value is 0.0367231741890827
+Time for last 1000000 iterations: 22.555742025375366 seconds
+At iteration 185000000, expected value is 0.03671729424846229
+Time for last 1000000 iterations: 22.509687900543213 seconds
+At iteration 186000000, expected value is 0.03673971743785136
+Time for last 1000000 iterations: 22.487533807754517 seconds
+At iteration 187000000, expected value is 0.03674849814515231
+Time for last 1000000 iterations: 22.505842208862305 seconds
+At iteration 188000000, expected value is 0.03676272569608441
+Time for last 1000000 iterations: 22.58415174484253 seconds
+At iteration 189000000, expected value is 0.036794829139889275
+Time for last 1000000 iterations: 22.52557635307312 seconds
+At iteration 190000000, expected value is 0.036819571621634274
+Time for last 1000000 iterations: 22.59151268005371 seconds
+At iteration 191000000, expected value is 0.036813432606019186
+Time for last 1000000 iterations: 22.549657106399536 seconds
+At iteration 192000000, expected value is 0.03682293816521509
+Time for last 1000000 iterations: 22.469601154327393 seconds
+At iteration 193000000, expected value is 0.03683132105714333
+Time for last 1000000 iterations: 22.517607927322388 seconds
+At iteration 194000000, expected value is 0.036830390141152136
+Time for last 1000000 iterations: 22.504987001419067 seconds
+At iteration 195000000, expected value is 0.036823561213783905
+Time for last 1000000 iterations: 22.51009702682495 seconds
+At iteration 196000000, expected value is 0.03684720174451272
+Time for last 1000000 iterations: 22.566944122314453 seconds
+At iteration 197000000, expected value is 0.03685418922534975
+Time for last 1000000 iterations: 22.531198978424072 seconds
+At iteration 198000000, expected value is 0.036840700880754244
+Time for last 1000000 iterations: 22.602006196975708 seconds
+At iteration 199000000, expected value is 0.036856339778868756
+Time for last 1000000 iterations: 22.594749927520752 seconds
+At iteration 200000000, expected value is 0.03682421860231504
+Time for last 1000000 iterations: 22.514946937561035 seconds
+At iteration 201000000, expected value is 0.03683154586545919
+Time for last 1000000 iterations: 22.675050973892212 seconds
+At iteration 202000000, expected value is 0.03685832159410742
+Time for last 1000000 iterations: 22.567474126815796 seconds
+At iteration 203000000, expected value is 0.036875270746040544
+Time for last 1000000 iterations: 22.463797330856323 seconds
+At iteration 204000000, expected value is 0.036891368972215836
+Time for last 1000000 iterations: 22.577805995941162 seconds
+At iteration 205000000, expected value is 0.03690264899875329
+Time for last 1000000 iterations: 22.507956981658936 seconds
+At iteration 206000000, expected value is 0.03689971263945835
+Time for last 1000000 iterations: 22.518381118774414 seconds
+At iteration 207000000, expected value is 0.036879116018967574
+Time for last 1000000 iterations: 22.507314920425415 seconds
+At iteration 208000000, expected value is 0.03689133010740112
+Time for last 1000000 iterations: 22.53605604171753 seconds
+At iteration 209000000, expected value is 0.03686566183007333
+Time for last 1000000 iterations: 22.541877031326294 seconds
+At iteration 210000000, expected value is 0.03685894620150313
+Time for last 1000000 iterations: 22.577244997024536 seconds
+At iteration 211000000, expected value is 0.03686073920752463
+Time for last 1000000 iterations: 22.51490092277527 seconds
+At iteration 212000000, expected value is 0.03684625055081585
+Time for last 1000000 iterations: 22.58316206932068 seconds
+At iteration 213000000, expected value is 0.03682121122671151
+Time for last 1000000 iterations: 22.487841844558716 seconds
+At iteration 214000000, expected value is 0.036835677875086105
+Time for last 1000000 iterations: 22.55680203437805 seconds
+At iteration 215000000, expected value is 0.03683258019382451
+Time for last 1000000 iterations: 22.562859773635864 seconds
+At iteration 216000000, expected value is 0.03683302503613609
+Time for last 1000000 iterations: 22.54865002632141 seconds
+At iteration 217000000, expected value is 0.0368283545007639
+Time for last 1000000 iterations: 22.51720118522644 seconds
+At iteration 218000000, expected value is 0.036846562382586504
+Time for last 1000000 iterations: 22.50763702392578 seconds
+At iteration 219000000, expected value is 0.036848412511287926
+Time for last 1000000 iterations: 22.494760036468506 seconds
+At iteration 220000000, expected value is 0.036844131224313216
+Time for last 1000000 iterations: 22.58072280883789 seconds
+At iteration 221000000, expected value is 0.036796094165039823
+Time for last 1000000 iterations: 22.522774934768677 seconds
+At iteration 222000000, expected value is 0.03678649253686966
+Time for last 1000000 iterations: 22.587470054626465 seconds
+At iteration 223000000, expected value is 0.03677866039167581
+Time for last 1000000 iterations: 22.5645010471344 seconds
+At iteration 224000000, expected value is 0.03678821009642844
+Time for last 1000000 iterations: 22.487546920776367 seconds
+At iteration 225000000, expected value is 0.03680401351386185
+Time for last 1000000 iterations: 22.523483991622925 seconds
+At iteration 226000000, expected value is 0.036812901589888807
+Time for last 1000000 iterations: 22.53993010520935 seconds
+At iteration 227000000, expected value is 0.03681380584837284
+Time for last 1000000 iterations: 22.631524085998535 seconds
+At iteration 228000000, expected value is 0.036812297553036416
+Time for last 1000000 iterations: 22.539080142974854 seconds
+At iteration 229000000, expected value is 0.036827688154317056
+Time for last 1000000 iterations: 22.494039058685303 seconds
+At iteration 230000000, expected value is 0.03684048982418537
+Time for last 1000000 iterations: 22.610125064849854 seconds
+At iteration 231000000, expected value is 0.03683735216190492
+Time for last 1000000 iterations: 22.662328720092773 seconds
+At iteration 232000000, expected value is 0.03683677254980318
+Time for last 1000000 iterations: 22.51843500137329 seconds
+At iteration 233000000, expected value is 0.036833422024562724
+Time for last 1000000 iterations: 22.533008098602295 seconds
+At iteration 234000000, expected value is 0.036838593394052405
+Time for last 1000000 iterations: 22.542628049850464 seconds
+At iteration 235000000, expected value is 0.036839804578971715
+Time for last 1000000 iterations: 22.5042622089386 seconds
+At iteration 236000000, expected value is 0.03685044853721673
+Time for last 1000000 iterations: 22.575342893600464 seconds
+At iteration 237000000, expected value is 0.036848441376714655
+Time for last 1000000 iterations: 22.516083002090454 seconds
+At iteration 238000000, expected value is 0.03683454814448567
+Time for last 1000000 iterations: 22.586915969848633 seconds
+At iteration 239000000, expected value is 0.036830960234021555
+Time for last 1000000 iterations: 22.643723011016846 seconds
+At iteration 240000000, expected value is 0.036846309381039596
+Time for last 1000000 iterations: 22.554659843444824 seconds
+At iteration 241000000, expected value is 0.036815548866959966
+Time for last 1000000 iterations: 22.538105726242065 seconds
+At iteration 242000000, expected value is 0.03680570882687467
+Time for last 1000000 iterations: 22.571444988250732 seconds
+At iteration 243000000, expected value is 0.03679380589708395
+Time for last 1000000 iterations: 22.51370596885681 seconds
+At iteration 244000000, expected value is 0.0367928652672048
+Time for last 1000000 iterations: 22.51581311225891 seconds
+At iteration 245000000, expected value is 0.036788958723159286
+Time for last 1000000 iterations: 22.475702047348022 seconds
+At iteration 246000000, expected value is 0.036805406095560086
+Time for last 1000000 iterations: 22.523932933807373 seconds
+At iteration 247000000, expected value is 0.03679979293535667
+Time for last 1000000 iterations: 22.63464117050171 seconds
+At iteration 248000000, expected value is 0.036799643978505645
+Time for last 1000000 iterations: 22.624142169952393 seconds
+At iteration 249000000, expected value is 0.03678128045210826
+Time for last 1000000 iterations: 22.528157949447632 seconds
+At iteration 250000000, expected value is 0.036772692516487376
+Time for last 1000000 iterations: 22.521846055984497 seconds
+At iteration 251000000, expected value is 0.03675979816749109
+Time for last 1000000 iterations: 22.47875690460205 seconds
+At iteration 252000000, expected value is 0.036740493741910435
+Time for last 1000000 iterations: 22.528584957122803 seconds
+At iteration 253000000, expected value is 0.036736945209348525
+Time for last 1000000 iterations: 22.53817892074585 seconds
+At iteration 254000000, expected value is 0.03672535122176611
+Time for last 1000000 iterations: 22.600843906402588 seconds
+At iteration 255000000, expected value is 0.036726304410540894
+Time for last 1000000 iterations: 22.6178297996521 seconds
+At iteration 256000000, expected value is 0.03672579445959121
+Time for last 1000000 iterations: 22.503021955490112 seconds
+At iteration 257000000, expected value is 0.03670366928869498
+Time for last 1000000 iterations: 22.574766874313354 seconds
+At iteration 258000000, expected value is 0.0367112538805613
+Time for last 1000000 iterations: 22.519598960876465 seconds
+At iteration 259000000, expected value is 0.03674922724793923
+Time for last 1000000 iterations: 22.515949249267578 seconds
+At iteration 260000000, expected value is 0.036761908874972424
+Time for last 1000000 iterations: 22.538888931274414 seconds
+At iteration 261000000, expected value is 0.03672979230454053
+Time for last 1000000 iterations: 22.498778104782104 seconds
+At iteration 262000000, expected value is 0.0367332623018761
+Time for last 1000000 iterations: 22.525453805923462 seconds
+At iteration 263000000, expected value is 0.03674216002469132
+Time for last 1000000 iterations: 22.566161155700684 seconds
+At iteration 264000000, expected value is 0.03674529270872943
+Time for last 1000000 iterations: 22.51533794403076 seconds
+At iteration 265000000, expected value is 0.03676137732884912
+Time for last 1000000 iterations: 22.57157015800476 seconds
+At iteration 266000000, expected value is 0.0367831672151034
+Time for last 1000000 iterations: 22.52248501777649 seconds
+At iteration 267000000, expected value is 0.036779299231359704
+Time for last 1000000 iterations: 22.495279788970947 seconds
+At iteration 268000000, expected value is 0.03675610751937217
+Time for last 1000000 iterations: 22.566624879837036 seconds
+At iteration 269000000, expected value is 0.036752181673268866
+Time for last 1000000 iterations: 22.501405239105225 seconds
+At iteration 270000000, expected value is 0.036739292577331856
+Time for last 1000000 iterations: 22.472697734832764 seconds
+At iteration 271000000, expected value is 0.036755289631324295
+Time for last 1000000 iterations: 22.51264524459839 seconds
+At iteration 272000000, expected value is 0.03674873514966183
+Time for last 1000000 iterations: 22.51139998435974 seconds
+At iteration 273000000, expected value is 0.03675837157599137
+Time for last 1000000 iterations: 22.514386892318726 seconds
+At iteration 274000000, expected value is 0.0367639094891132
+Time for last 1000000 iterations: 22.537441968917847 seconds
+At iteration 275000000, expected value is 0.0367590141455893
+Time for last 1000000 iterations: 22.504031896591187 seconds
+At iteration 276000000, expected value is 0.036755641111912866
+Time for last 1000000 iterations: 22.504518032073975 seconds
+At iteration 277000000, expected value is 0.036757996358700286
+Time for last 1000000 iterations: 22.51380205154419 seconds
+At iteration 278000000, expected value is 0.036750816287534835
+Time for last 1000000 iterations: 22.564342975616455 seconds
+At iteration 279000000, expected value is 0.036738657728509753
+Time for last 1000000 iterations: 22.5462589263916 seconds
+At iteration 280000000, expected value is 0.036746963226930926
+Time for last 1000000 iterations: 22.513352870941162 seconds
+At iteration 281000000, expected value is 0.03673723365569693
+Time for last 1000000 iterations: 22.52668023109436 seconds
+At iteration 282000000, expected value is 0.03672435011286409
+Time for last 1000000 iterations: 22.49613618850708 seconds
+At iteration 283000000, expected value is 0.03671900531044139
+Time for last 1000000 iterations: 22.49264907836914 seconds
+At iteration 284000000, expected value is 0.036739716164380744
+Time for last 1000000 iterations: 22.5793879032135 seconds
+At iteration 285000000, expected value is 0.03674495515725042
+Time for last 1000000 iterations: 22.536858081817627 seconds
+At iteration 286000000, expected value is 0.036747930684235874
+Time for last 1000000 iterations: 22.588314056396484 seconds
+At iteration 287000000, expected value is 0.03673423585306171
+Time for last 1000000 iterations: 22.514590978622437 seconds
+At iteration 288000000, expected value is 0.03674184665343698
+Time for last 1000000 iterations: 22.643482208251953 seconds
+At iteration 289000000, expected value is 0.03674702075188493
+Time for last 1000000 iterations: 22.577252864837646 seconds
+At iteration 290000000, expected value is 0.03674153583485522
+Time for last 1000000 iterations: 22.48091197013855 seconds
+At iteration 291000000, expected value is 0.03674079009762521
+Time for last 1000000 iterations: 22.534815073013306 seconds
+At iteration 292000000, expected value is 0.03675803987446252
+Time for last 1000000 iterations: 22.508241891860962 seconds
+At iteration 293000000, expected value is 0.03678124918117392
+Time for last 1000000 iterations: 22.546212911605835 seconds
+At iteration 294000000, expected value is 0.03676989968005853
+Time for last 1000000 iterations: 22.557730674743652 seconds
+At iteration 295000000, expected value is 0.03675965224765327
+Time for last 1000000 iterations: 22.553452014923096 seconds
+At iteration 296000000, expected value is 0.03676791329310776
+Time for last 1000000 iterations: 22.66327714920044 seconds
+At iteration 297000000, expected value is 0.0367591806558301
+Time for last 1000000 iterations: 22.605578899383545 seconds
+At iteration 298000000, expected value is 0.036758860853194436
+Time for last 1000000 iterations: 22.498928785324097 seconds
+At iteration 299000000, expected value is 0.03675986878838552
+Time for last 1000000 iterations: 22.52101993560791 seconds
+At iteration 300000000, expected value is 0.03675474985193741
+Time for last 1000000 iterations: 22.541014909744263 seconds
+At iteration 301000000, expected value is 0.036778911858111066
+Time for last 1000000 iterations: 22.583935976028442 seconds
+At iteration 302000000, expected value is 0.0367934519231879
+Time for last 1000000 iterations: 22.542170763015747 seconds
+At iteration 303000000, expected value is 0.03679062462383982
+Time for last 1000000 iterations: 22.54353094100952 seconds
+At iteration 304000000, expected value is 0.03679250227229021
+Time for last 1000000 iterations: 22.651973247528076 seconds
+At iteration 305000000, expected value is 0.03681236702650843
+Time for last 1000000 iterations: 22.50146985054016 seconds
+At iteration 306000000, expected value is 0.036821295480128496
+Time for last 1000000 iterations: 22.55304980278015 seconds
+At iteration 307000000, expected value is 0.03682058673039631
+Time for last 1000000 iterations: 22.492775201797485 seconds
+At iteration 308000000, expected value is 0.036820932677806346
+Time for last 1000000 iterations: 22.49298882484436 seconds
+At iteration 309000000, expected value is 0.036815596355946445
+Time for last 1000000 iterations: 22.548931121826172 seconds
+At iteration 310000000, expected value is 0.036816415227715366
+Time for last 1000000 iterations: 22.577207803726196 seconds
+At iteration 311000000, expected value is 0.03680313866543139
+Time for last 1000000 iterations: 22.53336215019226 seconds
+At iteration 312000000, expected value is 0.03681614436003479
+Time for last 1000000 iterations: 22.62056803703308 seconds
+At iteration 313000000, expected value is 0.03679691059900032
+Time for last 1000000 iterations: 22.524290084838867 seconds
+At iteration 314000000, expected value is 0.036806580343506534
+Time for last 1000000 iterations: 22.49260902404785 seconds
+At iteration 315000000, expected value is 0.03680328863882495
+Time for last 1000000 iterations: 22.533485174179077 seconds
+At iteration 316000000, expected value is 0.03679896016482515
+Time for last 1000000 iterations: 22.538522958755493 seconds
+At iteration 317000000, expected value is 0.036813211798151134
+Time for last 1000000 iterations: 22.50076413154602 seconds
+At iteration 318000000, expected value is 0.03680706152429299
+Time for last 1000000 iterations: 22.612022876739502 seconds
+At iteration 319000000, expected value is 0.03680699738808481
+Time for last 1000000 iterations: 22.484632968902588 seconds
+At iteration 320000000, expected value is 0.03681346137866847
+Time for last 1000000 iterations: 22.520287036895752 seconds
+At iteration 321000000, expected value is 0.036804504623645734
+Time for last 1000000 iterations: 22.513033866882324 seconds
+At iteration 322000000, expected value is 0.03680414965644131
+Time for last 1000000 iterations: 22.501042366027832 seconds
+At iteration 323000000, expected value is 0.03679856242357379
+Time for last 1000000 iterations: 22.553852796554565 seconds
+At iteration 324000000, expected value is 0.036810390755570764
+Time for last 1000000 iterations: 22.497167825698853 seconds
+At iteration 325000000, expected value is 0.03681315904191571
+Time for last 1000000 iterations: 22.509865045547485 seconds
+At iteration 326000000, expected value is 0.036799066522686226
+Time for last 1000000 iterations: 22.52072763442993 seconds
+At iteration 327000000, expected value is 0.03679975517921692
+Time for last 1000000 iterations: 22.56516695022583 seconds
+At iteration 328000000, expected value is 0.03679349779892845
+Time for last 1000000 iterations: 22.659903049468994 seconds
+At iteration 329000000, expected value is 0.03678759436911723
+Time for last 1000000 iterations: 22.579318046569824 seconds
+At iteration 330000000, expected value is 0.036795316651785946
+Time for last 1000000 iterations: 22.496351957321167 seconds
+At iteration 331000000, expected value is 0.03681252229599836
+Time for last 1000000 iterations: 22.508108854293823 seconds
+At iteration 332000000, expected value is 0.036805323201355836
+Time for last 1000000 iterations: 22.530697107315063 seconds
+At iteration 333000000, expected value is 0.03680155888852287
+Time for last 1000000 iterations: 22.547271966934204 seconds
+At iteration 334000000, expected value is 0.036795917512464214
+Time for last 1000000 iterations: 22.569785833358765 seconds
+At iteration 335000000, expected value is 0.03680268230833918
+Time for last 1000000 iterations: 22.62666082382202 seconds
+At iteration 336000000, expected value is 0.03681633389189076
+Time for last 1000000 iterations: 22.611775875091553 seconds
+At iteration 337000000, expected value is 0.03681935687120555
+Time for last 1000000 iterations: 22.577171325683594 seconds
+At iteration 338000000, expected value is 0.03682321844704983
+Time for last 1000000 iterations: 22.55525279045105 seconds
+At iteration 339000000, expected value is 0.036816190541926995
+Time for last 1000000 iterations: 22.607188940048218 seconds
+At iteration 340000000, expected value is 0.036816364697949334
+Time for last 1000000 iterations: 22.5299072265625 seconds
+At iteration 341000000, expected value is 0.036814252870788634
+Time for last 1000000 iterations: 22.6063551902771 seconds
+At iteration 342000000, expected value is 0.03683018917837311
+Time for last 1000000 iterations: 22.4889018535614 seconds
+At iteration 343000000, expected value is 0.036827923940384706
+Time for last 1000000 iterations: 22.519596099853516 seconds
+At iteration 344000000, expected value is 0.03683899913309696
+Time for last 1000000 iterations: 22.582865953445435 seconds
+At iteration 345000000, expected value is 0.036836487245159345
+Time for last 1000000 iterations: 22.56030011177063 seconds
+At iteration 346000000, expected value is 0.03683528211734873
+Time for last 1000000 iterations: 22.494678020477295 seconds
+At iteration 347000000, expected value is 0.036828171385192704
+Time for last 1000000 iterations: 22.615769863128662 seconds
+At iteration 348000000, expected value is 0.03683199525692653
+Time for last 1000000 iterations: 22.50687575340271 seconds
+At iteration 349000000, expected value is 0.03684767224529522
+Time for last 1000000 iterations: 22.4762921333313 seconds
+At iteration 350000000, expected value is 0.03684267355777201
+Time for last 1000000 iterations: 22.52903413772583 seconds
+At iteration 351000000, expected value is 0.036848903770800336
+Time for last 1000000 iterations: 22.510591983795166 seconds
+At iteration 352000000, expected value is 0.0368552390829517
+Time for last 1000000 iterations: 22.526501178741455 seconds
+At iteration 353000000, expected value is 0.03686757254082602
+Time for last 1000000 iterations: 22.65658402442932 seconds
+At iteration 354000000, expected value is 0.03687570168016456
+Time for last 1000000 iterations: 22.46401834487915 seconds
+At iteration 355000000, expected value is 0.03687247134347291
+Time for last 1000000 iterations: 22.596807956695557 seconds
+At iteration 356000000, expected value is 0.03687322876468835
+Time for last 1000000 iterations: 22.53459596633911 seconds
+At iteration 357000000, expected value is 0.03688079947363479
+Time for last 1000000 iterations: 22.48609471321106 seconds
+At iteration 358000000, expected value is 0.03688863354064916
+Time for last 1000000 iterations: 22.490092039108276 seconds
+At iteration 359000000, expected value is 0.036892378995281125
+Time for last 1000000 iterations: 22.544862985610962 seconds
+At iteration 360000000, expected value is 0.03690234120937126
+Time for last 1000000 iterations: 22.528931140899658 seconds
+At iteration 361000000, expected value is 0.036895786753164045
+Time for last 1000000 iterations: 22.6432101726532 seconds
+At iteration 362000000, expected value is 0.03690123879091235
+Time for last 1000000 iterations: 22.517903089523315 seconds
+At iteration 363000000, expected value is 0.03690292171248522
+Time for last 1000000 iterations: 22.51358914375305 seconds
+At iteration 364000000, expected value is 0.03690162780298748
+Time for last 1000000 iterations: 22.512659788131714 seconds
+At iteration 365000000, expected value is 0.03689635897538282
+Time for last 1000000 iterations: 22.551136016845703 seconds
+At iteration 366000000, expected value is 0.03689450069254401
+Time for last 1000000 iterations: 22.553040027618408 seconds
+At iteration 367000000, expected value is 0.03690283427117493
+Time for last 1000000 iterations: 22.508817195892334 seconds
+At iteration 368000000, expected value is 0.036903108778008
+Time for last 1000000 iterations: 22.530991792678833 seconds
+At iteration 369000000, expected value is 0.036898305248713535
+Time for last 1000000 iterations: 22.52751612663269 seconds
+At iteration 370000000, expected value is 0.036910395697088205
+Time for last 1000000 iterations: 22.517401695251465 seconds
+At iteration 371000000, expected value is 0.036904329978017174
+Time for last 1000000 iterations: 22.539886236190796 seconds
+At iteration 372000000, expected value is 0.036913289321683355
+Time for last 1000000 iterations: 22.495118856430054 seconds
+At iteration 373000000, expected value is 0.03692151394070026
+Time for last 1000000 iterations: 22.495787143707275 seconds
+At iteration 374000000, expected value is 0.036918241758016154
+Time for last 1000000 iterations: 22.523868083953857 seconds
+At iteration 375000000, expected value is 0.036908276059808794
+Time for last 1000000 iterations: 22.514562129974365 seconds
+At iteration 376000000, expected value is 0.0369243533766106
+Time for last 1000000 iterations: 22.550620794296265 seconds
+At iteration 377000000, expected value is 0.03692152707957438
+Time for last 1000000 iterations: 22.618459939956665 seconds
+At iteration 378000000, expected value is 0.036911947122723075
+Time for last 1000000 iterations: 22.50002098083496 seconds
+At iteration 379000000, expected value is 0.03691994453109037
+Time for last 1000000 iterations: 22.501784801483154 seconds
+At iteration 380000000, expected value is 0.036926068637380245
+Time for last 1000000 iterations: 22.59781503677368 seconds
+At iteration 381000000, expected value is 0.036927791639429046
+Time for last 1000000 iterations: 22.527270317077637 seconds
+At iteration 382000000, expected value is 0.03693265154611956
+Time for last 1000000 iterations: 22.83305597305298 seconds
+At iteration 383000000, expected value is 0.03692398699922121
+Time for last 1000000 iterations: 23.493724822998047 seconds
+At iteration 384000000, expected value is 0.03692406873771601
+Time for last 1000000 iterations: 22.49168610572815 seconds
+At iteration 385000000, expected value is 0.036927812567689226
+Time for last 1000000 iterations: 22.7131929397583 seconds
+At iteration 386000000, expected value is 0.036927121768874596
+Time for last 1000000 iterations: 22.54721999168396 seconds
+At iteration 387000000, expected value is 0.03691498263556719
+Time for last 1000000 iterations: 22.523487091064453 seconds
+At iteration 388000000, expected value is 0.036920690425067605
+Time for last 1000000 iterations: 22.499009132385254 seconds
+At iteration 389000000, expected value is 0.03691584212627553
+Time for last 1000000 iterations: 22.549538135528564 seconds
+At iteration 390000000, expected value is 0.03692839551811402
+Time for last 1000000 iterations: 22.595346927642822 seconds
+At iteration 391000000, expected value is 0.036932790757914585
+Time for last 1000000 iterations: 22.515364170074463 seconds
+At iteration 392000000, expected value is 0.03693317725471505
+Time for last 1000000 iterations: 22.521878004074097 seconds
+At iteration 393000000, expected value is 0.03693575248342409
+Time for last 1000000 iterations: 22.695730924606323 seconds
+At iteration 394000000, expected value is 0.036950752745559576
+Time for last 1000000 iterations: 22.481570959091187 seconds
+At iteration 395000000, expected value is 0.03695783441943887
+Time for last 1000000 iterations: 22.510890007019043 seconds
+At iteration 396000000, expected value is 0.03694694163017846
+Time for last 1000000 iterations: 22.54523205757141 seconds
+At iteration 397000000, expected value is 0.03694244574088382
+Time for last 1000000 iterations: 22.520132780075073 seconds
+At iteration 398000000, expected value is 0.03694138907834947
+Time for last 1000000 iterations: 22.542073249816895 seconds
+At iteration 399000000, expected value is 0.036925724402202514
+Time for last 1000000 iterations: 22.496402740478516 seconds
+At iteration 400000000, expected value is 0.036937153370751596
+Time for last 1000000 iterations: 22.483865976333618 seconds
+At iteration 401000000, expected value is 0.03694048868047331
+Time for last 1000000 iterations: 22.619328022003174 seconds
+At iteration 402000000, expected value is 0.03693109847738099
+Time for last 1000000 iterations: 22.49690079689026 seconds
+At iteration 403000000, expected value is 0.036919768807076064
+Time for last 1000000 iterations: 22.593058109283447 seconds
+At iteration 404000000, expected value is 0.03693575006703213
+Time for last 1000000 iterations: 22.550595998764038 seconds
+At iteration 405000000, expected value is 0.03692997042862052
+Time for last 1000000 iterations: 22.472069263458252 seconds
+At iteration 406000000, expected value is 0.036932464726011964
+Time for last 1000000 iterations: 22.488207817077637 seconds
+At iteration 407000000, expected value is 0.03691713282081202
+Time for last 1000000 iterations: 22.49708604812622 seconds
+At iteration 408000000, expected value is 0.03691654616829285
+Time for last 1000000 iterations: 22.522339820861816 seconds
+At iteration 409000000, expected value is 0.03693208312443242
+Time for last 1000000 iterations: 22.519145965576172 seconds
+At iteration 410000000, expected value is 0.03692654467120343
+Time for last 1000000 iterations: 22.494611263275146 seconds
+At iteration 411000000, expected value is 0.03693280084191928
+Time for last 1000000 iterations: 22.523555755615234 seconds
+At iteration 412000000, expected value is 0.03694311601089703
+Time for last 1000000 iterations: 22.488485097885132 seconds
+At iteration 413000000, expected value is 0.03694581402304923
+Time for last 1000000 iterations: 22.497004747390747 seconds
+At iteration 414000000, expected value is 0.03694950910403905
+Time for last 1000000 iterations: 22.51959991455078 seconds
+At iteration 415000000, expected value is 0.036954860069253276
+Time for last 1000000 iterations: 22.511745929718018 seconds
+At iteration 416000000, expected value is 0.036961272456611856
+Time for last 1000000 iterations: 22.52531909942627 seconds
+At iteration 417000000, expected value is 0.036963122342522664
+Time for last 1000000 iterations: 22.544561862945557 seconds
+At iteration 418000000, expected value is 0.036972403054463907
+Time for last 1000000 iterations: 22.48121190071106 seconds
+At iteration 419000000, expected value is 0.0369596249299913
+Time for last 1000000 iterations: 22.479295015335083 seconds
+At iteration 420000000, expected value is 0.03695802219668861
+Time for last 1000000 iterations: 22.47124719619751 seconds
+At iteration 421000000, expected value is 0.03695019173488148
+Time for last 1000000 iterations: 22.505669832229614 seconds
+At iteration 422000000, expected value is 0.03695448474069278
+Time for last 1000000 iterations: 22.714642763137817 seconds
+At iteration 423000000, expected value is 0.03696017190105043
+Time for last 1000000 iterations: 22.55093812942505 seconds
+At iteration 424000000, expected value is 0.03697324160048595
+Time for last 1000000 iterations: 22.500277042388916 seconds
+At iteration 425000000, expected value is 0.036968453314653364
+Time for last 1000000 iterations: 22.528265953063965 seconds
+At iteration 426000000, expected value is 0.03696980886363106
+Time for last 1000000 iterations: 22.491464853286743 seconds
+At iteration 427000000, expected value is 0.03697543641034105
+Time for last 1000000 iterations: 22.512078046798706 seconds
+At iteration 428000000, expected value is 0.03698199177592943
+Time for last 1000000 iterations: 22.582629919052124 seconds
+At iteration 429000000, expected value is 0.03698164090321121
+Time for last 1000000 iterations: 22.499955892562866 seconds
+At iteration 430000000, expected value is 0.036983552294297624
+Time for last 1000000 iterations: 22.559154987335205 seconds
+At iteration 431000000, expected value is 0.03697625542414728
+Time for last 1000000 iterations: 22.499815940856934 seconds
+At iteration 432000000, expected value is 0.03697482238597608
+Time for last 1000000 iterations: 22.493928909301758 seconds
+At iteration 433000000, expected value is 0.0369797720892727
+Time for last 1000000 iterations: 22.53947401046753 seconds
+At iteration 434000000, expected value is 0.03698053103964329
+Time for last 1000000 iterations: 22.54603099822998 seconds
+At iteration 435000000, expected value is 0.03697423316486376
+Time for last 1000000 iterations: 22.57654595375061 seconds
+At iteration 436000000, expected value is 0.036974455610420315
+Time for last 1000000 iterations: 22.530116081237793 seconds
+At iteration 437000000, expected value is 0.03697555212907112
+Time for last 1000000 iterations: 22.51515817642212 seconds
+At iteration 438000000, expected value is 0.036978429429651447
+Time for last 1000000 iterations: 22.588650941848755 seconds
+At iteration 439000000, expected value is 0.0369865738378587
+Time for last 1000000 iterations: 22.53300189971924 seconds
+At iteration 440000000, expected value is 0.03698929339245651
+Time for last 1000000 iterations: 22.547417879104614 seconds
+At iteration 441000000, expected value is 0.03698715882486494
+Time for last 1000000 iterations: 22.567612171173096 seconds
+At iteration 442000000, expected value is 0.03698406913736632
+Time for last 1000000 iterations: 22.67051601409912 seconds
+At iteration 443000000, expected value is 0.0369951657886289
+Time for last 1000000 iterations: 22.519649982452393 seconds
+At iteration 444000000, expected value is 0.03699601837779593
+Time for last 1000000 iterations: 22.531242847442627 seconds
+At iteration 445000000, expected value is 0.03699056663101113
+Time for last 1000000 iterations: 22.529529094696045 seconds
+At iteration 446000000, expected value is 0.036995645023152834
+Time for last 1000000 iterations: 22.578030109405518 seconds
+At iteration 447000000, expected value is 0.037004039605970374
+Time for last 1000000 iterations: 22.483721017837524 seconds
+At iteration 448000000, expected value is 0.03700149721200823
+Time for last 1000000 iterations: 22.507447004318237 seconds
+At iteration 449000000, expected value is 0.03700329628098433
+Time for last 1000000 iterations: 22.569513082504272 seconds
+At iteration 450000000, expected value is 0.03700559428360417
+Time for last 1000000 iterations: 22.619852781295776 seconds
+At iteration 451000000, expected value is 0.03699842222379195
+Time for last 1000000 iterations: 22.50345516204834 seconds
+At iteration 452000000, expected value is 0.03698716138801694
+Time for last 1000000 iterations: 22.49252724647522 seconds
+At iteration 453000000, expected value is 0.03698344219422527
+Time for last 1000000 iterations: 22.51775574684143 seconds
+At iteration 454000000, expected value is 0.03699135152138544
+Time for last 1000000 iterations: 22.52388095855713 seconds
+At iteration 455000000, expected value is 0.036989845222004054
+Time for last 1000000 iterations: 22.574353218078613 seconds
+At iteration 456000000, expected value is 0.03698802881759097
+Time for last 1000000 iterations: 22.50396704673767 seconds
+At iteration 457000000, expected value is 0.03698501658321087
+Time for last 1000000 iterations: 22.540724992752075 seconds
+At iteration 458000000, expected value is 0.03698436241646628
+Time for last 1000000 iterations: 22.631301879882812 seconds
+At iteration 459000000, expected value is 0.03700017466198445
+Time for last 1000000 iterations: 22.583518981933594 seconds
+At iteration 460000000, expected value is 0.036996065051107516
+Time for last 1000000 iterations: 22.549947261810303 seconds
+At iteration 461000000, expected value is 0.036998844258756804
+Time for last 1000000 iterations: 22.50437569618225 seconds
+At iteration 462000000, expected value is 0.03700284885277936
+Time for last 1000000 iterations: 22.566269159317017 seconds
+At iteration 463000000, expected value is 0.03699470941054674
+Time for last 1000000 iterations: 22.517695903778076 seconds
+At iteration 464000000, expected value is 0.03699483180182871
+Time for last 1000000 iterations: 22.51740598678589 seconds
+At iteration 465000000, expected value is 0.036983371999771815
+Time for last 1000000 iterations: 22.53147292137146 seconds
+At iteration 466000000, expected value is 0.03697346746126165
+Time for last 1000000 iterations: 22.684755325317383 seconds
+At iteration 467000000, expected value is 0.036975342186387775
+Time for last 1000000 iterations: 22.497889041900635 seconds
+At iteration 468000000, expected value is 0.036963481681028865
+Time for last 1000000 iterations: 22.521367073059082 seconds
+At iteration 469000000, expected value is 0.036956639118054656
+Time for last 1000000 iterations: 22.51651382446289 seconds
+At iteration 470000000, expected value is 0.03695591080099741
+Time for last 1000000 iterations: 22.546626091003418 seconds
+At iteration 471000000, expected value is 0.03695553112006948
+Time for last 1000000 iterations: 22.517844915390015 seconds
+At iteration 472000000, expected value is 0.03696379942426768
+Time for last 1000000 iterations: 22.597537994384766 seconds
+At iteration 473000000, expected value is 0.03696741908240406
+Time for last 1000000 iterations: 22.50785207748413 seconds
+At iteration 474000000, expected value is 0.03695506351938761
+Time for last 1000000 iterations: 22.63233995437622 seconds
+At iteration 475000000, expected value is 0.03695204610041035
+Time for last 1000000 iterations: 22.50217580795288 seconds
+At iteration 476000000, expected value is 0.03695165460286947
+Time for last 1000000 iterations: 22.502455949783325 seconds
+At iteration 477000000, expected value is 0.036958679183785495
+Time for last 1000000 iterations: 22.551424980163574 seconds
+At iteration 478000000, expected value is 0.036956150074602595
+Time for last 1000000 iterations: 22.569271087646484 seconds
+At iteration 479000000, expected value is 0.03695583063018196
+Time for last 1000000 iterations: 22.48780608177185 seconds
+At iteration 480000000, expected value is 0.0369442112887531
+Time for last 1000000 iterations: 22.532660961151123 seconds
+At iteration 481000000, expected value is 0.03694201347875818
+Time for last 1000000 iterations: 22.54397702217102 seconds
+At iteration 482000000, expected value is 0.03693754434425912
+Time for last 1000000 iterations: 22.545353889465332 seconds
+At iteration 483000000, expected value is 0.03694780111489727
+Time for last 1000000 iterations: 22.528252124786377 seconds
+At iteration 484000000, expected value is 0.03695243244987427
+Time for last 1000000 iterations: 22.495859384536743 seconds
+At iteration 485000000, expected value is 0.0369502499254913
+Time for last 1000000 iterations: 22.497853994369507 seconds
+At iteration 486000000, expected value is 0.03695515413595633
+Time for last 1000000 iterations: 22.500949144363403 seconds
+At iteration 487000000, expected value is 0.03695809689629309
+Time for last 1000000 iterations: 22.550344944000244 seconds
+At iteration 488000000, expected value is 0.03695370300530937
+Time for last 1000000 iterations: 22.55858588218689 seconds
+At iteration 489000000, expected value is 0.036957185330049186
+Time for last 1000000 iterations: 22.581953763961792 seconds
+At iteration 490000000, expected value is 0.036956573482093254
+Time for last 1000000 iterations: 22.50100016593933 seconds
+At iteration 491000000, expected value is 0.03696534156462612
+Time for last 1000000 iterations: 22.531436920166016 seconds
+At iteration 492000000, expected value is 0.03696085440318857
+Time for last 1000000 iterations: 22.51816701889038 seconds
+At iteration 493000000, expected value is 0.036960742425237045
+Time for last 1000000 iterations: 22.552621126174927 seconds
+At iteration 494000000, expected value is 0.036962654496030374
+Time for last 1000000 iterations: 22.530454874038696 seconds
+At iteration 495000000, expected value is 0.03696323564457938
+Time for last 1000000 iterations: 22.601351737976074 seconds
+At iteration 496000000, expected value is 0.036961492803909944
+Time for last 1000000 iterations: 22.553679943084717 seconds
+At iteration 497000000, expected value is 0.03695708342469351
+Time for last 1000000 iterations: 22.51106286048889 seconds
+At iteration 498000000, expected value is 0.036958293172649634
+Time for last 1000000 iterations: 22.53725814819336 seconds
+At iteration 499000000, expected value is 0.0369596667149859
+Time for last 1000000 iterations: 22.556444883346558 seconds
+node T210 was encountered 3017288 times
+Regrets: {'2': 0.0006836810286241501, '3': 1461.6710784004833}
+Strategy: {'2': 0.001671916457938536, '3': 0.9983280835420615}
+
+
+node 8410 was encountered 3015152 times
+Regrets: {'2': 0, '3': 1009.3562598931712}
+Strategy: {'2': 0.0005069470027142564, '3': 0.9994930529972857}
+
+
+node Q410 was encountered 3017092 times
+Regrets: {'2': 1533.3596897932669, '3': 3.0051632699976882}
+Strategy: {'2': 0.99769826883841, '3': 0.0023017311615900426}
+
+
+node 3210 was encountered 3016316 times
+Regrets: {'2': 0, '3': 0.5}
+Strategy: {'2': 1.6576512540463267e-07, '3': 0.9999998342348746}
+
+
+node AJ10 was encountered 3018266 times
+Regrets: {'2': 649.4284783166054, '3': 0}
+Strategy: {'2': 0.9997501859556059, '3': 0.0002498140443940998}
+
+
+node 5710 was encountered 3014136 times
+Regrets: {'2': 0, '3': 782.2950702955173}
+Strategy: {'2': 0.00032646341611956993, '3': 0.9996735365838805}
+
+
+node 6310 was encountered 3015455 times
+Regrets: {'2': 0, '3': 553.0347254477773}
+Strategy: {'2': 0.00020473978662654033, '3': 0.9997952602133735}
+
+
+node 2410 was encountered 3016345 times
+Regrets: {'2': 0, '3': 0.5}
+Strategy: {'2': 1.657635316915008e-07, '3': 0.9999998342364683}
+
+
+node TQ10 was encountered 3018879 times
+Regrets: {'2': 1533.5355310660757, '3': 0.007802154717587051}
+Strategy: {'2': 0.9976558823224324, '3': 0.0023441176775675326}
+
+
+node 9510 was encountered 3017078 times
+Regrets: {'2': 1.0, '3': 1236.70174759664}
+Strategy: {'2': 0.0008320800096915344, '3': 0.9991679199903084}
+
+
+node 9Q10 was encountered 3013876 times
+Regrets: {'2': 1531.711100095272, '3': 5.010305478627872}
+Strategy: {'2': 0.9976788446902766, '3': 0.0023211553097235212}
+
+
+node 8J10 was encountered 3018508 times
+Regrets: {'2': 22.977655240003337, '3': 1673.7574957788531}
+Strategy: {'2': 0.010432558927768742, '3': 0.9895674410722313}
+
+
+node 7710 was encountered 2263129 times
+Regrets: {'2': 409.8803702550871, '3': 1.0}
+Strategy: {'2': 0.9998045034249109, '3': 0.00019549657508921182}
+
+
+node T710 was encountered 3016891 times
+Regrets: {'2': 2.9999906876605253, '3': 1460.9485518314602}
+Strategy: {'2': 0.0016640639048275756, '3': 0.9983359360951723}
+
+
+node 5A10 was encountered 3017998 times
+Regrets: {'2': 648.4564384161297, '3': 1.998460254498943}
+Strategy: {'2': 0.9997494765971985, '3': 0.00025052340280149046}
+
+
+node A210 was encountered 3019168 times
+Regrets: {'2': 648.5046350320724, '3': 0}
+Strategy: {'2': 0.9997502376127043, '3': 0.00024976238729558677}
+
+
+node 5Q10 was encountered 3015501 times
+Regrets: {'2': 1531.9492962867891, '3': 1.0006519117524433}
+Strategy: {'2': 0.9976483751585328, '3': 0.0023516248414673117}
+
+
+node J910 was encountered 3016150 times
+Regrets: {'2': 12.994861718504128, '3': 1672.8793378300884}
+Strategy: {'2': 0.010423501754685038, '3': 0.989576498245315}
+
+
+node 9810 was encountered 3014805 times
+Regrets: {'2': 1.999996094209537, '3': 1235.7619818933035}
+Strategy: {'2': 0.0008310728014546192, '3': 0.9991689271985454}
+
+
+node J510 was encountered 3014961 times
+Regrets: {'2': 3.996418182976609, '3': 1672.126052985081}
+Strategy: {'2': 0.010594536932177483, '3': 0.9894054630678225}
+
+
+node 8810 was encountered 2257707 times
+Regrets: {'2': 379.49187150332546, '3': 0}
+Strategy: {'2': 0.9998201982529282, '3': 0.00017980174707171482}
+
+
+node 6710 was encountered 3018328 times
+Regrets: {'2': 0, '3': 783.007919642349}
+Strategy: {'2': 0.0003254321225731213, '3': 0.9996745678774268}
+
+
+node 4A10 was encountered 3017759 times
+Regrets: {'2': 649.556536420815, '3': 0}
+Strategy: {'2': 0.9997498818203351, '3': 0.0002501181796649733}
+
+
+node 7J10 was encountered 3015906 times
+Regrets: {'2': 3.028318846082835, '3': 1673.1536679288893}
+Strategy: {'2': 0.010327898130718194, '3': 0.9896721018692819}
+
+
+node 5J10 was encountered 3015398 times
+Regrets: {'2': 8.236682003643681, '3': 1672.6338704566729}
+Strategy: {'2': 0.010333376876645742, '3': 0.9896666231233542}
+
+
+node A810 was encountered 3014377 times
+Regrets: {'2': 648.4894390589515, '3': 1.998460332733241}
+Strategy: {'2': 0.9997500312875539, '3': 0.00024996871244608524}
+
+
+node 5810 was encountered 3017022 times
+Regrets: {'2': 0, '3': 1009.9994595987505}
+Strategy: {'2': 0.0005056705977277479, '3': 0.9994943294022722}
+
+
+node 6510 was encountered 3018334 times
+Regrets: {'2': 0.0018038286478430088, '3': 553.3781860840816}
+Strategy: {'2': 0.00020356520341439986, '3': 0.9997964347965856}
+
+
+node 4Q10 was encountered 3013761 times
+Regrets: {'2': 1532.1495784746826, '3': 0.003257862197591166}
+Strategy: {'2': 0.997660600528267, '3': 0.002339399471732937}
+
+
+node 2810 was encountered 3016819 times
+Regrets: {'2': 0, '3': 1009.4352015706612}
+Strategy: {'2': 0.0005059975167287669, '3': 0.9994940024832712}
+
+
+node J310 was encountered 3017906 times
+Regrets: {'2': 0.011896399778558386, '3': 1673.4964660816306}
+Strategy: {'2': 0.0107714866729789, '3': 0.9892285133270211}
+
+
+node JT10 was encountered 3018470 times
+Regrets: {'2': 19.947187826438608, '3': 1672.9733911839123}
+Strategy: {'2': 0.010117896446153494, '3': 0.9898821035538464}
+
+
+node 7510 was encountered 3015203 times
+Regrets: {'2': 1.0, '3': 781.8689446836024}
+Strategy: {'2': 0.00032479972714690705, '3': 0.9996752002728532}
+
+
+node AK10 was encountered 3016376 times
+Regrets: {'2': 649.3008832405546, '3': 0}
+Strategy: {'2': 0.9997497369054477, '3': 0.00025026309455244354}
+
+
+node 9A10 was encountered 3016538 times
+Regrets: {'2': 648.961807252373, '3': 0}
+Strategy: {'2': 0.9997495096482829, '3': 0.00025049035171711536}
+
+
+node 3A10 was encountered 3018339 times
+Regrets: {'2': 647.8715740564855, '3': 0}
+Strategy: {'2': 0.9997507573578451, '3': 0.00024924264215491653}
+
+
+node 2510 was encountered 3017126 times
+Regrets: {'2': 0, '3': 320.7269846247591}
+Strategy: {'2': 0.00011009748268447835, '3': 0.9998899025173155}
+
+
+node 7Q10 was encountered 3013986 times
+Regrets: {'2': 1531.9341265064038, '3': 2.9980442459531162}
+Strategy: {'2': 0.99768787783398, '3': 0.0023121221660199927}
+
+
+node 2210 was encountered 2260448 times
+Regrets: {'2': 536.5105739754116, '3': 0}
+Strategy: {'2': 0.9997274699196096, '3': 0.00027253008039041556}
+
+
+node JK10 was encountered 3016963 times
+Regrets: {'2': 1200.3014358444118, '3': 1.0024952093299104}
+Strategy: {'2': 0.9992370928294652, '3': 0.0007629071705348147}
+
+
+node 2T10 was encountered 3014880 times
+Regrets: {'2': 4.997246479797502, '3': 1461.5097823705084}
+Strategy: {'2': 0.0016667819367177283, '3': 0.9983332180632823}
+
+
+node K510 was encountered 3014266 times
+Regrets: {'2': 1199.7377202691475, '3': 0}
+Strategy: {'2': 0.9992408289864532, '3': 0.0007591710135468061}
+
+
+node 9410 was encountered 3015626 times
+Regrets: {'2': 5.989518215945491, '3': 1236.6211217448122}
+Strategy: {'2': 0.0008355235392762943, '3': 0.9991644764607237}
+
+
+node 6A10 was encountered 3017625 times
+Regrets: {'2': 649.1721477334571, '3': 0}
+Strategy: {'2': 0.99974972992793, '3': 0.0002502700720700535}
+
+
+node 4T10 was encountered 3016169 times
+Regrets: {'2': 1.9999990645439953, '3': 1460.6877338103386}
+Strategy: {'2': 0.0016660331534819905, '3': 0.998333966846518}
+
+
+node J610 was encountered 3020089 times
+Regrets: {'2': 4.005908595297135, '3': 1674.1775739698148}
+Strategy: {'2': 0.01022714632107838, '3': 0.9897728536789216}
+
+
+node 9T10 was encountered 3013911 times
+Regrets: {'2': 0.0027313529904611222, '3': 1461.477378007283}
+Strategy: {'2': 0.001666490652655535, '3': 0.9983335093473445}
+
+
+node A410 was encountered 3018318 times
+Regrets: {'2': 649.3006836958991, '3': 0}
+Strategy: {'2': 0.9997513152831792, '3': 0.0002486847168208832}
+
+
+node Q210 was encountered 3014977 times
+Regrets: {'2': 1532.504676335814, '3': 3.9980411628870143}
+Strategy: {'2': 0.9976541356303055, '3': 0.0023458643696946404}
+
+
+node 7A10 was encountered 3017337 times
+Regrets: {'2': 649.1581353875696, '3': 0}
+Strategy: {'2': 0.9997500474788527, '3': 0.0002499525211474089}
+
+
+node 3T10 was encountered 3018161 times
+Regrets: {'2': 0, '3': 1461.7012779727536}
+Strategy: {'2': 0.0016639592907123797, '3': 0.9983360407092876}
+
+
+node Q710 was encountered 3015566 times
+Regrets: {'2': 1532.4693821401609, '3': 0}
+Strategy: {'2': 0.9976605162134853, '3': 0.002339483786514719}
+
+
+node 9610 was encountered 3015010 times
+Regrets: {'2': 0, '3': 1235.262690884497}
+Strategy: {'2': 0.0008273617987709798, '3': 0.9991726382012289}
+
+
+node TJ10 was encountered 3017749 times
+Regrets: {'2': 0.019020271823943613, '3': 1673.8014367055232}
+Strategy: {'2': 0.010394243013648025, '3': 0.9896057569863519}
+
+
+node 4910 was encountered 3015616 times
+Regrets: {'2': 0, '3': 1235.6413338914913}
+Strategy: {'2': 0.0008318486567380932, '3': 0.9991681513432619}
+
+
+node A610 was encountered 3016523 times
+Regrets: {'2': 649.6932586718331, '3': 0}
+Strategy: {'2': 0.9997496472680474, '3': 0.0002503527319526438}
+
+
+node 6810 was encountered 3014577 times
+Regrets: {'2': 0, '3': 1009.9453872620189}
+Strategy: {'2': 0.0005075529171073846, '3': 0.9994924470828926}
+
+
+node K910 was encountered 3014984 times
+Regrets: {'2': 1200.099805672263, '3': 0.002496326215275957}
+Strategy: {'2': 0.9992304987748443, '3': 0.000769501225155721}
+
+
+node 4810 was encountered 3017679 times
+Regrets: {'2': 0, '3': 1009.1190502804781}
+Strategy: {'2': 0.0005058122145209097, '3': 0.999494187785479}
+
+
+node TA10 was encountered 3014561 times
+Regrets: {'2': 647.8434578626018, '3': 0}
+Strategy: {'2': 0.9997510285707759, '3': 0.000248971429224093}
+
+
+node 4210 was encountered 3015006 times
+Regrets: {'2': 0, '3': 0.5}
+Strategy: {'2': 1.658371492461375e-07, '3': 0.9999998341628508}
+
+
+node 4710 was encountered 3017522 times
+Regrets: {'2': 0, '3': 782.5519933981668}
+Strategy: {'2': 0.00032474842632815613, '3': 0.9996752515736718}
+
+
+node 3410 was encountered 3017037 times
+Regrets: {'2': 0, '3': 0.5}
+Strategy: {'2': 1.6572551148693239e-07, '3': 0.9999998342744885}
+
+
+node 5510 was encountered 2262979 times
+Regrets: {'2': 464.65481455290615, '3': 1.0}
+Strategy: {'2': 0.9997726160708869, '3': 0.00022738392911307776}
+
+
+node 7610 was encountered 3017917 times
+Regrets: {'2': 0, '3': 782.0298465029613}
+Strategy: {'2': 0.0003252542065374556, '3': 0.9996747457934626}
+
+
+node 9710 was encountered 3015086 times
+Regrets: {'2': 0, '3': 1236.5547166784856}
+Strategy: {'2': 0.0008353240175346133, '3': 0.9991646759824654}
+
+
+node JJ10 was encountered 2263349 times
+Regrets: {'2': 269.36071214919116, '3': 0}
+Strategy: {'2': 0.999876770683284, '3': 0.00012322931671601004}
+
+
+node 3510 was encountered 3013816 times
+Regrets: {'2': 0, '3': 318.5895711604225}
+Strategy: {'2': 0.00010969322139243193, '3': 0.9998903067786076}
+
+
+node 2K10 was encountered 3015550 times
+Regrets: {'2': 1198.8308613267675, '3': 0}
+Strategy: {'2': 0.9992432970671921, '3': 0.0007567029328079451}
+
+
+node J210 was encountered 3015984 times
+Regrets: {'2': 26.884499660165, '3': 1673.1101869575693}
+Strategy: {'2': 0.010296716795505022, '3': 0.989703283204495}
+
+
+node 2910 was encountered 3014738 times
+Regrets: {'2': 0, '3': 1235.9631103209135}
+Strategy: {'2': 0.0008304675877636576, '3': 0.9991695324122364}
+
+
+node 6J10 was encountered 3017945 times
+Regrets: {'2': 4.002363515814236, '3': 1673.2756840884542}
+Strategy: {'2': 0.010140752308467676, '3': 0.9898592476915323}
+
+
+node K210 was encountered 3015504 times
+Regrets: {'2': 1198.8952129138581, '3': 1.0}
+Strategy: {'2': 0.9992396469151047, '3': 0.0007603530848951847}
+
+
+node 5210 was encountered 3016006 times
+Regrets: {'2': 0, '3': 318.508162948497}
+Strategy: {'2': 0.00010911042003092725, '3': 0.9998908895799691}
+
+
+node 2310 was encountered 3015658 times
+Regrets: {'2': 0, '3': 0.5}
+Strategy: {'2': 1.65801294443866e-07, '3': 0.9999998341987055}
+
+
+node 8510 was encountered 3017697 times
+Regrets: {'2': 0, '3': 1010.1308609473256}
+Strategy: {'2': 0.0005046853834574031, '3': 0.9994953146165426}
+
+
+node 3310 was encountered 2263568 times
+Regrets: {'2': 513.4357206449657, '3': 1.0}
+Strategy: {'2': 0.9997417239605247, '3': 0.0002582760394752489}
+
+
+node 3K10 was encountered 3020768 times
+Regrets: {'2': 1201.4255483949212, '3': 0}
+Strategy: {'2': 0.9992377203167511, '3': 0.0007622796832489354}
+
+
+node 5T10 was encountered 3012754 times
+Regrets: {'2': 1.0040976727340847, '3': 1460.576527485757}
+Strategy: {'2': 0.0016793221658795048, '3': 0.9983206778341206}
+
+
+node 4310 was encountered 3016880 times
+Regrets: {'2': 0, '3': 0.5}
+Strategy: {'2': 1.6573413592850892e-07, '3': 0.999999834265864}
+
+
+node 3810 was encountered 3015459 times
+Regrets: {'2': 0, '3': 1009.7669804252853}
+Strategy: {'2': 0.00050687883625426, '3': 0.9994931211637458}
+
+
+node 6410 was encountered 3017707 times
+Regrets: {'2': 0, '3': 553.7697363756148}
+Strategy: {'2': 0.00020385439666140024, '3': 0.9997961456033386}
+
+
+node 8710 was encountered 3014541 times
+Regrets: {'2': 0, '3': 1009.3322165886664}
+Strategy: {'2': 0.0005057435136543453, '3': 0.9994942564863457}
+
+
+node T910 was encountered 3013695 times
+Regrets: {'2': 2.9993137166094934, '3': 1461.0933840469615}
+Strategy: {'2': 0.0016802559461410566, '3': 0.998319744053859}
+
+
+node JQ10 was encountered 3019646 times
+Regrets: {'2': 1532.8691001853724, '3': 1.0032559041636788}
+Strategy: {'2': 0.9976903627974967, '3': 0.0023096372025033164}
+
+
+node 6910 was encountered 3017085 times
+Regrets: {'2': 2.9983804759595607, '3': 1235.911439051416}
+Strategy: {'2': 0.0008306410712989327, '3': 0.9991693589287012}
+
+
+node 8Q10 was encountered 3016382 times
+Regrets: {'2': 1532.0142048379623, '3': 2.9993455683315804}
+Strategy: {'2': 0.9976671210667004, '3': 0.002332878933299527}
+
+
+node 8T10 was encountered 3016966 times
+Regrets: {'2': 0, '3': 1461.4061107957598}
+Strategy: {'2': 0.0016825570680433048, '3': 0.9983174429319568}
+
+
+node K710 was encountered 3015111 times
+Regrets: {'2': 1199.1776618462636, '3': 0}
+Strategy: {'2': 0.9992381387328161, '3': 0.0007618612671839078}
+
+
+node 2610 was encountered 3015779 times
+Regrets: {'2': 0, '3': 552.6399906394088}
+Strategy: {'2': 0.00020395054926740144, '3': 0.9997960494507326}
+
+
+node 2710 was encountered 3017440 times
+Regrets: {'2': 0, '3': 783.0289596554878}
+Strategy: {'2': 0.0003253462734655512, '3': 0.9996746537265344}
+
+
+node 5610 was encountered 3017798 times
+Regrets: {'2': 0, '3': 553.3842111998355}
+Strategy: {'2': 0.0002036441265119142, '3': 0.9997963558734881}
+
+
+node TK10 was encountered 3016012 times
+Regrets: {'2': 1197.9367250451558, '3': 0.0016667568683756961}
+Strategy: {'2': 0.9992400773145123, '3': 0.0007599226854877638}
+
+
+node QA10 was encountered 3017902 times
+Regrets: {'2': 648.379402444601, '3': 0}
+Strategy: {'2': 0.9997505450827537, '3': 0.000249454917246159}
+
+
+node A710 was encountered 3016040 times
+Regrets: {'2': 648.7334486497482, '3': 0}
+Strategy: {'2': 0.9997505494561802, '3': 0.0002494505438198248}
+
+
+node QK10 was encountered 3017561 times
+Regrets: {'2': 1200.4038361678538, '3': 1.0016619513369087}
+Strategy: {'2': 0.9992380643617411, '3': 0.0007619356382588791}
+
+
+node 9210 was encountered 3017268 times
+Regrets: {'2': 0, '3': 1235.9202121073297}
+Strategy: {'2': 0.0008276430958692807, '3': 0.9991723569041306}
+
+
+node 7310 was encountered 3015517 times
+Regrets: {'2': 0, '3': 782.1771044886511}
+Strategy: {'2': 0.00032552604551845356, '3': 0.9996744739544815}
+
+
+node 8910 was encountered 3018371 times
+Regrets: {'2': 0, '3': 1235.931038133035}
+Strategy: {'2': 0.0008351268201842086, '3': 0.9991648731798158}
+
+
+node 4J10 was encountered 3013014 times
+Regrets: {'2': 8.172059668089148, '3': 1672.689367287754}
+Strategy: {'2': 0.010111433903436464, '3': 0.9898885660965636}
+
+
+node 2Q10 was encountered 3017058 times
+Regrets: {'2': 1532.7070864853258, '3': 2.003898515271795}
+Strategy: {'2': 0.9976824798536538, '3': 0.002317520146346232}
+
+
+node J410 was encountered 3017392 times
+Regrets: {'2': 2.004165627951758, '3': 1673.4096124021062}
+Strategy: {'2': 0.010777898719992731, '3': 0.9892221012800072}
+
+
+node 7T10 was encountered 3013574 times
+Regrets: {'2': 1.0006828665742282, '3': 1460.41423575179}
+Strategy: {'2': 0.0016597320723226216, '3': 0.9983402679276775}
+
+
+node 6610 was encountered 2261998 times
+Regrets: {'2': 439.57872658185363, '3': 0}
+Strategy: {'2': 0.9997874717981461, '3': 0.00021252820185388793}
+
+
+node K410 was encountered 3015861 times
+Regrets: {'2': 1199.1306121018017, '3': 1.0}
+Strategy: {'2': 0.9992416232547092, '3': 0.0007583767452907596}
+
+
+node 8K10 was encountered 3014881 times
+Regrets: {'2': 1199.0316827459328, '3': 1.0008326169232684}
+Strategy: {'2': 0.9992410421719629, '3': 0.0007589578280371967}
+
+
+node AA10 was encountered 2261209 times
+Regrets: {'2': 0.5, '3': 0}
+Strategy: {'2': 0.9999997788793518, '3': 2.2112064829036147e-07}
+
+
+node Q610 was encountered 3016960 times
+Regrets: {'2': 1533.1862656150624, '3': 0}
+Strategy: {'2': 0.9976397213605441, '3': 0.002360278639455925}
+
+
+node AQ10 was encountered 3019409 times
+Regrets: {'2': 649.2022007641473, '3': 0}
+Strategy: {'2': 0.9997491980108385, '3': 0.0002508019891615686}
+
+
+node AT10 was encountered 3018581 times
+Regrets: {'2': 648.3846269776926, '3': 0}
+Strategy: {'2': 0.9997496971257408, '3': 0.00025030287425928854}
+
+
+node QQ10 was encountered 2263611 times
+Regrets: {'2': 219.82643619390058, '3': 0}
+Strategy: {'2': 0.9999005658840487, '3': 9.943411595130442e-05}
+
+
+node 5310 was encountered 3017209 times
+Regrets: {'2': 0, '3': 319.8133339762122}
+Strategy: {'2': 0.00010962116242550921, '3': 0.9998903788375745}
+
+
+node T310 was encountered 3015454 times
+Regrets: {'2': 1.0, '3': 1460.8401140295814}
+Strategy: {'2': 0.0016690350937328938, '3': 0.9983309649062672}
+
+
+node 8A10 was encountered 3019215 times
+Regrets: {'2': 648.968310670954, '3': 0}
+Strategy: {'2': 0.9997504562701729, '3': 0.0002495437298271411}
+
+
+node 3Q10 was encountered 3017771 times
+Regrets: {'2': 1532.9674924748058, '3': 4.009705757888778}
+Strategy: {'2': 0.9976700086346355, '3': 0.0023299913653645316}
+
+
+node KQ10 was encountered 3017029 times
+Regrets: {'2': 1198.8340009561045, '3': 0}
+Strategy: {'2': 0.9992385591674093, '3': 0.0007614408325906899}
+
+
+node QJ10 was encountered 3016978 times
+Regrets: {'2': 1531.8776247061041, '3': 4.007727941441848}
+Strategy: {'2': 0.9976546638303412, '3': 0.0023453361696588572}
+
+
+node 8310 was encountered 3017645 times
+Regrets: {'2': 0, '3': 1009.1673723669797}
+Strategy: {'2': 0.000505914856122856, '3': 0.9994940851438772}
+
+
+node 6Q10 was encountered 3015988 times
+Regrets: {'2': 1531.7833428340107, '3': 0}
+Strategy: {'2': 0.9976809998480262, '3': 0.002319000151973882}
+
+
+node 4510 was encountered 3017640 times
+Regrets: {'2': 0, '3': 319.115737322862}
+Strategy: {'2': 0.0001093132811551075, '3': 0.9998906867188448}
+
+
+node 2J10 was encountered 3015063 times
+Regrets: {'2': 4.997002229512601, '3': 1673.0187017325316}
+Strategy: {'2': 0.010812958177999493, '3': 0.9891870418220006}
+
+
+node T810 was encountered 3016448 times
+Regrets: {'2': 1.9993163024529954, '3': 1461.6343723748837}
+Strategy: {'2': 0.0016734247659483843, '3': 0.9983265752340515}
+
+
+node K610 was encountered 3014295 times
+Regrets: {'2': 1199.0433744484349, '3': 0}
+Strategy: {'2': 0.9992379758037361, '3': 0.0007620241962638414}
+
+
+node Q310 was encountered 3014443 times
+Regrets: {'2': 1532.2957971649403, '3': 3.0064560608489965}
+Strategy: {'2': 0.9976549207984223, '3': 0.0023450792015776967}
+
+
+node Q810 was encountered 3016024 times
+Regrets: {'2': 1532.000953045764, '3': 3.015546282168382}
+Strategy: {'2': 0.9976881140642146, '3': 0.0023118859357852913}
+
+
+node 7K10 was encountered 3017997 times
+Regrets: {'2': 1199.7822842662547, '3': 0}
+Strategy: {'2': 0.9992392629113852, '3': 0.0007607370886147817}
+
+
+node KJ10 was encountered 3016842 times
+Regrets: {'2': 1200.1116354702465, '3': 0}
+Strategy: {'2': 0.999235307496855, '3': 0.0007646925031451279}
+
+
+node T610 was encountered 3017126 times
+Regrets: {'2': 1.9993163311122664, '3': 1461.695685789906}
+Strategy: {'2': 0.0016673103467274616, '3': 0.9983326896532726}
+
+
+node 6210 was encountered 3013392 times
+Regrets: {'2': 0, '3': 552.8579228614528}
+Strategy: {'2': 0.00020368331408528815, '3': 0.9997963166859147}
+
+
+node 5410 was encountered 3018599 times
+Regrets: {'2': 0, '3': 318.4519466189058}
+Strategy: {'2': 0.00010934382406090674, '3': 0.9998906561759392}
+
+
+node JA10 was encountered 3014505 times
+Regrets: {'2': 649.1097919949017, '3': 0}
+Strategy: {'2': 0.9997497427872253, '3': 0.0002502572127747769}
+
+
+node 9310 was encountered 3016339 times
+Regrets: {'2': 1.0, '3': 1235.6417284792592}
+Strategy: {'2': 0.0008326378000681166, '3': 0.999167362199932}
+
+
+node A910 was encountered 3019954 times
+Regrets: {'2': 649.3374486627828, '3': 1.0}
+Strategy: {'2': 0.9997492797710177, '3': 0.00025072022898235994}
+
+
+node K310 was encountered 3019749 times
+Regrets: {'2': 1200.7271859605753, '3': 0}
+Strategy: {'2': 0.9992414600794635, '3': 0.0007585399205365319}
+
+
+node 8610 was encountered 3016858 times
+Regrets: {'2': 1.0, '3': 1009.4883915380586}
+Strategy: {'2': 0.0005038824231532504, '3': 0.9994961175768468}
+
+
+node 9J10 was encountered 3019044 times
+Regrets: {'2': 1.0011922518811405, '3': 1673.4966830648707}
+Strategy: {'2': 0.010567461738583276, '3': 0.9894325382614167}
+
+
+node 7210 was encountered 3019386 times
+Regrets: {'2': 0, '3': 782.6877263222409}
+Strategy: {'2': 0.000325546354150544, '3': 0.9996744536458495}
+
+
+node 7810 was encountered 3016803 times
+Regrets: {'2': 1.0, '3': 1009.0991589984864}
+Strategy: {'2': 0.0005068013475344563, '3': 0.9994931986524656}
+
+
+node T510 was encountered 3017728 times
+Regrets: {'2': 3.0047458862684757, '3': 1461.5076538706658}
+Strategy: {'2': 0.0016711033968551344, '3': 0.9983288966031449}
+
+
+node 9K10 was encountered 3015822 times
+Regrets: {'2': 1199.8458629579172, '3': 0}
+Strategy: {'2': 0.9992370169147832, '3': 0.0007629830852168662}
+
+
+node Q510 was encountered 3015426 times
+Regrets: {'2': 1531.9881581140455, '3': 4.9954325404789}
+Strategy: {'2': 0.997682798636237, '3': 0.0023172013637630154}
+
+
+node 3710 was encountered 3017090 times
+Regrets: {'2': 0, '3': 781.8981261713766}
+Strategy: {'2': 0.00032577934914518374, '3': 0.9996742206508548}
+
+
+node 5910 was encountered 3016343 times
+Regrets: {'2': 0, '3': 1235.9217376519423}
+Strategy: {'2': 0.0008343405154206777, '3': 0.9991656594845794}
+
+
+node A510 was encountered 3017766 times
+Regrets: {'2': 647.98116245591, '3': 0}
+Strategy: {'2': 0.9997509571105916, '3': 0.0002490428894084066}
+
+
+node 8210 was encountered 3015626 times
+Regrets: {'2': 0.000989598812989989, '3': 1009.5114983761322}
+Strategy: {'2': 0.0005050515642074461, '3': 0.9994949484357927}
+
+
+node 7910 was encountered 3018637 times
+Regrets: {'2': 2.00080392707388, '3': 1236.8736594790123}
+Strategy: {'2': 0.0008280019317400785, '3': 0.99917199806826}
+
+
+node 4K10 was encountered 3015273 times
+Regrets: {'2': 1199.2340226660417, '3': 0.002496741050785456}
+Strategy: {'2': 0.999236382287884, '3': 0.0007636177121159828}
+
+
+node T410 was encountered 3017086 times
+Regrets: {'2': 0, '3': 1461.6050023172852}
+Strategy: {'2': 0.001673070059370189, '3': 0.9983269299406298}
+
+
+node A310 was encountered 3019236 times
+Regrets: {'2': 649.6072173187124, '3': 0.0015370293102194843}
+Strategy: {'2': 0.9997502706040803, '3': 0.00024972939591966676}
+
+
+node KT10 was encountered 3018131 times
+Regrets: {'2': 1200.1998147672223, '3': 1.9991674996160924}
+Strategy: {'2': 0.9992406145881801, '3': 0.0007593854118199227}
+
+
+node 6K10 was encountered 3015320 times
+Regrets: {'2': 1199.6273400966459, '3': 0}
+Strategy: {'2': 0.9992340292810772, '3': 0.0007659707189227662}
+
+
+node QT10 was encountered 3015766 times
+Regrets: {'2': 1532.5983032216309, '3': 1.0019498285894044}
+Strategy: {'2': 0.9976468765044622, '3': 0.0023531234955377553}
+
+
+node 9910 was encountered 2262074 times
+Regrets: {'2': 346.50204804929643, '3': 0}
+Strategy: {'2': 0.9998386635204679, '3': 0.00016133647953202112}
+
+
+node 3610 was encountered 3017366 times
+Regrets: {'2': 0, '3': 553.0727554393658}
+Strategy: {'2': 0.00020434053553495664, '3': 0.999795659464465}
+
+
+node 2A10 was encountered 3012486 times
+Regrets: {'2': 648.6187646998078, '3': 0}
+Strategy: {'2': 0.9997487416692334, '3': 0.000251258330766502}
+
+
+node TT10 was encountered 2263463 times
+Regrets: {'2': 310.23683052994363, '3': 0}
+Strategy: {'2': 0.999856866852688, '3': 0.0001431331473119264}
+
+
+node KA10 was encountered 3015838 times
+Regrets: {'2': 648.254921699179, '3': 0.0015402307150687022}
+Strategy: {'2': 0.9997490815006129, '3': 0.0002509184993869526}
+
+
+node 6T10 was encountered 3017092 times
+Regrets: {'2': 0.000683850298500932, '3': 1461.3090314408785}
+Strategy: {'2': 0.0016619705968279434, '3': 0.998338029403172}
+
+
+node KK10 was encountered 2261145 times
+Regrets: {'2': 154.3905777348866, '3': 0}
+Strategy: {'2': 0.9999310359074775, '3': 6.896409252255974e-05}
+
+
+node 5K10 was encountered 3018435 times
+Regrets: {'2': 1199.545919391239, '3': 0}
+Strategy: {'2': 0.9992415948681339, '3': 0.000758405131866133}
+
+
+node J710 was encountered 3017672 times
+Regrets: {'2': 8.988038158805614, '3': 1673.5868620977537}
+Strategy: {'2': 0.010134582436239627, '3': 0.9898654175637603}
+
+
+node 4410 was encountered 2263789 times
+Regrets: {'2': 490.7972816143286, '3': 0}
+Strategy: {'2': 0.9997563459039068, '3': 0.00024365409609314608}
+
+
+node Q910 was encountered 3017522 times
+Regrets: {'2': 1533.3262299591522, '3': 1.0103865610192893}
+Strategy: {'2': 0.9976395576155543, '3': 0.0023604423844456254}
+
+
+node 7410 was encountered 3016213 times
+Regrets: {'2': 1.0, '3': 782.539872031687}
+Strategy: {'2': 0.0003260322650541342, '3': 0.9996739677349459}
+
+
+node 4610 was encountered 3019712 times
+Regrets: {'2': 0, '3': 552.4058539995426}
+Strategy: {'2': 0.0002037827644097595, '3': 0.9997962172355903}
+
+
+node 3J10 was encountered 3019319 times
+Regrets: {'2': 4.994038753724458, '3': 1673.4997849753684}
+Strategy: {'2': 0.010829080116225916, '3': 0.9891709198837741}
+
+
+node K810 was encountered 3017887 times
+Regrets: {'2': 1199.393581385137, '3': 1.0}
+Strategy: {'2': 0.9992385483011165, '3': 0.0007614516988835021}
+
+
+node 3910 was encountered 3018649 times
+Regrets: {'2': 1.0008068005676583, '3': 1237.462869827591}
+Strategy: {'2': 0.0008332067162002327, '3': 0.9991667932837998}
+
+
+node J810 was encountered 3015316 times
+Regrets: {'2': 2.1740879104353548, '3': 1673.1296195553318}
+Strategy: {'2': 0.010443646395867878, '3': 0.9895563536041321}
+
+
+In total, this simulation explored 169 decision nodes in the game
+ The utility was 0.036966724532742606
+
+Execution time: 11273.524282217026 seconds
