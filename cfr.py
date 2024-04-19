@@ -8,7 +8,7 @@ class CFR():
         # this map maps a history string -> nodes
         self.game_state_map_ = dict()
 
-    def training(self, iterations, printInterval=1000000):
+    def training(self, iterations,  bet1, bet2, printInterval=1000000):
         util = 0.0  
         
         intervalStartTime = time.time()  
@@ -21,22 +21,28 @@ class CFR():
 
             cards = Game.dealCards(Game.DECK)
             history = ''
-            util += self.cfr(cards, history, 1, 1)
+            util += self.cfr(cards, history, 1, 1, bet1, bet2)
 
         return util / iterations
 
 
     # determine available actions given history
-    def GetPotentialActions(actions):
+    def getPotentialActions(actions):
         potentialActions = []
+        betTimes = actions.count(GA.BET)
+        checkTimes = actions.count(GA.CHECK)
         if (len(actions) == 0):
             return [GA.BET, GA.CHECK]
         lastAction = actions[-1]
         # determining
-        if lastAction == GA.BET:
+        if lastAction == GA.BET and betTimes == 2:
             # print('accessed1\n')
             potentialActions = [GA.CALL, GA.FOLD]
-        elif lastAction == GA.CHECK and len(actions) < 2:
+        elif lastAction == GA.BET and betTimes == 1 and checkTimes == 0:
+            potentialActions = [GA.BET, GA.CALL, GA.FOLD]
+        elif lastAction == GA.BET and betTimes == 1 and checkTimes == 1:
+            potentialActions = [GA.CALL, GA.FOLD]
+        elif lastAction == GA.CHECK and checkTimes == 1:
             # print('accessed2\n')
             potentialActions = [GA.CHECK, GA.BET]
 
@@ -47,7 +53,7 @@ class CFR():
         if len(history) < 2:
             return False
         lastAction = history[-1]
-        if lastAction == GA.CHECK or lastAction == GA.FOLD or lastAction == GA.CALL:
+        if (lastAction == GA.CHECK and history.count(GA.CHECK) == 2) or lastAction == GA.FOLD or lastAction == GA.CALL:
             return True
 
     # counts how many bets have been placed
@@ -55,11 +61,38 @@ class CFR():
         return history.count(GA.BET) + history.count(GA.CALL)
     
     # counts the reward for winning player
-    def getPotSize(self, history, anteSize = 1):
-        return 2 * anteSize + self.countBetsAndCallsInHistory(history)
+    def getPotSize(self, betHistory, bet1, bet2, anteSize = 1):
+        basePotSize = 2 * anteSize
+        # no folds - all calls
+        betTimes = betHistory.count(GA.BET)
+        callTimes = betHistory.count(GA.CALL)
+        foldTimes = betHistory.count(GA.FOLD)
+        checkTimes = betHistory.count(GA.CHECK)
+        
+        assert (betTimes + callTimes + foldTimes + checkTimes) == len(betHistory)
+
+        # If no one bet
+        if betTimes == 0:
+            return basePotSize
+        # If there was only one bet (bet, call) or (bet, fold)
+        if betTimes == 1:
+            return basePotSize + bet1 + callTimes * bet1
+        # If there was 2 bets: (bet, bet, fold)
+        elif betTimes == 2 and foldTimes == 1:
+            return basePotSize + bet1 + bet2
+        # (bet, bet, call) or 
+        elif betTimes == 2 and foldTimes == 0:
+            return basePotSize + bet2 * 2
+        else:
+            print("Error encountered: Bet Case Not accounted for, betHistory =", betHistory)
+            
+             
+            
+
+        # return baseOP + self.countBetsAndCallsInHistory(history)
     
     # returns the appropriate payoff, 0 if tie
-    def getPayoff(self, cards, activePlayer, oppPlayer, history):
+    def getPayoff(self, cards, activePlayer, oppPlayer, history, bet1, bet2):
         lastAction = history[-1]
         winner = Game.getWinner([cards[activePlayer], cards[oppPlayer]])
         # print(f"(Player {activePlayer + 1} active): Winner is {activePlayer+1 if winner == 1 and winner != 0 else oppPlayer + 1} ")
@@ -70,13 +103,13 @@ class CFR():
         if tie:
             return 0
         
-        potSize = self.getPotSize(history, Game.ANTE)
+        potSize = self.getPotSize(history, bet1, bet2, Game.ANTE)
         if lastAction == GA.CHECK or lastAction == GA.FOLD or lastAction == GA.CALL:
             return potSize if activePlayerWins else -potSize
         
 
     # recursive function, returns the expected node utility
-    def cfr(self, cards, history, p1, p2):
+    def cfr(self, cards, history, p1, p2, bet1, bet2):
         # print(cards)
         # print('history =' ,"'" + history + "'")
         rounds = len(history)
@@ -88,14 +121,14 @@ class CFR():
 
         # base case: return payoff for terminal states
         if self.isTerminal(history):
-            payoff = self.getPayoff(cards, activePlayer, oppPlayer, history)
+            payoff = self.getPayoff(cards, activePlayer, oppPlayer, history, bet1, bet2)
             # print(f"At terminal node {infoset}, payoff = {payoff} as player {activePlayer + 1}")
             return payoff
 
 
         # create / infoset node using Node or game_state_map_
         if infoset not in self.game_state_map_:
-            potentialActions = CFR.GetPotentialActions(history)
+            potentialActions = CFR.getPotentialActions(history)
             node = Node(potentialActions)
             self.game_state_map_[infoset] = node
         else:
@@ -119,10 +152,10 @@ class CFR():
             # print("historyNext =",  "'" + historyNext+ "'")
             # calculating utility of action through recursive simulation until end of game
             if (activePlayer == 0):
-                util[potentialAction] = - CFR.cfr(self, cards, historyNext, p1 * realisationWeight, p2)
+                util[potentialAction] = - CFR.cfr(self, cards, historyNext, p1 * realisationWeight, p2, bet1, bet2)
                 # negative value is to account for change of persepctive, since activePlayer changes at each recursion level
             else:
-                util[potentialAction] = - CFR.cfr(self, cards, historyNext, p1, p2 * realisationWeight)
+                util[potentialAction] = - CFR.cfr(self, cards, historyNext, p1, p2 * realisationWeight, bet1, bet2)
 
             # utility of the node is based on the utility of the next action * probability of next action 
             # utility next action is related the terminal payoff
