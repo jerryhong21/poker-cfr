@@ -20,6 +20,7 @@ class CFR():
                 intervalStartTime = time.time()  # Reset start time for the next interval
 
             cards = Game.dealCards(Game.DECK)
+            # cards = sorted(Game.dealCards(Game.DECK))
             history = ''
             util += self.cfr(cards, history, 1, 1, bet1, bet2)
 
@@ -27,26 +28,42 @@ class CFR():
 
 
     # determine available actions given history
-    def getPotentialActions(actions):
-        potentialActions = []
-        betTimes = actions.count(GA.BET)
-        checkTimes = actions.count(GA.CHECK)
-        if (len(actions) == 0):
-            return [GA.BET, GA.CHECK]
-        lastAction = actions[-1]
-        # determining
-        if lastAction == GA.BET and betTimes == 2:
-            # print('accessed1\n')
-            potentialActions = [GA.CALL, GA.FOLD]
-        elif lastAction == GA.BET and betTimes == 1 and checkTimes == 0:
-            potentialActions = [GA.BET, GA.CALL, GA.FOLD]
-        elif lastAction == GA.BET and betTimes == 1 and checkTimes == 1:
-            potentialActions = [GA.CALL, GA.FOLD]
-        elif lastAction == GA.CHECK and checkTimes == 1:
-            # print('accessed2\n')
-            potentialActions = [GA.CHECK, GA.BET]
+    # def getPotentialActions(actions):
+    #     potentialActions = []
+    #     betTimes = actions.count(GA.BET)
+    #     checkTimes = actions.count(GA.CHECK)
+    #     if (len(actions) == 0):
+    #         return [GA.BET, GA.CHECK]
+    #     lastAction = actions[-1]
+    #     # determining
+    #     if lastAction == GA.BET and betTimes == 2:
+    #         # print('accessed1\n')
+    #         potentialActions = [GA.CALL, GA.FOLD]
+    #     elif lastAction == GA.BET and betTimes == 1 and checkTimes == 0:
+    #         potentialActions = [GA.BET, GA.CALL, GA.FOLD]
+    #     elif lastAction == GA.BET and betTimes == 1 and checkTimes == 1:
+    #         potentialActions = [GA.CALL, GA.FOLD]
+    #     elif lastAction == GA.CHECK and checkTimes == 1:
+    #         # print('accessed2\n')
+    #         potentialActions = [GA.CHECK, GA.BET]
 
-        return potentialActions
+    #     return potentialActions
+    
+    def getPotentialActions(history):
+        possible_actions = []
+        if len(history) == 0:
+            possible_actions = [GA.CHECK, GA.BET]
+        else:
+            if history[-1] == GA.BET:
+                possible_actions = [GA.CALL, GA.FOLD]
+
+                num_bets = history.count(GA.BET)
+                if num_bets == 1:
+                    possible_actions.append(GA.BET)
+                
+            else:
+                possible_actions = [GA.CHECK, GA.BET]
+        return possible_actions
     
 
     def isTerminal(self, history):
@@ -107,6 +124,67 @@ class CFR():
         if lastAction == GA.CHECK or lastAction == GA.FOLD or lastAction == GA.CALL:
             return potSize if activePlayerWins else -potSize
         
+    def getStrategyOverview(self):
+        result = dict()
+        p1_bet = 'Player One Betting Range'
+        p1_bet_call = 'Player One Call All-in Range'
+        p1_check_call = 'Player One Check-Call Range'
+        p1_check_raise = 'Player One Check-Raise All-in Range'
+
+        p2_call = 'Player Two Calling Range'
+        p2_raise = 'Player Two All-in Range'
+        p2_bet = 'Player Two Betting Range'
+        p2_bet_call = 'Player Two Call All-in Range'
+
+        result[p1_bet] = dict()
+        result[p1_bet_call] = dict()
+        result[p1_check_raise] = dict()
+        result[p1_check_call] = dict()
+
+        result[p2_call] = dict()
+        result[p2_raise] = dict()
+        result[p2_bet] = dict()
+        result[p2_bet_call] = dict()
+
+        for state, node in self.game_state_map_.items():
+            hand = state[0:2]
+            history = state[2:]
+            strategy = node.getAverageStrategy()
+            # player 1
+            if len(history) == 0:
+                result[p1_bet][hand] = strategy[GA.BET]
+            # player 2
+            elif len(history) == 1:
+                if history[0] == GA.CHECK:
+                    result[p2_bet][hand] = strategy[GA.BET]
+                else:
+                    result[p2_raise][hand] = strategy[GA.BET]
+                    result[p2_call][hand] = strategy[GA.CALL]
+            # player 1
+            elif len(history) == 2:
+                if history[0] == GA.BET:
+                    result[p1_bet_call][hand] = strategy[GA.CALL]
+                else:
+                    result[p1_check_raise][hand] = strategy[GA.BET]
+                    result[p1_check_call][hand] = strategy[GA.CALL]
+            # player 2
+            elif len(history) == 3:
+                result[p2_bet_call][hand] = strategy[GA.CALL]
+
+        # clean graphs
+        tol = 0.005
+        for hand, frequency in result[p1_bet].items():
+            if frequency > 1 - tol and hand in result[p1_check_raise]:
+                result[p1_check_raise][hand] = 0.0
+            if frequency > 1 - tol and hand in result[p1_check_call]:
+                result[p1_check_call][hand] = 0.0
+            if frequency < tol and hand in result[p1_bet_call]:
+                result[p1_bet_call][hand] = 0.0
+        for hand, frequency in result[p2_bet].items():
+            if frequency < tol and hand in result[p2_bet_call]:
+                result[p2_bet_call][hand] = 0.0
+
+        return result
 
     # recursive function, returns the expected node utility
     def cfr(self, cards, history, p1, p2, bet1, bet2):

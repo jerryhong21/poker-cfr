@@ -1,0 +1,2064 @@
+
+--- New Execution Output ---
+At iteration 1000000, expected value is -0.03573899455578193
+Time for last 1000000 iterations: 29.77425479888916 seconds
+At iteration 2000000, expected value is -0.038060195918839974
+Time for last 1000000 iterations: 29.669530153274536 seconds
+At iteration 3000000, expected value is -0.038360720344209745
+Time for last 1000000 iterations: 29.72266387939453 seconds
+At iteration 4000000, expected value is -0.03733836327627292
+Time for last 1000000 iterations: 29.821072101593018 seconds
+At iteration 5000000, expected value is -0.033183386171658225
+Time for last 1000000 iterations: 30.010639905929565 seconds
+At iteration 6000000, expected value is -0.0305349795216313
+Time for last 1000000 iterations: 30.032920837402344 seconds
+At iteration 7000000, expected value is -0.02979762524864576
+Time for last 1000000 iterations: 30.069617748260498 seconds
+At iteration 8000000, expected value is -0.03064880471888457
+Time for last 1000000 iterations: 29.98151922225952 seconds
+At iteration 9000000, expected value is -0.029511396609569963
+Time for last 1000000 iterations: 30.13629174232483 seconds
+At iteration 10000000, expected value is -0.02994743497024906
+Time for last 1000000 iterations: 29.97994112968445 seconds
+At iteration 11000000, expected value is -0.028793068523261585
+Time for last 1000000 iterations: 29.92267894744873 seconds
+At iteration 12000000, expected value is -0.027825564394527068
+Time for last 1000000 iterations: 29.916311264038086 seconds
+At iteration 13000000, expected value is -0.027928399118721647
+Time for last 1000000 iterations: 29.886837005615234 seconds
+At iteration 14000000, expected value is -0.028197782623539936
+Time for last 1000000 iterations: 29.897314071655273 seconds
+At iteration 15000000, expected value is -0.02906541965337797
+Time for last 1000000 iterations: 29.91067099571228 seconds
+At iteration 16000000, expected value is -0.02998648350092919
+Time for last 1000000 iterations: 29.893736362457275 seconds
+At iteration 17000000, expected value is -0.03027250121101848
+Time for last 1000000 iterations: 29.869240045547485 seconds
+At iteration 18000000, expected value is -0.029727027010212827
+Time for last 1000000 iterations: 29.890390872955322 seconds
+At iteration 19000000, expected value is -0.029703354188613054
+Time for last 1000000 iterations: 29.886860132217407 seconds
+At iteration 20000000, expected value is -0.029896485464537086
+Time for last 1000000 iterations: 29.95578694343567 seconds
+At iteration 21000000, expected value is -0.030031999152098345
+Time for last 1000000 iterations: 29.882848024368286 seconds
+At iteration 22000000, expected value is -0.030356566175197986
+Time for last 1000000 iterations: 29.922136068344116 seconds
+At iteration 23000000, expected value is -0.030769350647900068
+Time for last 1000000 iterations: 29.926897048950195 seconds
+At iteration 24000000, expected value is -0.03103541006434118
+Time for last 1000000 iterations: 29.89651393890381 seconds
+At iteration 25000000, expected value is -0.031550999006110636
+Time for last 1000000 iterations: 29.878346920013428 seconds
+At iteration 26000000, expected value is -0.031132004550131046
+Time for last 1000000 iterations: 29.874217987060547 seconds
+At iteration 27000000, expected value is -0.031631306201556464
+Time for last 1000000 iterations: 29.89562201499939 seconds
+At iteration 28000000, expected value is -0.03208143603090681
+Time for last 1000000 iterations: 29.92093014717102 seconds
+At iteration 29000000, expected value is -0.032532075293932435
+Time for last 1000000 iterations: 29.968717098236084 seconds
+At iteration 30000000, expected value is -0.03292972938385955
+Time for last 1000000 iterations: 29.997634172439575 seconds
+At iteration 31000000, expected value is -0.03308751580501979
+Time for last 1000000 iterations: 29.887855768203735 seconds
+At iteration 32000000, expected value is -0.033090733024818214
+Time for last 1000000 iterations: 29.893012046813965 seconds
+At iteration 33000000, expected value is -0.03340706154890978
+Time for last 1000000 iterations: 29.91673994064331 seconds
+At iteration 34000000, expected value is -0.03340575327301676
+Time for last 1000000 iterations: 29.91203498840332 seconds
+At iteration 35000000, expected value is -0.03371926959540738
+Time for last 1000000 iterations: 30.02544379234314 seconds
+At iteration 36000000, expected value is -0.033914351274097525
+Time for last 1000000 iterations: 29.983676195144653 seconds
+At iteration 37000000, expected value is -0.034279234224736485
+Time for last 1000000 iterations: 29.90250277519226 seconds
+At iteration 38000000, expected value is -0.034545327812227036
+Time for last 1000000 iterations: 29.91547703742981 seconds
+At iteration 39000000, expected value is -0.03479099544550627
+Time for last 1000000 iterations: 29.890124082565308 seconds
+At iteration 40000000, expected value is -0.035297603537517847
+Time for last 1000000 iterations: 30.093908071517944 seconds
+At iteration 41000000, expected value is -0.0354176604915361
+Time for last 1000000 iterations: 30.144407987594604 seconds
+At iteration 42000000, expected value is -0.03563369701327654
+Time for last 1000000 iterations: 29.984131813049316 seconds
+At iteration 43000000, expected value is -0.03608556031087222
+Time for last 1000000 iterations: 29.975518941879272 seconds
+At iteration 44000000, expected value is -0.03621261992227613
+Time for last 1000000 iterations: 30.023586750030518 seconds
+At iteration 45000000, expected value is -0.036527210871417054
+Time for last 1000000 iterations: 30.06573796272278 seconds
+At iteration 46000000, expected value is -0.03713021155605863
+Time for last 1000000 iterations: 30.03501009941101 seconds
+At iteration 47000000, expected value is -0.03739300469325135
+Time for last 1000000 iterations: 29.981011867523193 seconds
+At iteration 48000000, expected value is -0.03747032669016226
+Time for last 1000000 iterations: 30.014705896377563 seconds
+At iteration 49000000, expected value is -0.037640744612965106
+Time for last 1000000 iterations: 30.00916576385498 seconds
+At iteration 50000000, expected value is -0.03771019903489628
+Time for last 1000000 iterations: 30.10145616531372 seconds
+At iteration 51000000, expected value is -0.03798967307312553
+Time for last 1000000 iterations: 30.008713006973267 seconds
+At iteration 52000000, expected value is -0.03822686117811716
+Time for last 1000000 iterations: 30.007537841796875 seconds
+At iteration 53000000, expected value is -0.038559826152053334
+Time for last 1000000 iterations: 30.021319150924683 seconds
+At iteration 54000000, expected value is -0.03867947408087743
+Time for last 1000000 iterations: 30.050054788589478 seconds
+At iteration 55000000, expected value is -0.03878326168584305
+Time for last 1000000 iterations: 30.058703184127808 seconds
+At iteration 56000000, expected value is -0.03902034266906054
+Time for last 1000000 iterations: 30.093596935272217 seconds
+At iteration 57000000, expected value is -0.03914964862309776
+Time for last 1000000 iterations: 30.09672212600708 seconds
+At iteration 58000000, expected value is -0.03914173594840693
+Time for last 1000000 iterations: 30.104258060455322 seconds
+At iteration 59000000, expected value is -0.03933983670998558
+Time for last 1000000 iterations: 30.08551597595215 seconds
+At iteration 60000000, expected value is -0.03933189648832988
+Time for last 1000000 iterations: 30.09816884994507 seconds
+At iteration 61000000, expected value is -0.039306216664220336
+Time for last 1000000 iterations: 30.047056198120117 seconds
+At iteration 62000000, expected value is -0.0394759637243271
+Time for last 1000000 iterations: 30.029404878616333 seconds
+At iteration 63000000, expected value is -0.039633565672085216
+Time for last 1000000 iterations: 30.050087928771973 seconds
+At iteration 64000000, expected value is -0.03995826810174193
+Time for last 1000000 iterations: 30.08356285095215 seconds
+At iteration 65000000, expected value is -0.040093625835107505
+Time for last 1000000 iterations: 30.087488174438477 seconds
+At iteration 66000000, expected value is -0.04028187445552784
+Time for last 1000000 iterations: 30.070920944213867 seconds
+At iteration 67000000, expected value is -0.0404443619839055
+Time for last 1000000 iterations: 30.153522968292236 seconds
+At iteration 68000000, expected value is -0.04055102504647125
+Time for last 1000000 iterations: 30.0888888835907 seconds
+At iteration 69000000, expected value is -0.040674950231503054
+Time for last 1000000 iterations: 30.121567010879517 seconds
+At iteration 70000000, expected value is -0.04070824712166013
+Time for last 1000000 iterations: 30.104562044143677 seconds
+At iteration 71000000, expected value is -0.04075437936043077
+Time for last 1000000 iterations: 30.159013986587524 seconds
+At iteration 72000000, expected value is -0.04073594958821426
+Time for last 1000000 iterations: 30.11530900001526 seconds
+At iteration 73000000, expected value is -0.040913292993641874
+Time for last 1000000 iterations: 30.17924404144287 seconds
+At iteration 74000000, expected value is -0.04098554981322904
+Time for last 1000000 iterations: 30.110172986984253 seconds
+At iteration 75000000, expected value is -0.04119372403034343
+Time for last 1000000 iterations: 30.095430850982666 seconds
+At iteration 76000000, expected value is -0.04127222204574052
+Time for last 1000000 iterations: 30.074576139450073 seconds
+At iteration 77000000, expected value is -0.04116853892501313
+Time for last 1000000 iterations: 30.070146083831787 seconds
+At iteration 78000000, expected value is -0.04113625127568527
+Time for last 1000000 iterations: 30.154189109802246 seconds
+At iteration 79000000, expected value is -0.041330172398520756
+Time for last 1000000 iterations: 30.23534321784973 seconds
+At iteration 80000000, expected value is -0.04148083284570896
+Time for last 1000000 iterations: 30.16919708251953 seconds
+At iteration 81000000, expected value is -0.04156040034652589
+Time for last 1000000 iterations: 30.23230004310608 seconds
+At iteration 82000000, expected value is -0.04169073482226651
+Time for last 1000000 iterations: 30.20981502532959 seconds
+At iteration 83000000, expected value is -0.04185984773392419
+Time for last 1000000 iterations: 30.09816002845764 seconds
+At iteration 84000000, expected value is -0.04194495592540946
+Time for last 1000000 iterations: 30.073055028915405 seconds
+At iteration 85000000, expected value is -0.042077021821533965
+Time for last 1000000 iterations: 30.125524044036865 seconds
+At iteration 86000000, expected value is -0.04228212155527643
+Time for last 1000000 iterations: 30.130606174468994 seconds
+At iteration 87000000, expected value is -0.04241639486771909
+Time for last 1000000 iterations: 30.28462290763855 seconds
+At iteration 88000000, expected value is -0.04257501449064497
+Time for last 1000000 iterations: 30.15692901611328 seconds
+At iteration 89000000, expected value is -0.04259023358218663
+Time for last 1000000 iterations: 30.09896206855774 seconds
+At iteration 90000000, expected value is -0.04273919737388039
+Time for last 1000000 iterations: 30.086318254470825 seconds
+At iteration 91000000, expected value is -0.04269538498123006
+Time for last 1000000 iterations: 30.070915699005127 seconds
+At iteration 92000000, expected value is -0.04280248825025794
+Time for last 1000000 iterations: 30.069726943969727 seconds
+At iteration 93000000, expected value is -0.042812962520469296
+Time for last 1000000 iterations: 30.104548692703247 seconds
+At iteration 94000000, expected value is -0.04284190482880501
+Time for last 1000000 iterations: 30.15058398246765 seconds
+At iteration 95000000, expected value is -0.04292565246142051
+Time for last 1000000 iterations: 30.10029101371765 seconds
+At iteration 96000000, expected value is -0.04296404007512705
+Time for last 1000000 iterations: 30.12312889099121 seconds
+At iteration 97000000, expected value is -0.04298359590975189
+Time for last 1000000 iterations: 30.112730264663696 seconds
+At iteration 98000000, expected value is -0.04307647645691102
+Time for last 1000000 iterations: 30.090907335281372 seconds
+At iteration 99000000, expected value is -0.04297271498332375
+Time for last 1000000 iterations: 30.097990036010742 seconds
+Player Hand:  5T
+Action taken:  ['CHECK', 'RAISE']
+Encountered 873462 times
+Strategy: {'CALL': '0.04%', 'FOLD': '99.86%', 'RAISE': '0.10%'}
+
+
+Player Hand:  5T
+Action taken:  ['RAISE', 'RAISE']
+Encountered 873462 times
+Strategy: {'CALL': '0.18%', 'FOLD': '99.82%'}
+
+
+Player Hand:  8T
+Action taken:  ['CHECK', 'RAISE']
+Encountered 544630 times
+Strategy: {'CALL': '0.02%', 'FOLD': '99.93%', 'RAISE': '0.06%'}
+
+
+Player Hand:  8T
+Action taken:  ['RAISE', 'RAISE']
+Encountered 544630 times
+Strategy: {'CALL': '0.08%', 'FOLD': '99.92%'}
+
+
+Player Hand:  9Q
+Action taken:  ['CHECK', 'RAISE']
+Encountered 435800 times
+Strategy: {'CALL': '0.10%', 'FOLD': '99.57%', 'RAISE': '0.33%'}
+
+
+Player Hand:  9Q
+Action taken:  ['RAISE', 'RAISE']
+Encountered 435800 times
+Strategy: {'CALL': '0.51%', 'FOLD': '99.49%'}
+
+
+Player Hand:  27
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1202549 times
+Strategy: {'CALL': '0.01%', 'FOLD': '99.95%', 'RAISE': '0.04%'}
+
+
+Player Hand:  27
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1202549 times
+Strategy: {'CALL': '0.05%', 'FOLD': '99.95%'}
+
+
+Player Hand:  J8
+Action taken:  ['CHECK', 'RAISE']
+Encountered 326522 times
+Strategy: {'CALL': '0.05%', 'FOLD': '99.83%', 'RAISE': '0.12%'}
+
+
+Player Hand:  J8
+Action taken:  ['RAISE', 'RAISE']
+Encountered 326522 times
+Strategy: {'CALL': '0.20%', 'FOLD': '99.80%'}
+
+
+Player Hand:  5A
+Action taken:  ['CHECK', 'RAISE']
+Encountered 870983 times
+Strategy: {'CALL': '0.04%', 'FOLD': '0.04%', 'RAISE': '99.92%'}
+
+
+Player Hand:  5A
+Action taken:  ['RAISE', 'RAISE']
+Encountered 870983 times
+Strategy: {'CALL': '99.96%', 'FOLD': '0.04%'}
+
+
+Player Hand:  54
+Action taken:  ['CHECK', 'RAISE']
+Encountered 983117 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  54
+Action taken:  ['RAISE', 'RAISE']
+Encountered 983117 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  5Q
+Action taken:  ['CHECK', 'RAISE']
+Encountered 871625 times
+Strategy: {'CALL': '98.43%', 'FOLD': '0.24%', 'RAISE': '1.33%'}
+
+
+Player Hand:  5Q
+Action taken:  ['RAISE', 'RAISE']
+Encountered 871625 times
+Strategy: {'CALL': '99.20%', 'FOLD': '0.80%'}
+
+
+Player Hand:  7Q
+Action taken:  ['CHECK', 'RAISE']
+Encountered 652684 times
+Strategy: {'CALL': '48.50%', 'FOLD': '51.00%', 'RAISE': '0.50%'}
+
+
+Player Hand:  7Q
+Action taken:  ['RAISE', 'RAISE']
+Encountered 652684 times
+Strategy: {'CALL': '38.28%', 'FOLD': '61.72%'}
+
+
+Player Hand:  24
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1198401 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  24
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1198401 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  A6
+Action taken:  ['CHECK', 'RAISE']
+Encountered 435310 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.05%', 'RAISE': '99.90%'}
+
+
+Player Hand:  A6
+Action taken:  ['RAISE', 'RAISE']
+Encountered 435310 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  66
+Action taken:  ['CHECK', 'RAISE']
+Encountered 656481 times
+Strategy: {'CALL': '0.04%', 'FOLD': '0.04%', 'RAISE': '99.92%'}
+
+
+Player Hand:  66
+Action taken:  ['RAISE', 'RAISE']
+Encountered 656481 times
+Strategy: {'CALL': '99.95%', 'FOLD': '0.05%'}
+
+
+Player Hand:  52
+Action taken:  ['CHECK', 'RAISE']
+Encountered 982702 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  52
+Action taken:  ['RAISE', 'RAISE']
+Encountered 982702 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  43
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1090199 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  43
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1090199 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  A4
+Action taken:  ['CHECK', 'RAISE']
+Encountered 436263 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.05%', 'RAISE': '99.90%'}
+
+
+Player Hand:  A4
+Action taken:  ['RAISE', 'RAISE']
+Encountered 436263 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  J2
+Action taken:  ['CHECK', 'RAISE']
+Encountered 327180 times
+Strategy: {'CALL': '0.04%', 'FOLD': '99.83%', 'RAISE': '0.12%'}
+
+
+Player Hand:  J2
+Action taken:  ['RAISE', 'RAISE']
+Encountered 327180 times
+Strategy: {'CALL': '0.20%', 'FOLD': '99.80%'}
+
+
+Player Hand:  69
+Action taken:  ['CHECK', 'RAISE']
+Encountered 765207 times
+Strategy: {'CALL': '0.02%', 'FOLD': '99.93%', 'RAISE': '0.06%'}
+
+
+Player Hand:  69
+Action taken:  ['RAISE', 'RAISE']
+Encountered 765207 times
+Strategy: {'CALL': '0.08%', 'FOLD': '99.92%'}
+
+
+Player Hand:  55
+Action taken:  ['CHECK', 'RAISE']
+Encountered 739580 times
+Strategy: {'CALL': '0.03%', 'FOLD': '0.04%', 'RAISE': '99.93%'}
+
+
+Player Hand:  55
+Action taken:  ['RAISE', 'RAISE']
+Encountered 739580 times
+Strategy: {'CALL': '99.96%', 'FOLD': '0.04%'}
+
+
+Player Hand:  2K
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1200829 times
+Strategy: {'CALL': '0.12%', 'FOLD': '0.13%', 'RAISE': '99.75%'}
+
+
+Player Hand:  2K
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1200829 times
+Strategy: {'CALL': '99.88%', 'FOLD': '0.12%'}
+
+
+Player Hand:  KJ
+Action taken:  ['CHECK', 'RAISE']
+Encountered 218447 times
+Strategy: {'CALL': '0.15%', 'FOLD': '0.17%', 'RAISE': '99.68%'}
+
+
+Player Hand:  KJ
+Action taken:  ['RAISE', 'RAISE']
+Encountered 218447 times
+Strategy: {'CALL': '99.83%', 'FOLD': '0.17%'}
+
+
+Player Hand:  6J
+Action taken:  ['CHECK', 'RAISE']
+Encountered 764817 times
+Strategy: {'CALL': '0.08%', 'FOLD': '99.73%', 'RAISE': '0.18%'}
+
+
+Player Hand:  6J
+Action taken:  ['RAISE', 'RAISE']
+Encountered 764817 times
+Strategy: {'CALL': '0.39%', 'FOLD': '99.61%'}
+
+
+Player Hand:  42
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1090762 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  42
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1090762 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  J6
+Action taken:  ['CHECK', 'RAISE']
+Encountered 327102 times
+Strategy: {'CALL': '0.04%', 'FOLD': '99.83%', 'RAISE': '0.13%'}
+
+
+Player Hand:  J6
+Action taken:  ['RAISE', 'RAISE']
+Encountered 327102 times
+Strategy: {'CALL': '0.20%', 'FOLD': '99.80%'}
+
+
+Player Hand:  29
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1199422 times
+Strategy: {'CALL': '0.03%', 'FOLD': '99.89%', 'RAISE': '0.08%'}
+
+
+Player Hand:  29
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1199422 times
+Strategy: {'CALL': '0.13%', 'FOLD': '99.87%'}
+
+
+Player Hand:  8Q
+Action taken:  ['CHECK', 'RAISE']
+Encountered 544284 times
+Strategy: {'CALL': '0.43%', 'FOLD': '99.09%', 'RAISE': '0.49%'}
+
+
+Player Hand:  8Q
+Action taken:  ['RAISE', 'RAISE']
+Encountered 544284 times
+Strategy: {'CALL': '1.26%', 'FOLD': '98.74%'}
+
+
+Player Hand:  AA
+Action taken:  ['CHECK', 'RAISE']
+Encountered 328991 times
+Strategy: {'CALL': '0.00%', 'FOLD': '0.00%', 'RAISE': '100.00%'}
+
+
+Player Hand:  AA
+Action taken:  ['RAISE', 'RAISE']
+Encountered 328991 times
+Strategy: {'CALL': '100.00%', 'FOLD': '0.00%'}
+
+
+Player Hand:  8J
+Action taken:  ['CHECK', 'RAISE']
+Encountered 544966 times
+Strategy: {'CALL': '0.04%', 'FOLD': '99.83%', 'RAISE': '0.13%'}
+
+
+Player Hand:  8J
+Action taken:  ['RAISE', 'RAISE']
+Encountered 544966 times
+Strategy: {'CALL': '0.21%', 'FOLD': '99.79%'}
+
+
+Player Hand:  68
+Action taken:  ['CHECK', 'RAISE']
+Encountered 763756 times
+Strategy: {'CALL': '0.01%', 'FOLD': '99.96%', 'RAISE': '0.03%'}
+
+
+Player Hand:  68
+Action taken:  ['RAISE', 'RAISE']
+Encountered 763756 times
+Strategy: {'CALL': '0.04%', 'FOLD': '99.96%'}
+
+
+Player Hand:  3T
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1091112 times
+Strategy: {'CALL': '0.05%', 'FOLD': '99.83%', 'RAISE': '0.12%'}
+
+
+Player Hand:  3T
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1091112 times
+Strategy: {'CALL': '0.24%', 'FOLD': '99.76%'}
+
+
+Player Hand:  63
+Action taken:  ['CHECK', 'RAISE']
+Encountered 872785 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  63
+Action taken:  ['RAISE', 'RAISE']
+Encountered 872785 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  58
+Action taken:  ['CHECK', 'RAISE']
+Encountered 872600 times
+Strategy: {'CALL': '0.01%', 'FOLD': '99.95%', 'RAISE': '0.04%'}
+
+
+Player Hand:  58
+Action taken:  ['RAISE', 'RAISE']
+Encountered 872600 times
+Strategy: {'CALL': '0.06%', 'FOLD': '99.94%'}
+
+
+Player Hand:  2A
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1200910 times
+Strategy: {'CALL': '0.03%', 'FOLD': '0.04%', 'RAISE': '99.93%'}
+
+
+Player Hand:  2A
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1200910 times
+Strategy: {'CALL': '99.96%', 'FOLD': '0.04%'}
+
+
+Player Hand:  3K
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1090871 times
+Strategy: {'CALL': '0.13%', 'FOLD': '0.14%', 'RAISE': '99.73%'}
+
+
+Player Hand:  3K
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1090871 times
+Strategy: {'CALL': '99.87%', 'FOLD': '0.13%'}
+
+
+Player Hand:  65
+Action taken:  ['CHECK', 'RAISE']
+Encountered 871408 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  65
+Action taken:  ['RAISE', 'RAISE']
+Encountered 871408 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  Q2
+Action taken:  ['CHECK', 'RAISE']
+Encountered 108809 times
+Strategy: {'CALL': '0.90%', 'FOLD': '0.78%', 'RAISE': '98.33%'}
+
+
+Player Hand:  Q2
+Action taken:  ['RAISE', 'RAISE']
+Encountered 108809 times
+Strategy: {'CALL': '99.58%', 'FOLD': '0.42%'}
+
+
+Player Hand:  86
+Action taken:  ['CHECK', 'RAISE']
+Encountered 653696 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  86
+Action taken:  ['RAISE', 'RAISE']
+Encountered 653696 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  AK
+Action taken:  ['CHECK', 'RAISE']
+Encountered 327365 times
+Strategy: {'CALL': '0.06%', 'FOLD': '0.06%', 'RAISE': '99.88%'}
+
+
+Player Hand:  AK
+Action taken:  ['RAISE', 'RAISE']
+Encountered 327365 times
+Strategy: {'CALL': '99.93%', 'FOLD': '0.07%'}
+
+
+Player Hand:  26
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1199862 times
+Strategy: {'CALL': '0.01%', 'FOLD': '99.97%', 'RAISE': '0.02%'}
+
+
+Player Hand:  26
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1199862 times
+Strategy: {'CALL': '0.03%', 'FOLD': '99.97%'}
+
+
+Player Hand:  7T
+Action taken:  ['CHECK', 'RAISE']
+Encountered 653825 times
+Strategy: {'CALL': '0.03%', 'FOLD': '99.90%', 'RAISE': '0.08%'}
+
+
+Player Hand:  7T
+Action taken:  ['RAISE', 'RAISE']
+Encountered 653825 times
+Strategy: {'CALL': '0.12%', 'FOLD': '99.88%'}
+
+
+Player Hand:  6T
+Action taken:  ['CHECK', 'RAISE']
+Encountered 764267 times
+Strategy: {'CALL': '0.03%', 'FOLD': '99.88%', 'RAISE': '0.09%'}
+
+
+Player Hand:  6T
+Action taken:  ['RAISE', 'RAISE']
+Encountered 764267 times
+Strategy: {'CALL': '0.15%', 'FOLD': '99.85%'}
+
+
+Player Hand:  3A
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1092553 times
+Strategy: {'CALL': '0.03%', 'FOLD': '0.04%', 'RAISE': '99.93%'}
+
+
+Player Hand:  3A
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1092553 times
+Strategy: {'CALL': '99.96%', 'FOLD': '0.04%'}
+
+
+Player Hand:  3J
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1090265 times
+Strategy: {'CALL': '0.28%', 'FOLD': '99.46%', 'RAISE': '0.26%'}
+
+
+Player Hand:  3J
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1090265 times
+Strategy: {'CALL': '1.09%', 'FOLD': '98.91%'}
+
+
+Player Hand:  94
+Action taken:  ['CHECK', 'RAISE']
+Encountered 545502 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  94
+Action taken:  ['RAISE', 'RAISE']
+Encountered 545502 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  56
+Action taken:  ['CHECK', 'RAISE']
+Encountered 872458 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  56
+Action taken:  ['RAISE', 'RAISE']
+Encountered 872458 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  57
+Action taken:  ['CHECK', 'RAISE']
+Encountered 872399 times
+Strategy: {'CALL': '0.01%', 'FOLD': '99.97%', 'RAISE': '0.02%'}
+
+
+Player Hand:  57
+Action taken:  ['RAISE', 'RAISE']
+Encountered 872399 times
+Strategy: {'CALL': '0.03%', 'FOLD': '99.97%'}
+
+
+Player Hand:  KK
+Action taken:  ['CHECK', 'RAISE']
+Encountered 164089 times
+Strategy: {'CALL': '0.00%', 'FOLD': '0.00%', 'RAISE': '100.00%'}
+
+
+Player Hand:  KK
+Action taken:  ['RAISE', 'RAISE']
+Encountered 164089 times
+Strategy: {'CALL': '100.00%', 'FOLD': '0.00%'}
+
+
+Player Hand:  25
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1201212 times
+Strategy: {'CALL': '0.00%', 'FOLD': '99.98%', 'RAISE': '0.01%'}
+
+
+Player Hand:  25
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1201212 times
+Strategy: {'CALL': '0.02%', 'FOLD': '99.98%'}
+
+
+Player Hand:  64
+Action taken:  ['CHECK', 'RAISE']
+Encountered 873504 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  64
+Action taken:  ['RAISE', 'RAISE']
+Encountered 873504 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  5J
+Action taken:  ['CHECK', 'RAISE']
+Encountered 870700 times
+Strategy: {'CALL': '0.12%', 'FOLD': '99.67%', 'RAISE': '0.21%'}
+
+
+Player Hand:  5J
+Action taken:  ['RAISE', 'RAISE']
+Encountered 870700 times
+Strategy: {'CALL': '0.54%', 'FOLD': '99.46%'}
+
+
+Player Hand:  3Q
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1092282 times
+Strategy: {'CALL': '90.39%', 'FOLD': '0.33%', 'RAISE': '9.28%'}
+
+
+Player Hand:  3Q
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1092282 times
+Strategy: {'CALL': '99.57%', 'FOLD': '0.43%'}
+
+
+Player Hand:  23
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1200123 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  23
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1200123 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  89
+Action taken:  ['CHECK', 'RAISE']
+Encountered 545584 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  89
+Action taken:  ['RAISE', 'RAISE']
+Encountered 545584 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  72
+Action taken:  ['CHECK', 'RAISE']
+Encountered 763500 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  72
+Action taken:  ['RAISE', 'RAISE']
+Encountered 763500 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  59
+Action taken:  ['CHECK', 'RAISE']
+Encountered 871617 times
+Strategy: {'CALL': '0.02%', 'FOLD': '99.91%', 'RAISE': '0.06%'}
+
+
+Player Hand:  59
+Action taken:  ['RAISE', 'RAISE']
+Encountered 871617 times
+Strategy: {'CALL': '0.10%', 'FOLD': '99.90%'}
+
+
+Player Hand:  A7
+Action taken:  ['CHECK', 'RAISE']
+Encountered 436734 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.05%', 'RAISE': '99.90%'}
+
+
+Player Hand:  A7
+Action taken:  ['RAISE', 'RAISE']
+Encountered 436734 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  2J
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1200887 times
+Strategy: {'CALL': '0.50%', 'FOLD': '99.22%', 'RAISE': '0.28%'}
+
+
+Player Hand:  2J
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1200887 times
+Strategy: {'CALL': '1.75%', 'FOLD': '98.25%'}
+
+
+Player Hand:  4Q
+Action taken:  ['CHECK', 'RAISE']
+Encountered 980612 times
+Strategy: {'CALL': '97.29%', 'FOLD': '0.20%', 'RAISE': '2.51%'}
+
+
+Player Hand:  4Q
+Action taken:  ['RAISE', 'RAISE']
+Encountered 980612 times
+Strategy: {'CALL': '99.45%', 'FOLD': '0.55%'}
+
+
+Player Hand:  79
+Action taken:  ['CHECK', 'RAISE']
+Encountered 654895 times
+Strategy: {'CALL': '0.01%', 'FOLD': '99.95%', 'RAISE': '0.04%'}
+
+
+Player Hand:  79
+Action taken:  ['RAISE', 'RAISE']
+Encountered 654895 times
+Strategy: {'CALL': '0.06%', 'FOLD': '99.94%'}
+
+
+Player Hand:  37
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1092135 times
+Strategy: {'CALL': '0.01%', 'FOLD': '99.95%', 'RAISE': '0.03%'}
+
+
+Player Hand:  37
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1092135 times
+Strategy: {'CALL': '0.05%', 'FOLD': '99.95%'}
+
+
+Player Hand:  83
+Action taken:  ['CHECK', 'RAISE']
+Encountered 654241 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  83
+Action taken:  ['RAISE', 'RAISE']
+Encountered 654241 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  K9
+Action taken:  ['CHECK', 'RAISE']
+Encountered 217931 times
+Strategy: {'CALL': '0.15%', 'FOLD': '0.17%', 'RAISE': '99.68%'}
+
+
+Player Hand:  K9
+Action taken:  ['RAISE', 'RAISE']
+Encountered 217931 times
+Strategy: {'CALL': '99.82%', 'FOLD': '0.18%'}
+
+
+Player Hand:  85
+Action taken:  ['CHECK', 'RAISE']
+Encountered 653338 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  85
+Action taken:  ['RAISE', 'RAISE']
+Encountered 653338 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  75
+Action taken:  ['CHECK', 'RAISE']
+Encountered 762542 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  75
+Action taken:  ['RAISE', 'RAISE']
+Encountered 762542 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  73
+Action taken:  ['CHECK', 'RAISE']
+Encountered 762827 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  73
+Action taken:  ['RAISE', 'RAISE']
+Encountered 762827 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  49
+Action taken:  ['CHECK', 'RAISE']
+Encountered 980628 times
+Strategy: {'CALL': '0.02%', 'FOLD': '99.90%', 'RAISE': '0.07%'}
+
+
+Player Hand:  49
+Action taken:  ['RAISE', 'RAISE']
+Encountered 980628 times
+Strategy: {'CALL': '0.11%', 'FOLD': '99.89%'}
+
+
+Player Hand:  4J
+Action taken:  ['CHECK', 'RAISE']
+Encountered 982748 times
+Strategy: {'CALL': '0.18%', 'FOLD': '99.59%', 'RAISE': '0.24%'}
+
+
+Player Hand:  4J
+Action taken:  ['RAISE', 'RAISE']
+Encountered 982748 times
+Strategy: {'CALL': '0.75%', 'FOLD': '99.25%'}
+
+
+Player Hand:  8K
+Action taken:  ['CHECK', 'RAISE']
+Encountered 546816 times
+Strategy: {'CALL': '0.32%', 'FOLD': '0.34%', 'RAISE': '99.34%'}
+
+
+Player Hand:  8K
+Action taken:  ['RAISE', 'RAISE']
+Encountered 546816 times
+Strategy: {'CALL': '99.69%', 'FOLD': '0.31%'}
+
+
+Player Hand:  93
+Action taken:  ['CHECK', 'RAISE']
+Encountered 544866 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  93
+Action taken:  ['RAISE', 'RAISE']
+Encountered 544866 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  9A
+Action taken:  ['CHECK', 'RAISE']
+Encountered 436588 times
+Strategy: {'CALL': '0.04%', 'FOLD': '0.05%', 'RAISE': '99.90%'}
+
+
+Player Hand:  9A
+Action taken:  ['RAISE', 'RAISE']
+Encountered 436588 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  9J
+Action taken:  ['CHECK', 'RAISE']
+Encountered 435879 times
+Strategy: {'CALL': '0.03%', 'FOLD': '99.89%', 'RAISE': '0.08%'}
+
+
+Player Hand:  9J
+Action taken:  ['RAISE', 'RAISE']
+Encountered 435879 times
+Strategy: {'CALL': '0.13%', 'FOLD': '99.87%'}
+
+
+Player Hand:  K5
+Action taken:  ['CHECK', 'RAISE']
+Encountered 217962 times
+Strategy: {'CALL': '0.15%', 'FOLD': '0.17%', 'RAISE': '99.68%'}
+
+
+Player Hand:  K5
+Action taken:  ['RAISE', 'RAISE']
+Encountered 217962 times
+Strategy: {'CALL': '99.82%', 'FOLD': '0.18%'}
+
+
+Player Hand:  6Q
+Action taken:  ['CHECK', 'RAISE']
+Encountered 764177 times
+Strategy: {'CALL': '98.66%', 'FOLD': '0.49%', 'RAISE': '0.85%'}
+
+
+Player Hand:  6Q
+Action taken:  ['RAISE', 'RAISE']
+Encountered 764177 times
+Strategy: {'CALL': '98.45%', 'FOLD': '1.55%'}
+
+
+Player Hand:  J5
+Action taken:  ['CHECK', 'RAISE']
+Encountered 327082 times
+Strategy: {'CALL': '0.05%', 'FOLD': '99.83%', 'RAISE': '0.13%'}
+
+
+Player Hand:  J5
+Action taken:  ['RAISE', 'RAISE']
+Encountered 327082 times
+Strategy: {'CALL': '0.21%', 'FOLD': '99.79%'}
+
+
+Player Hand:  38
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1090208 times
+Strategy: {'CALL': '0.02%', 'FOLD': '99.93%', 'RAISE': '0.05%'}
+
+
+Player Hand:  38
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1090208 times
+Strategy: {'CALL': '0.07%', 'FOLD': '99.93%'}
+
+
+Player Hand:  8A
+Action taken:  ['CHECK', 'RAISE']
+Encountered 544982 times
+Strategy: {'CALL': '0.04%', 'FOLD': '0.05%', 'RAISE': '99.91%'}
+
+
+Player Hand:  8A
+Action taken:  ['RAISE', 'RAISE']
+Encountered 544982 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  A8
+Action taken:  ['CHECK', 'RAISE']
+Encountered 436048 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.05%', 'RAISE': '99.90%'}
+
+
+Player Hand:  A8
+Action taken:  ['RAISE', 'RAISE']
+Encountered 436048 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  47
+Action taken:  ['CHECK', 'RAISE']
+Encountered 982801 times
+Strategy: {'CALL': '0.01%', 'FOLD': '99.96%', 'RAISE': '0.03%'}
+
+
+Player Hand:  47
+Action taken:  ['RAISE', 'RAISE']
+Encountered 982801 times
+Strategy: {'CALL': '0.04%', 'FOLD': '99.96%'}
+
+
+Player Hand:  5K
+Action taken:  ['CHECK', 'RAISE']
+Encountered 871957 times
+Strategy: {'CALL': '0.17%', 'FOLD': '0.18%', 'RAISE': '99.65%'}
+
+
+Player Hand:  5K
+Action taken:  ['RAISE', 'RAISE']
+Encountered 871957 times
+Strategy: {'CALL': '99.84%', 'FOLD': '0.16%'}
+
+
+Player Hand:  7A
+Action taken:  ['CHECK', 'RAISE']
+Encountered 655703 times
+Strategy: {'CALL': '0.04%', 'FOLD': '0.05%', 'RAISE': '99.92%'}
+
+
+Player Hand:  7A
+Action taken:  ['RAISE', 'RAISE']
+Encountered 655703 times
+Strategy: {'CALL': '99.95%', 'FOLD': '0.05%'}
+
+
+Player Hand:  39
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1091944 times
+Strategy: {'CALL': '0.03%', 'FOLD': '99.90%', 'RAISE': '0.08%'}
+
+
+Player Hand:  39
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1091944 times
+Strategy: {'CALL': '0.12%', 'FOLD': '99.88%'}
+
+
+Player Hand:  J3
+Action taken:  ['CHECK', 'RAISE']
+Encountered 327821 times
+Strategy: {'CALL': '0.05%', 'FOLD': '99.83%', 'RAISE': '0.13%'}
+
+
+Player Hand:  J3
+Action taken:  ['RAISE', 'RAISE']
+Encountered 327821 times
+Strategy: {'CALL': '0.21%', 'FOLD': '99.79%'}
+
+
+Player Hand:  A9
+Action taken:  ['CHECK', 'RAISE']
+Encountered 437335 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.05%', 'RAISE': '99.90%'}
+
+
+Player Hand:  A9
+Action taken:  ['RAISE', 'RAISE']
+Encountered 437335 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  74
+Action taken:  ['CHECK', 'RAISE']
+Encountered 763097 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  74
+Action taken:  ['RAISE', 'RAISE']
+Encountered 763097 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  4T
+Action taken:  ['CHECK', 'RAISE']
+Encountered 981603 times
+Strategy: {'CALL': '0.05%', 'FOLD': '99.84%', 'RAISE': '0.11%'}
+
+
+Player Hand:  4T
+Action taken:  ['RAISE', 'RAISE']
+Encountered 981603 times
+Strategy: {'CALL': '0.21%', 'FOLD': '99.79%'}
+
+
+Player Hand:  4A
+Action taken:  ['CHECK', 'RAISE']
+Encountered 982406 times
+Strategy: {'CALL': '0.03%', 'FOLD': '0.04%', 'RAISE': '99.93%'}
+
+
+Player Hand:  4A
+Action taken:  ['RAISE', 'RAISE']
+Encountered 982406 times
+Strategy: {'CALL': '99.96%', 'FOLD': '0.04%'}
+
+
+Player Hand:  6K
+Action taken:  ['CHECK', 'RAISE']
+Encountered 763245 times
+Strategy: {'CALL': '0.19%', 'FOLD': '0.21%', 'RAISE': '99.60%'}
+
+
+Player Hand:  6K
+Action taken:  ['RAISE', 'RAISE']
+Encountered 763245 times
+Strategy: {'CALL': '99.81%', 'FOLD': '0.19%'}
+
+
+Player Hand:  32
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1200270 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  32
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1200270 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  JQ
+Action taken:  ['CHECK', 'RAISE']
+Encountered 218616 times
+Strategy: {'CALL': '0.17%', 'FOLD': '99.52%', 'RAISE': '0.31%'}
+
+
+Player Hand:  JQ
+Action taken:  ['RAISE', 'RAISE']
+Encountered 218616 times
+Strategy: {'CALL': '0.73%', 'FOLD': '99.27%'}
+
+
+Player Hand:  A5
+Action taken:  ['CHECK', 'RAISE']
+Encountered 435434 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.05%', 'RAISE': '99.90%'}
+
+
+Player Hand:  A5
+Action taken:  ['RAISE', 'RAISE']
+Encountered 435434 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  87
+Action taken:  ['CHECK', 'RAISE']
+Encountered 653630 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  87
+Action taken:  ['RAISE', 'RAISE']
+Encountered 653630 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  62
+Action taken:  ['CHECK', 'RAISE']
+Encountered 873330 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  62
+Action taken:  ['RAISE', 'RAISE']
+Encountered 873330 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  2Q
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1199321 times
+Strategy: {'CALL': '3.86%', 'FOLD': '1.20%', 'RAISE': '94.94%'}
+
+
+Player Hand:  2Q
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1199321 times
+Strategy: {'CALL': '99.65%', 'FOLD': '0.35%'}
+
+
+Player Hand:  34
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1089765 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  34
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1089765 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  28
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1200561 times
+Strategy: {'CALL': '0.02%', 'FOLD': '99.93%', 'RAISE': '0.06%'}
+
+
+Player Hand:  28
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1200561 times
+Strategy: {'CALL': '0.08%', 'FOLD': '99.92%'}
+
+
+Player Hand:  22
+Action taken:  ['CHECK', 'RAISE']
+Encountered 987485 times
+Strategy: {'CALL': '0.03%', 'FOLD': '0.04%', 'RAISE': '99.93%'}
+
+
+Player Hand:  22
+Action taken:  ['RAISE', 'RAISE']
+Encountered 987485 times
+Strategy: {'CALL': '99.96%', 'FOLD': '0.04%'}
+
+
+Player Hand:  AT
+Action taken:  ['CHECK', 'RAISE']
+Encountered 326955 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.06%', 'RAISE': '99.90%'}
+
+
+Player Hand:  AT
+Action taken:  ['RAISE', 'RAISE']
+Encountered 326955 times
+Strategy: {'CALL': '99.93%', 'FOLD': '0.07%'}
+
+
+Player Hand:  45
+Action taken:  ['CHECK', 'RAISE']
+Encountered 981409 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  45
+Action taken:  ['RAISE', 'RAISE']
+Encountered 981409 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  53
+Action taken:  ['CHECK', 'RAISE']
+Encountered 981534 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  53
+Action taken:  ['RAISE', 'RAISE']
+Encountered 981534 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  2T
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1199862 times
+Strategy: {'CALL': '0.06%', 'FOLD': '99.82%', 'RAISE': '0.12%'}
+
+
+Player Hand:  2T
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1199862 times
+Strategy: {'CALL': '0.27%', 'FOLD': '99.73%'}
+
+
+Player Hand:  67
+Action taken:  ['CHECK', 'RAISE']
+Encountered 763018 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  67
+Action taken:  ['RAISE', 'RAISE']
+Encountered 763018 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  J4
+Action taken:  ['CHECK', 'RAISE']
+Encountered 327476 times
+Strategy: {'CALL': '0.04%', 'FOLD': '99.83%', 'RAISE': '0.12%'}
+
+
+Player Hand:  J4
+Action taken:  ['RAISE', 'RAISE']
+Encountered 327476 times
+Strategy: {'CALL': '0.20%', 'FOLD': '99.80%'}
+
+
+Player Hand:  9T
+Action taken:  ['CHECK', 'RAISE']
+Encountered 436980 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  9T
+Action taken:  ['RAISE', 'RAISE']
+Encountered 436980 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  K2
+Action taken:  ['CHECK', 'RAISE']
+Encountered 217003 times
+Strategy: {'CALL': '0.15%', 'FOLD': '0.17%', 'RAISE': '99.68%'}
+
+
+Player Hand:  K2
+Action taken:  ['RAISE', 'RAISE']
+Encountered 217003 times
+Strategy: {'CALL': '99.82%', 'FOLD': '0.18%'}
+
+
+Player Hand:  33
+Action taken:  ['CHECK', 'RAISE']
+Encountered 904524 times
+Strategy: {'CALL': '0.03%', 'FOLD': '0.04%', 'RAISE': '99.93%'}
+
+
+Player Hand:  33
+Action taken:  ['RAISE', 'RAISE']
+Encountered 904524 times
+Strategy: {'CALL': '99.96%', 'FOLD': '0.04%'}
+
+
+Player Hand:  44
+Action taken:  ['CHECK', 'RAISE']
+Encountered 823014 times
+Strategy: {'CALL': '0.03%', 'FOLD': '0.04%', 'RAISE': '99.93%'}
+
+
+Player Hand:  44
+Action taken:  ['RAISE', 'RAISE']
+Encountered 823014 times
+Strategy: {'CALL': '99.96%', 'FOLD': '0.04%'}
+
+
+Player Hand:  36
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1090725 times
+Strategy: {'CALL': '0.01%', 'FOLD': '99.97%', 'RAISE': '0.02%'}
+
+
+Player Hand:  36
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1090725 times
+Strategy: {'CALL': '0.03%', 'FOLD': '99.97%'}
+
+
+Player Hand:  92
+Action taken:  ['CHECK', 'RAISE']
+Encountered 546638 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  92
+Action taken:  ['RAISE', 'RAISE']
+Encountered 546638 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  84
+Action taken:  ['CHECK', 'RAISE']
+Encountered 654829 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  84
+Action taken:  ['RAISE', 'RAISE']
+Encountered 654829 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  7J
+Action taken:  ['CHECK', 'RAISE']
+Encountered 653674 times
+Strategy: {'CALL': '0.06%', 'FOLD': '99.78%', 'RAISE': '0.16%'}
+
+
+Player Hand:  7J
+Action taken:  ['RAISE', 'RAISE']
+Encountered 653674 times
+Strategy: {'CALL': '0.29%', 'FOLD': '99.71%'}
+
+
+Player Hand:  7K
+Action taken:  ['CHECK', 'RAISE']
+Encountered 652062 times
+Strategy: {'CALL': '0.24%', 'FOLD': '0.26%', 'RAISE': '99.49%'}
+
+
+Player Hand:  7K
+Action taken:  ['RAISE', 'RAISE']
+Encountered 652062 times
+Strategy: {'CALL': '99.76%', 'FOLD': '0.24%'}
+
+
+Player Hand:  98
+Action taken:  ['CHECK', 'RAISE']
+Encountered 545887 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  98
+Action taken:  ['RAISE', 'RAISE']
+Encountered 545887 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  95
+Action taken:  ['CHECK', 'RAISE']
+Encountered 545364 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  95
+Action taken:  ['RAISE', 'RAISE']
+Encountered 545364 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  77
+Action taken:  ['CHECK', 'RAISE']
+Encountered 575801 times
+Strategy: {'CALL': '0.04%', 'FOLD': '0.04%', 'RAISE': '99.92%'}
+
+
+Player Hand:  77
+Action taken:  ['RAISE', 'RAISE']
+Encountered 575801 times
+Strategy: {'CALL': '99.95%', 'FOLD': '0.05%'}
+
+
+Player Hand:  K3
+Action taken:  ['CHECK', 'RAISE']
+Encountered 218403 times
+Strategy: {'CALL': '0.15%', 'FOLD': '0.17%', 'RAISE': '99.68%'}
+
+
+Player Hand:  K3
+Action taken:  ['RAISE', 'RAISE']
+Encountered 218403 times
+Strategy: {'CALL': '99.83%', 'FOLD': '0.17%'}
+
+
+Player Hand:  A2
+Action taken:  ['CHECK', 'RAISE']
+Encountered 435556 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.05%', 'RAISE': '99.90%'}
+
+
+Player Hand:  A2
+Action taken:  ['RAISE', 'RAISE']
+Encountered 435556 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  K8
+Action taken:  ['CHECK', 'RAISE']
+Encountered 217611 times
+Strategy: {'CALL': '0.15%', 'FOLD': '0.17%', 'RAISE': '99.68%'}
+
+
+Player Hand:  K8
+Action taken:  ['RAISE', 'RAISE']
+Encountered 217611 times
+Strategy: {'CALL': '99.82%', 'FOLD': '0.18%'}
+
+
+Player Hand:  KT
+Action taken:  ['CHECK', 'RAISE']
+Encountered 109336 times
+Strategy: {'CALL': '0.16%', 'FOLD': '0.19%', 'RAISE': '99.65%'}
+
+
+Player Hand:  KT
+Action taken:  ['RAISE', 'RAISE']
+Encountered 109336 times
+Strategy: {'CALL': '99.75%', 'FOLD': '0.25%'}
+
+
+Player Hand:  A3
+Action taken:  ['CHECK', 'RAISE']
+Encountered 435848 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.05%', 'RAISE': '99.90%'}
+
+
+Player Hand:  A3
+Action taken:  ['RAISE', 'RAISE']
+Encountered 435848 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  K7
+Action taken:  ['CHECK', 'RAISE']
+Encountered 218574 times
+Strategy: {'CALL': '0.15%', 'FOLD': '0.17%', 'RAISE': '99.68%'}
+
+
+Player Hand:  K7
+Action taken:  ['RAISE', 'RAISE']
+Encountered 218574 times
+Strategy: {'CALL': '99.82%', 'FOLD': '0.18%'}
+
+
+Player Hand:  96
+Action taken:  ['CHECK', 'RAISE']
+Encountered 544617 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  96
+Action taken:  ['RAISE', 'RAISE']
+Encountered 544617 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  48
+Action taken:  ['CHECK', 'RAISE']
+Encountered 982585 times
+Strategy: {'CALL': '0.01%', 'FOLD': '99.94%', 'RAISE': '0.05%'}
+
+
+Player Hand:  48
+Action taken:  ['RAISE', 'RAISE']
+Encountered 982585 times
+Strategy: {'CALL': '0.07%', 'FOLD': '99.93%'}
+
+
+Player Hand:  Q7
+Action taken:  ['CHECK', 'RAISE']
+Encountered 108515 times
+Strategy: {'CALL': '0.93%', 'FOLD': '0.79%', 'RAISE': '98.28%'}
+
+
+Player Hand:  Q7
+Action taken:  ['RAISE', 'RAISE']
+Encountered 108515 times
+Strategy: {'CALL': '99.57%', 'FOLD': '0.43%'}
+
+
+Player Hand:  82
+Action taken:  ['CHECK', 'RAISE']
+Encountered 653998 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  82
+Action taken:  ['RAISE', 'RAISE']
+Encountered 653998 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  JJ
+Action taken:  ['CHECK', 'RAISE']
+Encountered 247902 times
+Strategy: {'CALL': '0.04%', 'FOLD': '0.05%', 'RAISE': '99.90%'}
+
+
+Player Hand:  JJ
+Action taken:  ['RAISE', 'RAISE']
+Encountered 247902 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  35
+Action taken:  ['CHECK', 'RAISE']
+Encountered 1091241 times
+Strategy: {'CALL': '0.00%', 'FOLD': '99.99%', 'RAISE': '0.01%'}
+
+
+Player Hand:  35
+Action taken:  ['RAISE', 'RAISE']
+Encountered 1091241 times
+Strategy: {'CALL': '0.01%', 'FOLD': '99.99%'}
+
+
+Player Hand:  4K
+Action taken:  ['CHECK', 'RAISE']
+Encountered 980113 times
+Strategy: {'CALL': '0.15%', 'FOLD': '0.16%', 'RAISE': '99.70%'}
+
+
+Player Hand:  4K
+Action taken:  ['RAISE', 'RAISE']
+Encountered 980113 times
+Strategy: {'CALL': '99.86%', 'FOLD': '0.14%'}
+
+
+Player Hand:  AJ
+Action taken:  ['CHECK', 'RAISE']
+Encountered 328007 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.06%', 'RAISE': '99.88%'}
+
+
+Player Hand:  AJ
+Action taken:  ['RAISE', 'RAISE']
+Encountered 328007 times
+Strategy: {'CALL': '99.93%', 'FOLD': '0.07%'}
+
+
+Player Hand:  76
+Action taken:  ['CHECK', 'RAISE']
+Encountered 762607 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  76
+Action taken:  ['RAISE', 'RAISE']
+Encountered 762607 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  6A
+Action taken:  ['CHECK', 'RAISE']
+Encountered 764324 times
+Strategy: {'CALL': '0.04%', 'FOLD': '0.04%', 'RAISE': '99.92%'}
+
+
+Player Hand:  6A
+Action taken:  ['RAISE', 'RAISE']
+Encountered 764324 times
+Strategy: {'CALL': '99.95%', 'FOLD': '0.05%'}
+
+
+Player Hand:  88
+Action taken:  ['CHECK', 'RAISE']
+Encountered 494434 times
+Strategy: {'CALL': '0.04%', 'FOLD': '0.05%', 'RAISE': '99.91%'}
+
+
+Player Hand:  88
+Action taken:  ['RAISE', 'RAISE']
+Encountered 494434 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  JT
+Action taken:  ['CHECK', 'RAISE']
+Encountered 218741 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  JT
+Action taken:  ['RAISE', 'RAISE']
+Encountered 218741 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  K4
+Action taken:  ['CHECK', 'RAISE']
+Encountered 218201 times
+Strategy: {'CALL': '0.15%', 'FOLD': '0.17%', 'RAISE': '99.67%'}
+
+
+Player Hand:  K4
+Action taken:  ['RAISE', 'RAISE']
+Encountered 218201 times
+Strategy: {'CALL': '99.82%', 'FOLD': '0.18%'}
+
+
+Player Hand:  97
+Action taken:  ['CHECK', 'RAISE']
+Encountered 544538 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  97
+Action taken:  ['RAISE', 'RAISE']
+Encountered 544538 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  AQ
+Action taken:  ['CHECK', 'RAISE']
+Encountered 326374 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.06%', 'RAISE': '99.88%'}
+
+
+Player Hand:  AQ
+Action taken:  ['RAISE', 'RAISE']
+Encountered 326374 times
+Strategy: {'CALL': '99.93%', 'FOLD': '0.07%'}
+
+
+Player Hand:  46
+Action taken:  ['CHECK', 'RAISE']
+Encountered 981632 times
+Strategy: {'CALL': '0.00%', 'FOLD': '99.98%', 'RAISE': '0.02%'}
+
+
+Player Hand:  46
+Action taken:  ['RAISE', 'RAISE']
+Encountered 981632 times
+Strategy: {'CALL': '0.02%', 'FOLD': '99.98%'}
+
+
+Player Hand:  78
+Action taken:  ['CHECK', 'RAISE']
+Encountered 654506 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%', 'RAISE': '0.00%'}
+
+
+Player Hand:  78
+Action taken:  ['RAISE', 'RAISE']
+Encountered 654506 times
+Strategy: {'CALL': '0.00%', 'FOLD': '100.00%'}
+
+
+Player Hand:  J7
+Action taken:  ['CHECK', 'RAISE']
+Encountered 326526 times
+Strategy: {'CALL': '0.05%', 'FOLD': '99.83%', 'RAISE': '0.13%'}
+
+
+Player Hand:  J7
+Action taken:  ['RAISE', 'RAISE']
+Encountered 326526 times
+Strategy: {'CALL': '0.21%', 'FOLD': '99.79%'}
+
+
+Player Hand:  Q5
+Action taken:  ['CHECK', 'RAISE']
+Encountered 109117 times
+Strategy: {'CALL': '0.95%', 'FOLD': '0.79%', 'RAISE': '98.27%'}
+
+
+Player Hand:  Q5
+Action taken:  ['RAISE', 'RAISE']
+Encountered 109117 times
+Strategy: {'CALL': '99.57%', 'FOLD': '0.43%'}
+
+
+Player Hand:  Q3
+Action taken:  ['CHECK', 'RAISE']
+Encountered 108900 times
+Strategy: {'CALL': '0.89%', 'FOLD': '0.75%', 'RAISE': '98.35%'}
+
+
+Player Hand:  Q3
+Action taken:  ['RAISE', 'RAISE']
+Encountered 108900 times
+Strategy: {'CALL': '99.59%', 'FOLD': '0.41%'}
+
+
+Player Hand:  K6
+Action taken:  ['CHECK', 'RAISE']
+Encountered 217096 times
+Strategy: {'CALL': '0.15%', 'FOLD': '0.17%', 'RAISE': '99.68%'}
+
+
+Player Hand:  K6
+Action taken:  ['RAISE', 'RAISE']
+Encountered 217096 times
+Strategy: {'CALL': '99.83%', 'FOLD': '0.17%'}
+
+
+Player Hand:  99
+Action taken:  ['CHECK', 'RAISE']
+Encountered 410727 times
+Strategy: {'CALL': '0.04%', 'FOLD': '0.05%', 'RAISE': '99.91%'}
+
+
+Player Hand:  99
+Action taken:  ['RAISE', 'RAISE']
+Encountered 410727 times
+Strategy: {'CALL': '99.94%', 'FOLD': '0.06%'}
+
+
+Player Hand:  Q8
+Action taken:  ['CHECK', 'RAISE']
+Encountered 109014 times
+Strategy: {'CALL': '0.96%', 'FOLD': '0.80%', 'RAISE': '98.24%'}
+
+
+Player Hand:  Q8
+Action taken:  ['RAISE', 'RAISE']
+Encountered 109014 times
+Strategy: {'CALL': '99.57%', 'FOLD': '0.43%'}
+
+
+Player Hand:  J9
+Action taken:  ['CHECK', 'RAISE']
+Encountered 327268 times
+Strategy: {'CALL': '0.05%', 'FOLD': '99.83%', 'RAISE': '0.13%'}
+
+
+Player Hand:  J9
+Action taken:  ['RAISE', 'RAISE']
+Encountered 327268 times
+Strategy: {'CALL': '0.21%', 'FOLD': '99.79%'}
+
+
+Player Hand:  JK
+Action taken:  ['CHECK', 'RAISE']
+Encountered 218485 times
+Strategy: {'CALL': '0.15%', 'FOLD': '0.17%', 'RAISE': '99.68%'}
+
+
+Player Hand:  JK
+Action taken:  ['RAISE', 'RAISE']
+Encountered 218485 times
+Strategy: {'CALL': '99.82%', 'FOLD': '0.18%'}
+
+
+Player Hand:  Q4
+Action taken:  ['CHECK', 'RAISE']
+Encountered 109352 times
+Strategy: {'CALL': '0.98%', 'FOLD': '0.82%', 'RAISE': '98.20%'}
+
+
+Player Hand:  Q4
+Action taken:  ['RAISE', 'RAISE']
+Encountered 109352 times
+Strategy: {'CALL': '99.57%', 'FOLD': '0.43%'}
+
+
+Player Hand:  QJ
+Action taken:  ['CHECK', 'RAISE']
+Encountered 109390 times
+Strategy: {'CALL': '0.95%', 'FOLD': '0.80%', 'RAISE': '98.25%'}
+
+
+Player Hand:  QJ
+Action taken:  ['RAISE', 'RAISE']
+Encountered 109390 times
+Strategy: {'CALL': '99.57%', 'FOLD': '0.43%'}
+
+
+Player Hand:  JA
+Action taken:  ['CHECK', 'RAISE']
+Encountered 327732 times
+Strategy: {'CALL': '0.05%', 'FOLD': '0.06%', 'RAISE': '99.88%'}
+
+
+Player Hand:  JA
+Action taken:  ['RAISE', 'RAISE']
+Encountered 327732 times
+Strategy: {'CALL': '99.93%', 'FOLD': '0.07%'}
+
+
+Player Hand:  KA
+Action taken:  ['CHECK', 'RAISE']
+Encountered 218573 times
+Strategy: {'CALL': '0.07%', 'FOLD': '0.08%', 'RAISE': '99.84%'}
+
+
+Player Hand:  KA
+Action taken:  ['RAISE', 'RAISE']
+Encountered 218573 times
+Strategy: {'CALL': '99.91%', 'FOLD': '0.09%'}
+
+
+Player Hand:  9K
+Action taken:  ['CHECK', 'RAISE']
+Encountered 436886 times
+Strategy: {'CALL': '0.50%', 'FOLD': '0.54%', 'RAISE': '98.95%'}
+
+
+Player Hand:  9K
+Action taken:  ['RAISE', 'RAISE']
+Encountered 436886 times
+Strategy: {'CALL': '99.49%', 'FOLD': '0.51%'}
+
+
+Player Hand:  KQ
+Action taken:  ['CHECK', 'RAISE']
+Encountered 109150 times
+Strategy: {'CALL': '0.36%', 'FOLD': '0.36%', 'RAISE': '99.28%'}
+
+
+Player Hand:  KQ
+Action taken:  ['RAISE', 'RAISE']
+Encountered 109150 times
+Strategy: {'CALL': '99.75%', 'FOLD': '0.25%'}
+
+
+Player Hand:  QA
+Action taken:  ['CHECK', 'RAISE']
+Encountered 109200 times
+Strategy: {'CALL': '0.14%', 'FOLD': '0.15%', 'RAISE': '99.71%'}
+
+
+Player Hand:  QA
+Action taken:  ['RAISE', 'RAISE']
+Encountered 109200 times
+Strategy: {'CALL': '99.87%', 'FOLD': '0.13%'}
+
+
+Player Hand:  Q6
+Action taken:  ['CHECK', 'RAISE']
+Encountered 108834 times
+Strategy: {'CALL': '0.95%', 'FOLD': '0.80%', 'RAISE': '98.25%'}
+
+
+Player Hand:  Q6
+Action taken:  ['RAISE', 'RAISE']
+Encountered 108834 times
+Strategy: {'CALL': '99.56%', 'FOLD': '0.44%'}
+
+
+Player Hand:  Q9
+Action taken:  ['CHECK', 'RAISE']
+Encountered 109201 times
+Strategy: {'CALL': '0.99%', 'FOLD': '0.84%', 'RAISE': '98.17%'}
+
+
+Player Hand:  Q9
+Action taken:  ['RAISE', 'RAISE']
+Encountered 109201 times
+Strategy: {'CALL': '99.55%', 'FOLD': '0.45%'}
+
+
+Player Hand:  QQ
+Action taken:  ['CHECK', 'RAISE']
+Encountered 82095 times
+Strategy: {'CALL': '0.00%', 'FOLD': '0.00%', 'RAISE': '100.00%'}
+
+
+Player Hand:  QQ
+Action taken:  ['RAISE', 'RAISE']
+Encountered 82095 times
+Strategy: {'CALL': '100.00%', 'FOLD': '0.00%'}
+
+
+Player Hand:  QK
+Action taken:  ['CHECK', 'RAISE']
+Encountered 108217 times
+Strategy: {'CALL': '0.35%', 'FOLD': '0.35%', 'RAISE': '99.30%'}
+
+
+Player Hand:  QK
+Action taken:  ['RAISE', 'RAISE']
+Encountered 108217 times
+Strategy: {'CALL': '99.75%', 'FOLD': '0.25%'}
+
+
+In total, this simulation explored 930 decision nodes in the game
+ The utility was -0.04297269627648078
+
+Execution time: 50.0 minutes and 4.383188009262085 seconds
