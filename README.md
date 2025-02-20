@@ -3,6 +3,8 @@
 
 This project develops an AI model that learns to master a simplified version of poker through iterative self-play. The model uses the Counterfactual Regret Minimisation (CFR) algorithm to approach Nash Equilibrium, honing its decision-making process to achieve optimal play. The CFR algorithm evaluates decisions by analysing their "counterfactual regret," guiding the model to favor strategies that would have performed better in hindsight.
 
+![Preflop Poker Game Tree](/preflop%20poker%20decision%20tree.png "preflop poker game decision treee")
+
 ## Simplified Poker Rules
 
 The AI is trained on a simplified version of poker with the following rules:
