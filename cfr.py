@@ -187,6 +187,9 @@ class CFR():
         return result
 
     # recursive function, returns the expected node utility
+    # p1, p2 represents the "reach probability" of players 1 and 2
+    # p1 = probability that the game has progressed along the "history" of decisions made to THIS node.
+    # these probabilities are used to "weigh" or "scale" the regrets and updates for each decision.
     def cfr(self, cards, history, p1, p2, bet1, bet2):
         # print(cards)
         # print('history =' ,"'" + history + "'")
@@ -220,6 +223,9 @@ class CFR():
         # retrive the indedent strategy profile for the node
         # sum of all strategies = 1
         strategy = node.GetStrategy(realisationWeight)
+
+        # expected value of the current decision node when following the node's current strategy
+        # roughly, this represents "how valuable is this node if we follow the strategy stored at this node going forwards"
         nodeUtil = 0.0
 
         # records the utility of each action, utility is calculated through recursion
