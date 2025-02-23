@@ -1,31 +1,36 @@
 from game import Game, GameActions as GA
 import time
 
-class CFR():
 
-    # initialise game state 
+class CFR:
+
+    # initialise game state
     def __init__(self):
         # this map maps a history string -> nodes
         self.game_state_map_ = dict()
 
-    def training(self, iterations,  bet1, bet2, printInterval=1000000):
-        util = 0.0  
-        
-        intervalStartTime = time.time()  
+    def training(self, iterations, bet1, bet2, printInterval=1000000):
+        printInterval = min(printInterval, iterations / 10)
+        util = 0.0
+
+        intervalStartTime = time.time()
         for i in range(iterations):
             if i % printInterval == 0 and i != 0:
                 intervalEndTime = time.time()  # End time of the current interval
                 print(f"At iteration {i}, expected value is {util / i}")
-                print(f"Time for last {printInterval} iterations: {intervalEndTime - intervalStartTime} seconds")
-                intervalStartTime = time.time()  # Reset start time for the next interval
+                print(
+                    f"Time for last {printInterval} iterations: {intervalEndTime - intervalStartTime} seconds"
+                )
+                intervalStartTime = (
+                    time.time()
+                )  # Reset start time for the next interval
 
             cards = Game.dealCards(Game.DECK)
             # cards = sorted(Game.dealCards(Game.DECK))
-            history = ''
+            history = ""
             util += self.cfr(cards, history, 1, 1, bet1, bet2)
 
         return util / iterations
-
 
     # determine available actions given history
     # def getPotentialActions(actions):
@@ -48,7 +53,7 @@ class CFR():
     #         potentialActions = [GA.CHECK, GA.BET]
 
     #     return potentialActions
-    
+
     def getPotentialActions(history):
         possible_actions = []
         if len(history) == 0:
@@ -60,32 +65,35 @@ class CFR():
                 num_bets = history.count(GA.BET)
                 if num_bets == 1:
                     possible_actions.append(GA.BET)
-                
+
             else:
                 possible_actions = [GA.CHECK, GA.BET]
         return possible_actions
-    
 
     def isTerminal(self, history):
         if len(history) < 2:
             return False
         lastAction = history[-1]
-        if (lastAction == GA.CHECK and history.count(GA.CHECK) == 2) or lastAction == GA.FOLD or lastAction == GA.CALL:
+        if (
+            (lastAction == GA.CHECK and history.count(GA.CHECK) == 2)
+            or lastAction == GA.FOLD
+            or lastAction == GA.CALL
+        ):
             return True
 
     # counts how many bets have been placed
     def countBetsAndCallsInHistory(self, history):
         return history.count(GA.BET) + history.count(GA.CALL)
-    
+
     # counts the reward for winning player
-    def getPotSize(self, betHistory, bet1, bet2, anteSize = 1):
+    def getPotSize(self, betHistory, bet1, bet2, anteSize=1):
         basePotSize = 2 * anteSize
         # no folds - all calls
         betTimes = betHistory.count(GA.BET)
         callTimes = betHistory.count(GA.CALL)
         foldTimes = betHistory.count(GA.FOLD)
         checkTimes = betHistory.count(GA.CHECK)
-        
+
         assert (betTimes + callTimes + foldTimes + checkTimes) == len(betHistory)
 
         # If no one bet
@@ -97,17 +105,17 @@ class CFR():
         # If there was 2 bets: (bet, bet, fold)
         elif betTimes == 2 and foldTimes == 1:
             return basePotSize + bet1 + bet2
-        # (bet, bet, call) or 
+        # (bet, bet, call) or
         elif betTimes == 2 and foldTimes == 0:
             return basePotSize + bet2 * 2
         else:
-            print("Error encountered: Bet Case Not accounted for, betHistory =", betHistory)
-            
-             
-            
+            print(
+                "Error encountered: Bet Case Not accounted for, betHistory =",
+                betHistory,
+            )
 
         # return baseOP + self.countBetsAndCallsInHistory(history)
-    
+
     # returns the appropriate payoff, 0 if tie
     def getPayoff(self, cards, activePlayer, oppPlayer, history, bet1, bet2):
         lastAction = history[-1]
@@ -119,22 +127,22 @@ class CFR():
 
         if tie:
             return 0
-        
+
         potSize = self.getPotSize(history, bet1, bet2, Game.ANTE)
         if lastAction == GA.CHECK or lastAction == GA.FOLD or lastAction == GA.CALL:
             return potSize if activePlayerWins else -potSize
-        
+
     def getStrategyOverview(self):
         result = dict()
-        p1_bet = 'Player One Betting Range'
-        p1_bet_call = 'Player One Call All-in Range'
-        p1_check_call = 'Player One Check-Call Range'
-        p1_check_raise = 'Player One Check-Raise All-in Range'
+        p1_bet = "Player One Betting Range"
+        p1_bet_call = "Player One Call All-in Range"
+        p1_check_call = "Player One Check-Call Range"
+        p1_check_raise = "Player One Check-Raise All-in Range"
 
-        p2_call = 'Player Two Calling Range'
-        p2_raise = 'Player Two All-in Range'
-        p2_bet = 'Player Two Betting Range'
-        p2_bet_call = 'Player Two Call All-in Range'
+        p2_call = "Player Two Calling Range"
+        p2_raise = "Player Two All-in Range"
+        p2_bet = "Player Two Betting Range"
+        p2_bet_call = "Player Two Call All-in Range"
 
         result[p1_bet] = dict()
         result[p1_bet_call] = dict()
@@ -206,7 +214,6 @@ class CFR():
             # print(f"At terminal node {infoset}, payoff = {payoff} as player {activePlayer + 1}")
             return payoff
 
-
         # create / infoset node using Node or game_state_map_
         if infoset not in self.game_state_map_:
             potentialActions = CFR.getPotentialActions(history)
@@ -216,10 +223,10 @@ class CFR():
             node = self.game_state_map_[infoset]
             potentialActions = node.actions_
         node.timesEncountered_ += 1
-    
+
         # iterative through each action and call cfr with additional history and probability
         realisationWeight = p1 if activePlayer == 0 else p2
-        
+
         # retrive the indedent strategy profile for the node
         # sum of all strategies = 1
         strategy = node.GetStrategy(realisationWeight)
@@ -235,29 +242,31 @@ class CFR():
             # print(f"At node {infoset}, historyNext = {historyNext}")
             # print("historyNext =",  "'" + historyNext+ "'")
             # calculating utility of action through recursive simulation until end of game
-            if (activePlayer == 0):
-                util[potentialAction] = - CFR.cfr(self, cards, historyNext, p1 * realisationWeight, p2, bet1, bet2)
+            if activePlayer == 0:
+                util[potentialAction] = -CFR.cfr(
+                    self, cards, historyNext, p1 * realisationWeight, p2, bet1, bet2
+                )
                 # negative value is to account for change of persepctive, since activePlayer changes at each recursion level
             else:
-                util[potentialAction] = - CFR.cfr(self, cards, historyNext, p1, p2 * realisationWeight, bet1, bet2)
+                util[potentialAction] = -CFR.cfr(
+                    self, cards, historyNext, p1, p2 * realisationWeight, bet1, bet2
+                )
 
-            # utility of the node is based on the utility of the next action * probability of next action 
+            # utility of the node is based on the utility of the next action * probability of next action
             # utility next action is related the terminal payoff
-            nodeUtil += (util[potentialAction] * strategy[potentialAction])
-
+            nodeUtil += util[potentialAction] * strategy[potentialAction]
 
             # if len(infoset) == 4:
             #     print(nodeUtil)
-        
+
         # print('Utility of node with infoset ', infoset, "is", nodeUtil)
         # iterative thorugh each action, compute and accumulate counterfactual regret
         for potentialAction in potentialActions:
             # calculating the regret for not taking the action
             # if utility of potential action is greater than the utility of this node, then regret is positive
-            # this assesses decision quality, 
+            # this assesses decision quality,
             regret = util[potentialAction] - nodeUtil
 
-            
             # if len(infoset) == 4:
             #     print(util[potentialAction])
             #     # print(nodeUtil)
@@ -267,16 +276,21 @@ class CFR():
             # cumulative regret is weighted by the probability that the opponent plays to the current infromation set
             # i.e. at the turn of potentialAction, activeplayer has changed
             # if the activePlayer right now is p1, then the chances of player 2 ACTUALISING the regret, is p2 (which is the change this decision gets to p2)
-            node.regretSum_[potentialAction] += ((p2 if activePlayer == 0 else p1) * regret)
+            node.regretSum_[potentialAction] += (
+                p2 if activePlayer == 0 else p1
+            ) * regret
 
             # this resets regret so that it doesn't spiral towards a negative value all the time
-            node.regretSum_[potentialAction] = 0 if node.regretSum_[potentialAction] < 0 else node.regretSum_[potentialAction]
-
+            node.regretSum_[potentialAction] = (
+                0
+                if node.regretSum_[potentialAction] < 0
+                else node.regretSum_[potentialAction]
+            )
 
         return nodeUtil
 
 
-class Node():
+class Node:
     # numActions = len(Game.GA)
     def __init__(self, actions):
         self.util_ = 0.0
@@ -290,19 +304,22 @@ class Node():
     # Get current information set mixed strategy thorugh regret matching
     def GetStrategy(self, realisationWeight):
 
-        # Normalise all strategies to 0 if regret is negative 
+        # Normalise all strategies to 0 if regret is negative
         # retain the ones with positive regret
-        self.strategy_ = {action: (regret if regret > 0.0 else 0.0) for action, regret in self.regretSum_.items()}
+        self.strategy_ = {
+            action: (regret if regret > 0.0 else 0.0)
+            for action, regret in self.regretSum_.items()
+        }
         normalisingSum = sum(self.strategy_.values())
 
         # normalising all strategies such that all strategies sum to 1
         for action in self.actions_:
-            if (normalisingSum > 0):
+            if normalisingSum > 0:
                 self.strategy_[action] /= normalisingSum
             else:
-                self.strategy_[action] = (1 / len(self.actions_))
-            self.strategySum_[action] += (realisationWeight * self.strategy_[action])
-        
+                self.strategy_[action] = 1 / len(self.actions_)
+            self.strategySum_[action] += realisationWeight * self.strategy_[action]
+
         return self.strategy_
 
     # Get overall strategy at the node - supposed to be the strategy closest to Nash Equilibrium
@@ -310,7 +327,10 @@ class Node():
         averageStrategy = {action: 0.0 for action in self.actions_}
         normalisingSum = sum(self.strategySum_.values())
         for action in self.actions_:
-            averageStrategy[action] = (self.strategySum_[action] / normalisingSum) if normalisingSum > 0 else (1 / len(self.actions_))
-        
+            averageStrategy[action] = (
+                (self.strategySum_[action] / normalisingSum)
+                if normalisingSum > 0
+                else (1 / len(self.actions_))
+            )
+
         return averageStrategy
-    

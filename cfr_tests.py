@@ -1,79 +1,88 @@
 from configparser import InterpolationSyntaxError
-
-from numpy import true_divide
 from game import Game, GameActions as GA
 from create_charts import create_table
 from cfr import CFR
 import matplotlib.pyplot as plt
 import json
 
-iterations = 10000000
 
-model = CFR()
-# print(model.training(100000))
-
-# 500 million
-# print(model.training(500000000))
-
-def formatActionString(actions):
-    actionString = []
+def format_action_string(actions):
+    action_string = []
     for action in actions:
         if action == GA.FOLD:
-            actionString.append('FOLD')
+            action_string.append("FOLD")
         elif action == GA.CALL:
-            actionString.append('CALL')
+            action_string.append("CALL")
         elif action == GA.CHECK:
-            actionString.append('CHECK')
+            action_string.append("CHECK")
         elif action == GA.BET:
-            actionString.append('RAISE')
-    return actionString
+            action_string.append("RAISE")
+    return action_string
 
-def formatInfoset(infoset):
-    print("Player Hand: ", infoset[0:2])
-    print("Action taken: ", formatActionString(infoset[2:]))
 
-def formatPercentage(decimal_value):
+def format_infoset(infoset):
+    print("Player Hand:", infoset[0:2])
+    print("Action taken:", format_action_string(infoset[2:]))
+
+
+def format_percentage(decimal_value):
     percentage = decimal_value * 100
-    formattedPercentage = f"{percentage:.2f}%"
-    return formattedPercentage
-    
-def formatStrategy(strategySet):
-    strategies = dict()
-    for strat in strategySet:
-        if strat == GA.FOLD:
-            strategies['FOLD'] = formatPercentage(strategySet[strat])
-        elif strat == GA.CALL:
-            strategies['CALL'] = formatPercentage(strategySet[strat])
-        elif strat == GA.CHECK:
-            strategies['CHECK'] = formatPercentage(strategySet[strat])
-        elif strat == GA.BET:
-            strategies['RAISE'] = formatPercentage(strategySet[strat])
+    return f"{percentage:.2f}%"
 
+
+def format_strategy(strategy_set):
+    strategies = {}
+    for strat in strategy_set:
+        if strat == GA.FOLD:
+            strategies["FOLD"] = format_percentage(strategy_set[strat])
+        elif strat == GA.CALL:
+            strategies["CALL"] = format_percentage(strategy_set[strat])
+        elif strat == GA.CHECK:
+            strategies["CHECK"] = format_percentage(strategy_set[strat])
+        elif strat == GA.BET:
+            strategies["RAISE"] = format_percentage(strategy_set[strat])
     return strategies
 
-bet1 = 2
-bet2 = 8
 
-util = model.training(iterations, bet1, bet2)
-gameState = model.game_state_map_
-count = 0
-for infoset in gameState:
-    if len(infoset) == 4:
-        node = gameState[infoset]
-        strategy = node.getAverageStrategy()
-        formatInfoset(infoset)
-        print(f"Encountered {node.timesEncountered_} times")
-        # print(f"Regrets: {node.regretSum_}")
-        print(f"Strategy: {formatStrategy(strategy)}")
-        print('\n')
-    count += 1
-        # print(gameState[infoset])
-        # print(state)
+def main():
+    try:
+        iterations = int(input("Enter the number of iterations for the simulation: "))
+    except ValueError:
+        print("Invalid input. Please enter a valid integer.")
+        return
 
-strategyMap = model.getStrategyOverview()
-with open('strategy_charts/strategy.json', 'a') as stream:
-    print(json.dumps(strategyMap), file=stream)
-for decision in strategyMap:
-    table = create_table(decision, strategyMap[decision], iterations)
+    # Define bet amounts
+    bet1 = 2
+    bet2 = 8
 
-print(f"In total, this simulation explored {count} decision nodes in the game\n The utility was {util}")
+    # Create and train the CFR model
+    model = CFR()
+    util = model.training(iterations, bet1, bet2)
+    game_state = model.game_state_map_
+    count = 0
+
+    # Process each infoset in the game state
+    for infoset in game_state:
+        if len(infoset) == 4:
+            node = game_state[infoset]
+            strategy = node.getAverageStrategy()
+            format_infoset(infoset)
+            print(f"Encountered {node.timesEncountered_} times")
+            print(f"Strategy: {format_strategy(strategy)}\n")
+        count += 1
+
+    # Generate strategy overview and save to JSON file
+    # strategy_map = model.getStrategyOverview()
+    # with open("strategy_charts/strategy.json", "a") as stream:
+    #     print(json.dumps(strategy_map), file=stream)
+
+    # # Create charts based on strategy decisions
+    # for decision in strategy_map:
+    #     table = create_table(decision, strategy_map[decision], iterations)
+
+    print(f"In total, this simulation explored {count} decision nodes in the game")
+    print(f"The utility was {util}")
+
+
+if __name__ == "__main__":
+    main()

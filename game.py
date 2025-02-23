@@ -1,4 +1,3 @@
-import numpy as np
 from enum import Enum
 import random
 from util import cmp
